@@ -5965,6 +5965,10 @@ INSERT INTO m_dictionary VALUES('live_detail_difficulty_1000085','【ライブ�
 INSERT INTO m_dictionary VALUES('live_detail_difficulty_1000086','【ライブの特徴】 ライブ中、ピュア属性以外のアピール20%減少');
 INSERT INTO m_dictionary VALUES('live_detail_difficulty_1000087','【ライブの特徴】 ライブ中、クール属性以外のアピール20%減少');
 INSERT INTO m_dictionary VALUES('live_detail_difficulty_1000088','【ライブの特徴】 ライブ中、エレガント属性以外のアピール20%減少');
+INSERT INTO m_dictionary VALUES('live_detail_difficulty_1000131','【ライブの特徴】 ライブ中、ピュア属性以外のアピール5%減少');
+INSERT INTO m_dictionary VALUES('live_detail_difficulty_1000132','【ライブの特徴】 ライブ中、ピュア属性以外のアピール20%減少');
+INSERT INTO m_dictionary VALUES('live_detail_difficulty_1000134','【ライブの特徴】 ライブ中、アクティブ属性以外のアピール5%減少');
+INSERT INTO m_dictionary VALUES('live_detail_difficulty_1000135','【ライブの特徴】 ライブ中、アクティブ属性以外のアピール20%減少');
 INSERT INTO m_dictionary VALUES('live_detail_difficulty_3000000','【ライブの特徴】 ギミックなし');
 INSERT INTO m_dictionary VALUES('live_detail_difficulty_3000024','【ライブの特徴】 ライブ中、ナチュラル属性以外のアピール10%減少');
 INSERT INTO m_dictionary VALUES('live_detail_difficulty_3000032','【ライブの特徴】 ライブ中、アクティブ属性以外のアピール5%減少');
@@ -6022,6 +6026,14 @@ INSERT INTO m_dictionary VALUES('live_detail_difficulty_3000084','【ライブ�
 INSERT INTO m_dictionary VALUES('live_detail_difficulty_3000085','【ライブの特徴】 ライブ中、ピュア属性以外のアピール10%減少');
 INSERT INTO m_dictionary VALUES('live_detail_difficulty_3000087','【ライブの特徴】 ライブ中、ナチュラル属性以外のSPゲージ獲得量10%低下');
 INSERT INTO m_dictionary VALUES('live_detail_difficulty_3000088','【ライブの特徴】 ライブ中、スマイル属性以外の特技発動率10%低下');
+INSERT INTO m_dictionary VALUES('live_detail_difficulty_3000093','【ライブの特徴】 ライブ中、ナチュラル属性以外の特技発動率5%低下');
+INSERT INTO m_dictionary VALUES('live_detail_difficulty_3000094','【ライブの特徴】 ライブ中、全員のアピール10%減少');
+INSERT INTO m_dictionary VALUES('live_detail_difficulty_3000095','【ライブの特徴】 ライブ中、クール属性以外の基本特技発動率50%低下');
+INSERT INTO m_dictionary VALUES('live_detail_difficulty_3000097','【ライブの特徴】 ライブ中、スマイル属性以外のアピール10%減少');
+INSERT INTO m_dictionary VALUES('live_detail_difficulty_3000100','【ライブの特徴】 ライブ中、クール属性以外のアピール5%減少');
+INSERT INTO m_dictionary VALUES('live_detail_difficulty_3000102','【ライブの特徴】 ライブ中、スマイル属性以外のSPゲージ獲得量5%低下');
+INSERT INTO m_dictionary VALUES('live_detail_difficulty_3000103','【ライブの特徴】 ライブ中、エレガント属性以外のアピール5%減少');
+INSERT INTO m_dictionary VALUES('live_detail_difficulty_3000108','【ライブの特徴】 ライブ中、ピュア属性以外のアピール20%減少');
 INSERT INTO m_dictionary VALUES('live_detail_hint_10001101','【攻略ヒント】2回目のアピールチャンスでSP特技を発動できるように、ゲージをためておこう。ボルテー
 ジが目標に届かない時は、パラメータの高いスクールアイドルをSP特技対象スクールアイドルに編成してみよう');
 INSERT INTO m_dictionary VALUES('live_detail_hint_10001201','【攻略ヒント】各アピールチャンスでSP特技を発動できるように、ゲージをためておこう。ボルテージが目
@@ -6059,6 +6071,12 @@ INSERT INTO m_dictionary VALUES('live_detail_hint_10015201','【攻略ヒント�
 特技を発動させてみよう');
 INSERT INTO m_dictionary VALUES('live_detail_hint_10015301','【攻略ヒント】クール属性のスクールアイドルに有利なギミックノーツがあるので、編成はクール属性のス
 クールアイドルを中心にしよう');
+INSERT INTO m_dictionary VALUES('live_detail_hint_10016101','【攻略ヒント】アピールチャンス中に、スタミナダメージの効果を持つノーツがあるのでスタミナダメージに
+注意しよう');
+INSERT INTO m_dictionary VALUES('live_detail_hint_10016201','【攻略ヒント】アピールチャンス中に、スタミナダメージの効果を持つノーツがあるのでスタミナダメージに
+注意しよう');
+INSERT INTO m_dictionary VALUES('live_detail_hint_10016301','【攻略ヒント】アピールチャンス中に、スタミナダメージの効果を持つノーツがあるのでスタミナダメージに
+注意しよう。最後のアピールチャンスでSP特技を2回発動できるようゲージをためておこう');
 INSERT INTO m_dictionary VALUES('live_detail_hint_10054101','【攻略ヒント】1回目のアピールチャンスは開始後1回ノーツを処理した後に作戦を切り替えて、スクールア
 イドルを切り替えよう。3回目はSP特技を発動できるようにゲージをためておこう');
 INSERT INTO m_dictionary VALUES('live_detail_hint_10054201','【攻略ヒント】1回目のアピールチャンスは開始後1回ノーツを処理した後に作戦を切り替えて、スクールア
@@ -6140,6 +6158,12 @@ INSERT INTO m_dictionary VALUES('live_detail_hint_11007201','【攻略ヒント�
 動できるように、スキルタイプのスクールアイドルがいる作戦を使ってみよう');
 INSERT INTO m_dictionary VALUES('live_detail_hint_11007301','【攻略ヒント】アピールチャンス後に特技発動率上昇のギミックノーツがあるので、状況に合わせた特技を発
 動できるように、スキルタイプのスクールアイドルがいる作戦を使ってみよう');
+INSERT INTO m_dictionary VALUES('live_detail_hint_11008101','【攻略ヒント】アピールチャンス中は、ピュア属性以外のスクールアイドルのアピール値が下がるので、ピュ
+ア属性のスクールアイドルを中心に編成しよう');
+INSERT INTO m_dictionary VALUES('live_detail_hint_11008201','【攻略ヒント】アピールチャンス中は、ピュア属性以外のスクールアイドルのアピール値やSPゲージ獲得量
+などが下がるので、ピュア属性のスクールアイドルを中心に編成しよう');
+INSERT INTO m_dictionary VALUES('live_detail_hint_11008301','【攻略ヒント】アピールチャンス中は、ピュア属性以外のスクールアイドルのアピール値やSPゲージ獲得量
+などが下がるので、ピュア属性のスクールアイドルを中心に編成しよう');
 INSERT INTO m_dictionary VALUES('live_detail_hint_11014101','【攻略ヒント】スタミナダメージが大きいので、アピールチャンス終了後に登場するスタミナ回復のギミック
 ノーツをタイミングよく処理しよう');
 INSERT INTO m_dictionary VALUES('live_detail_hint_11014201','【攻略ヒント】アピールチャンス終了後にスタミナダメージが発生するので、ミッションを達成をしたあとに
@@ -6415,6 +6439,27 @@ INSERT INTO m_dictionary VALUES('live_detail_hint_32010202','【攻略ヒント�
 るので、タイミングよく処理しよう。ミスをするとアピール値が減るギミックノーツには注意しよう');
 INSERT INTO m_dictionary VALUES('live_detail_hint_32010301','【攻略ヒント】特技発動率やクリティカル率など、ステータスの上昇効果を持つギミックノーツが多数登場す
 るので、タイミングよく処理しよう。ミスをするとアピール値が減るギミックノーツには注意しよう');
+INSERT INTO m_dictionary VALUES('live_detail_hint_33000001','【攻略ヒント】2回目のアピールチャンスはSP特技を使おう。目標値が少し高いので、SP特技の効果が強くなるスクールアイドルを編成する、特訓でスクールアイドルを強くするなど、ライブ前に準備しよう');
+INSERT INTO m_dictionary VALUES('live_detail_hint_33000002','【攻略ヒント】SPゲージを増やすギミックノーツが多数登場するので、ゲージよりもボルテージを増やそう。3回目のアピールチャンスは目標値が少し高いので、それまでにSPゲージを獲得しよう');
+INSERT INTO m_dictionary VALUES('live_detail_hint_33000003','【攻略ヒント】SPゲージを増やすギミックノーツが登場するよ。アピールチャンスは目標値が少し高いので、アピールやボルテージが増える特技を使ってみよう');
+INSERT INTO m_dictionary VALUES('live_detail_hint_33000004','【攻略ヒント】ギミックノーツは、特技発動率が上昇する特殊効果があるよ。1回目のアピールチャンスはゲージをためておき、ボルテージを増加させよう');
+INSERT INTO m_dictionary VALUES('live_detail_hint_33000005','【攻略ヒント】アピールチャンス中、特技発動率が上昇するよ。アピールチャンス中でもギミックノーツが登場するので、焦らずノーツを処理しよう');
+INSERT INTO m_dictionary VALUES('live_detail_hint_33000006','【攻略ヒント】楽曲中、全員のアピールが減少してしまうよ。属性が一致するとアピールチャンス中に特技発動率が上がるので、クリアが難しい場合は編成を見直そう');
+INSERT INTO m_dictionary VALUES('live_detail_hint_33000007','【攻略ヒント】楽曲と属性が異なるスクールアイドルは特技発動率が下がってしまうので、編成や作戦に割り当てるスクールアイドルの属性に注意しよう');
+INSERT INTO m_dictionary VALUES('live_detail_hint_33000008','【攻略ヒント】ギミックノーツでスタミナが減るので、ガードタイプを編成してダメージを抑えよう。クリアできない場合は、スタミナ合計値も見直してみよう');
+INSERT INTO m_dictionary VALUES('live_detail_hint_33000009','【攻略ヒント】楽曲とスクールアイドルの属性が異なるとアピールが減少するので、アピール増加などのギミックノーツをタイミングよく処理しよう');
+INSERT INTO m_dictionary VALUES('live_detail_hint_33000010','【攻略ヒント】4回目のアピールチャンスに失敗するとスタミナが大きく減少してしまうよ。アピールチャンス直前のギミックノーツはタイミングよく処理しよう');
+INSERT INTO m_dictionary VALUES('live_detail_hint_33000011','【攻略ヒント】アピールが増加するギミックノーツが多数登場するので、タイミングよく処理しよう。アピールチャンスのクリアが楽になるよ');
+INSERT INTO m_dictionary VALUES('live_detail_hint_33000012','【攻略ヒント】アピールチャンスをクリアすると、スタミナが回復するよ。アピールチャンス中にスタミナが減っても、ボルテージタイプのスクールアイドルがいる作戦を使ってみよう');
+INSERT INTO m_dictionary VALUES('live_detail_hint_33000013','【攻略ヒント】アピールチャンス中、楽曲と属性が一致したスクールアイドルのクリティカル発生確率が上昇するよ。編成は楽曲と同じ属性のスクールアイドルを中心にしよう');
+INSERT INTO m_dictionary VALUES('live_detail_hint_33000014','【攻略ヒント】楽曲と属性が異なるスクールアイドルが多いとSPゲージがたまりにくいよ。特技発動率やSPゲージ獲得量上昇のギミックノーツをタイミングよく処理しよう');
+INSERT INTO m_dictionary VALUES('live_detail_hint_33000015','【攻略ヒント】楽曲とスクールアイドルの属性が異なると、アピールが減少してしまうよ。編成しているスクールアイドルの属性を一致させてアピールチャンス中にアピールを増やそう');
+INSERT INTO m_dictionary VALUES('live_detail_hint_33000016','【攻略ヒント】アピールチャンス中に登場するギミックノーツは、特技発動率が上昇する特殊効果があるよ。
+特技Lv.を上げたスクールアイドルを編成して、特技を発動してみよう');
+INSERT INTO m_dictionary VALUES('live_detail_hint_33000017','【攻略ヒント】アピールチャンス中は楽曲と属性が異なるとアピールが減少するので、編成しているスクールアイドルの属性に気をつけよう。ギミックノーツをタイミングよく処理すると、アピールが増加するよ');
+INSERT INTO m_dictionary VALUES('live_detail_hint_33000018','【攻略ヒント】SPゲージが上昇するギミックノーツや特技の発動率が上昇するギミックノーツが登場するので、タイミングよく処理してボルテージを増やそう');
+INSERT INTO m_dictionary VALUES('live_detail_hint_33000019','【攻略ヒント】SP特技の威力を上昇させるスクールアイドルを編成して、アピールチャンスクリアを目指そう');
+INSERT INTO m_dictionary VALUES('live_detail_hint_33000020','【攻略ヒント】楽曲と属性が異なるスクールアイドルのパラメータが大きく低下してしまうよ。編成しているスクールアイドルの属性が異なる場合は、ライブ前に特訓しておこう');
 INSERT INTO m_dictionary VALUES('live_detail_notes_desc_50000002','10ノーツの間、特技発動率10%上昇
 条件：成功時
 対象：スマイル属性');
@@ -6532,6 +6577,9 @@ INSERT INTO m_dictionary VALUES('live_detail_notes_desc_50000045','20ノーツ�
 INSERT INTO m_dictionary VALUES('live_detail_notes_desc_50000048','20ノーツの間、アピール20%増加
 条件：成功時
 対象：エレガント属性');
+INSERT INTO m_dictionary VALUES('live_detail_notes_desc_50000050','10ノーツの間、クリティカル値10%増加
+条件：成功時
+対象：スマイル属性');
 INSERT INTO m_dictionary VALUES('live_detail_notes_desc_50000051','10ノーツの間、クリティカル値10%増加
 条件：成功時
 対象：クール属性');
@@ -6550,6 +6598,9 @@ INSERT INTO m_dictionary VALUES('live_detail_notes_desc_50000060','10ノーツ�
 INSERT INTO m_dictionary VALUES('live_detail_notes_desc_50000062','10ノーツの間、クリティカル値20%増加
 条件：成功時
 対象：エレガント属性');
+INSERT INTO m_dictionary VALUES('live_detail_notes_desc_50000064','10ノーツの間、クリティカル率10%上昇
+条件：成功時
+対象：スマイル属性');
 INSERT INTO m_dictionary VALUES('live_detail_notes_desc_50000065','10ノーツの間、クリティカル率10%上昇
 条件：成功時
 対象：クール属性');
@@ -6622,6 +6673,9 @@ INSERT INTO m_dictionary VALUES('live_detail_notes_desc_50000104','10ノーツ�
 INSERT INTO m_dictionary VALUES('live_detail_notes_desc_50000105','すべての上昇効果を解除
 条件：失敗時
 ');
+INSERT INTO m_dictionary VALUES('live_detail_notes_desc_50000107','10ノーツの間、特技発動率10%低下
+条件：失敗時
+対象：スマイル属性以外');
 INSERT INTO m_dictionary VALUES('live_detail_notes_desc_50000112','10ノーツの間、特技発動率10%低下
 条件：失敗時
 対象：エレガント属性以外');
@@ -6715,12 +6769,14 @@ INSERT INTO m_dictionary VALUES('live_detail_notes_name_50000041','<:icon_gimmic
 INSERT INTO m_dictionary VALUES('live_detail_notes_name_50000043','<:icon_gimmick_1007/>アピール増加20%');
 INSERT INTO m_dictionary VALUES('live_detail_notes_name_50000045','<:icon_gimmick_1007/>アピール増加20%');
 INSERT INTO m_dictionary VALUES('live_detail_notes_name_50000048','<:icon_gimmick_1007/>アピール増加20%');
+INSERT INTO m_dictionary VALUES('live_detail_notes_name_50000050','<:icon_gimmick_1008/>クリティカル値増加10%');
 INSERT INTO m_dictionary VALUES('live_detail_notes_name_50000051','<:icon_gimmick_1008/>クリティカル値増加10%');
 INSERT INTO m_dictionary VALUES('live_detail_notes_name_50000052','<:icon_gimmick_1008/>クリティカル値増加10%');
 INSERT INTO m_dictionary VALUES('live_detail_notes_name_50000053','<:icon_gimmick_1008/>クリティカル値増加10%');
 INSERT INTO m_dictionary VALUES('live_detail_notes_name_50000055','<:icon_gimmick_1008/>クリティカル値増加10%');
 INSERT INTO m_dictionary VALUES('live_detail_notes_name_50000060','<:icon_gimmick_1008/>クリティカル値増加20%');
 INSERT INTO m_dictionary VALUES('live_detail_notes_name_50000062','<:icon_gimmick_1008/>クリティカル値増加20%');
+INSERT INTO m_dictionary VALUES('live_detail_notes_name_50000064','<:icon_gimmick_1009/>クリティカル率上昇10%');
 INSERT INTO m_dictionary VALUES('live_detail_notes_name_50000065','<:icon_gimmick_1009/>クリティカル率上昇10%');
 INSERT INTO m_dictionary VALUES('live_detail_notes_name_50000066','<:icon_gimmick_1009/>クリティカル率上昇10%');
 INSERT INTO m_dictionary VALUES('live_detail_notes_name_50000067','<:icon_gimmick_1009/>クリティカル率上昇10%');
@@ -6745,6 +6801,7 @@ INSERT INTO m_dictionary VALUES('live_detail_notes_name_50000102','<:icon_gimmic
 INSERT INTO m_dictionary VALUES('live_detail_notes_name_50000103','<:icon_gimmick_1014/>SPゲージ獲得量上昇20%');
 INSERT INTO m_dictionary VALUES('live_detail_notes_name_50000104','<:icon_gimmick_1014/>SPゲージ獲得量上昇20%');
 INSERT INTO m_dictionary VALUES('live_detail_notes_name_50000105','<:icon_gimmick_2001/>すべての上昇効果解除');
+INSERT INTO m_dictionary VALUES('live_detail_notes_name_50000107','<:icon_gimmick_2002/>特技発動率減少10%');
 INSERT INTO m_dictionary VALUES('live_detail_notes_name_50000112','<:icon_gimmick_2002/>特技発動率減少10%');
 INSERT INTO m_dictionary VALUES('live_detail_notes_name_50000120','<:icon_gimmick_2003/>ダメージ【小】');
 INSERT INTO m_dictionary VALUES('live_detail_notes_name_50000121','<:icon_gimmick_2003/>ダメージ【中】');
@@ -6931,6 +6988,39 @@ INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_10015201_3','【特殊
 INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_10015201_4','【特殊効果】特技発動率20%上昇
 時間：アピールチャンス開始から10ノーツ
 対象：全員');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_10016101_1','【特殊効果】スタミナ4000回復
+時間：アピールチャンス目標達成時
+');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_10016101_2','【特殊効果】獲得ボルテージ30%増加
+時間：アピールチャンス中
+対象：ボルテージタイプ');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_10016101_3','【特殊効果】SPゲージ獲得量100%上昇
+時間：アピールチャンス中
+対象：SPタイプ');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_10016201_1','【特殊効果】特技発動率30%上昇
+時間：アピールチャンス中
+対象：スキルタイプ');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_10016201_2','【特殊効果】スタミナ10000回復
+時間：アピールチャンス目標達成時
+');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_10016201_3','【特殊効果】獲得ボルテージ30%増加
+時間：アピールチャンス中
+対象：ボルテージタイプ');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_10016201_4','【特殊効果】SPゲージ獲得量100%上昇
+時間：アピールチャンス中
+対象：SPタイプ');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_10016301_1','【特殊効果】特技発動率30%上昇
+時間：アピールチャンス中
+対象：スキルタイプ');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_10016301_2','【特殊効果】スタミナ10000回復
+時間：アピールチャンス目標達成時
+');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_10016301_3','【特殊効果】獲得ボルテージ30%増加
+時間：アピールチャンス中
+対象：ボルテージタイプ');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_10016301_4','【特殊効果】SPゲージ獲得量100%上昇
+時間：アピールチャンス中
+対象：SPタイプ');
 INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_10054101_1','【特殊効果】獲得ボルテージ20%増加
 時間：アピールチャンス成功時から10ノーツ
 対象：ナチュラル属性');
@@ -7258,6 +7348,42 @@ INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_11007301_3','【特殊
 INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_11007301_4','【特殊効果】SP特技の獲得ボルテージ25%増加
 時間：アピールチャンス中
 ');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_11008101_1','【特殊効果】アピールが5%減少
+時間：アピールチャンス中
+対象：ピュア属性以外');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_11008101_2','【特殊効果】アピールが5%減少
+時間：アピールチャンス中
+対象：ピュア属性以外');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_11008101_3','【特殊効果】アピールが5%減少
+時間：アピールチャンス中
+対象：ピュア属性以外');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_11008201_1','【特殊効果】SPゲージ獲得量10%低下
+時間：アピールチャンス中
+対象：ピュア属性以外');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_11008201_2','【特殊効果】アピールが10%減少
+時間：アピールチャンス中
+対象：ピュア属性以外');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_11008201_3','【特殊効果】特技発動率が10%低下
+時間：アピールチャンス中
+対象：ピュア属性以外');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_11008201_4','【特殊効果】アピールが10%減少
+時間：アピールチャンス中
+対象：ピュア属性以外');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_11008301_1','【特殊効果】SPゲージ獲得量10%低下
+時間：アピールチャンス中
+対象：ピュア属性以外');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_11008301_2','【特殊効果】アピールが10%減少
+時間：アピールチャンス中
+対象：ピュア属性以外');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_11008301_3','【特殊効果】SPゲージ獲得量10%低下
+時間：アピールチャンス中
+対象：ピュア属性以外');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_11008301_4','【特殊効果】アピールが10%減少
+時間：アピールチャンス中
+対象：ピュア属性以外');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_11008301_5','【特殊効果】特技発動率が15%低下
+時間：アピールチャンス中
+対象：ピュア属性以外');
 INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_11014201_1','【特殊効果】スタミナに3000のダメージ
 時間：アピールチャンス終了時
 ');
@@ -7990,6 +8116,144 @@ INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_32005201_1','【特殊
 INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_32005201_2','【特殊効果】クリティカル率100%上昇
 時間：アピールチャンス中
 対象：アクティブ属性');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_33000001_1','【特殊効果】特技発動率20%上昇
+時間：アピールチャンス中
+対象：スキルタイプ');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_33000001_2','【特殊効果】スタミナ4000回復
+時間：アピールチャンス目標達成時
+');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_33000001_3','【特殊効果】獲得ボルテージ30%増加
+時間：アピールチャンス中
+対象：ボルテージタイプ');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_33000001_4','【特殊効果】SPゲージ獲得量50%上昇
+時間：アピールチャンス中
+対象：SPタイプ');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_33000005_1','【特殊効果】特技発動率20%上昇
+時間：アピールチャンス中
+対象：全員');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_33000005_2','【特殊効果】特技発動率15%上昇
+時間：アピールチャンス開始から10ノーツ
+対象：全員');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_33000005_3','【特殊効果】特技発動率20%上昇
+時間：アピールチャンス中
+対象：全員');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_33000005_4','【特殊効果】特技発動率20%上昇
+時間：アピールチャンス開始から10ノーツ
+対象：全員');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_33000006_1','【特殊効果】特技発動率10%上昇
+時間：アピールチャンス中
+対象：全員');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_33000006_2','【特殊効果】特技発動率10%上昇
+時間：アピールチャンス中
+対象：スマイル属性');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_33000006_3','【特殊効果】特技発動率30%上昇
+時間：アピールチャンス成功時から10ノーツ
+対象：全員');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_33000007_1','【特殊効果】特技発動率100%上昇
+時間：アピールチャンス中
+対象：クール属性');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_33000007_2','【特殊効果】特技発動率100%上昇
+時間：アピールチャンス中
+対象：クール属性');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_33000007_3','【特殊効果】特技発動率100%上昇
+時間：アピールチャンス中
+対象：クール属性');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_33000007_4','【特殊効果】特技発動率100%上昇
+時間：アピールチャンス中
+対象：クール属性');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_33000009_1','【特殊効果】特技発動率10%上昇
+時間：アピールチャンス中
+対象：全員');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_33000009_2','【特殊効果】SPゲージ獲得量10%上昇
+時間：アピールチャンス中
+対象：全員');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_33000009_3','【特殊効果】スタミナ2000回復
+時間：アピールチャンス目標達成時
+');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_33000009_4','【特殊効果】SPゲージ獲得量15%上昇
+時間：アピールチャンス中
+対象：全員');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_33000011_1','【特殊効果】SPゲージ獲得量20%上昇
+時間：アピールチャンス中
+対象：エレガント属性');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_33000011_2','【特殊効果】SPゲージ獲得量20%上昇
+時間：アピールチャンス中
+対象：エレガント属性');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_33000011_3','【特殊効果】SPゲージ獲得量20%上昇
+時間：アピールチャンス中
+対象：エレガント属性');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_33000011_4','【特殊効果】SPゲージ獲得量20%上昇
+時間：アピールチャンス中
+対象：エレガント属性');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_33000012_1','【特殊効果】スタミナ1000回復
+時間：アピールチャンス目標達成時
+');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_33000012_2','【特殊効果】スタミナ3000回復
+時間：アピールチャンス目標達成時
+');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_33000013_1','【特殊効果】クリティカル率100%上昇
+時間：アピールチャンス中
+対象：ナチュラル属性');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_33000013_2','【特殊効果】クリティカル率100%上昇
+時間：アピールチャンス中
+対象：ナチュラル属性');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_33000014_1','【特殊効果】SPゲージ1500獲得
+時間：アピールチャンス目標達成時
+');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_33000014_2','【特殊効果】スタミナ2000回復
+時間：アピールチャンス目標達成時
+');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_33000014_3','【特殊効果】SPゲージ1500獲得
+時間：アピールチャンス目標達成時
+');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_33000014_4','【特殊効果】スタミナ2000回復
+時間：アピールチャンス目標達成時
+');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_33000015_1','【特殊効果】アピール10%増加
+時間：アピールチャンス中
+対象：エレガント属性');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_33000015_2','【特殊効果】アピール10%増加
+時間：アピールチャンス中
+対象：エレガント属性');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_33000015_3','【特殊効果】アピール10%増加
+時間：アピールチャンス中
+対象：エレガント属性');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_33000015_4','【特殊効果】アピール10%増加
+時間：アピールチャンス中
+対象：エレガント属性');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_33000016_1','【特殊効果】特技発動率20%上昇
+時間：アピールチャンス中
+対象：全員');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_33000016_2','【特殊効果】特技発動率20%上昇
+時間：アピールチャンス中
+対象：全員');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_33000016_3','【特殊効果】特技発動率20%上昇
+時間：アピールチャンス中
+対象：全員');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_33000017_1','【特殊効果】アピールが10%減少
+時間：アピールチャンス中
+対象：クール属性以外');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_33000017_2','【特殊効果】SPゲージ獲得量10%低下
+時間：アピールチャンス中
+対象：クール属性以外');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_33000017_3','【特殊効果】アピールが10%減少
+時間：アピールチャンス中
+対象：クール属性以外');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_33000020_1','【特殊効果】SPゲージ獲得量10%低下
+時間：アピールチャンス中
+対象：ピュア属性以外');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_33000020_2','【特殊効果】アピールが10%減少
+時間：アピールチャンス中
+対象：ピュア属性以外');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_33000020_3','【特殊効果】SPゲージ獲得量10%低下
+時間：アピールチャンス中
+対象：ピュア属性以外');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_33000020_4','【特殊効果】アピールが10%減少
+時間：アピールチャンス中
+対象：ピュア属性以外');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_33000020_5','【特殊効果】特技発動率が15%低下
+時間：アピールチャンス中
+対象：ピュア属性以外');
 INSERT INTO m_dictionary VALUES('live_detail_wave_mission_10001101_1','合計5000ボルテージを獲得する');
 INSERT INTO m_dictionary VALUES('live_detail_wave_mission_10001101_2','SP特技で合計5000ボルテージを獲得する');
 INSERT INTO m_dictionary VALUES('live_detail_wave_mission_10001101_3','合計5000ボルテージを獲得する');
@@ -8060,6 +8324,17 @@ INSERT INTO m_dictionary VALUES('live_detail_wave_mission_10015301_2','合計898
 INSERT INTO m_dictionary VALUES('live_detail_wave_mission_10015301_3','合計110400ボルテージを獲得する');
 INSERT INTO m_dictionary VALUES('live_detail_wave_mission_10015301_4','合計165200ボルテージを獲得する');
 INSERT INTO m_dictionary VALUES('live_detail_wave_mission_10015301_5','合計75400ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_10016101_1','合計12000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_10016101_2','合計16000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_10016101_3','SP特技で合計8000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_10016201_1','合計48000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_10016201_2','合計98000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_10016201_3','合計78000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_10016201_4','SP特技で合計21000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_10016301_1','合計91000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_10016301_2','合計188000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_10016301_3','合計201000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_10016301_4','SP特技で合計64000ボルテージを獲得する');
 INSERT INTO m_dictionary VALUES('live_detail_wave_mission_10054101_1','4人のスクールアイドルでアピールする');
 INSERT INTO m_dictionary VALUES('live_detail_wave_mission_10054101_2','NICE以上の判定を4回出す');
 INSERT INTO m_dictionary VALUES('live_detail_wave_mission_10054101_3','SP特技で合計5000ボルテージを獲得する');
@@ -8173,10 +8448,10 @@ INSERT INTO m_dictionary VALUES('live_detail_wave_mission_11001101_3','合計850
 INSERT INTO m_dictionary VALUES('live_detail_wave_mission_11001201_1','合計82900ボルテージを獲得する');
 INSERT INTO m_dictionary VALUES('live_detail_wave_mission_11001201_2','合計82900ボルテージを獲得する');
 INSERT INTO m_dictionary VALUES('live_detail_wave_mission_11001201_3','合計92400ボルテージを獲得する');
-INSERT INTO m_dictionary VALUES('live_detail_wave_mission_11001301_1','合計154200ボルテージを獲得する');
-INSERT INTO m_dictionary VALUES('live_detail_wave_mission_11001301_2','合計137900ボルテージを獲得する');
-INSERT INTO m_dictionary VALUES('live_detail_wave_mission_11001301_3','合計162300ボルテージを獲得する');
-INSERT INTO m_dictionary VALUES('live_detail_wave_mission_11001301_4','合計194900ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_11001301_1','合計154,200ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_11001301_2','合計137,900ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_11001301_3','合計162,300ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_11001301_4','合計194,900ボルテージを獲得する');
 INSERT INTO m_dictionary VALUES('live_detail_wave_mission_11002101_1','SP特技で合計6000ボルテージを獲得する');
 INSERT INTO m_dictionary VALUES('live_detail_wave_mission_11002101_2','SP特技で合計6000ボルテージを獲得する');
 INSERT INTO m_dictionary VALUES('live_detail_wave_mission_11002101_3','合計14000ボルテージを獲得する');
@@ -8230,6 +8505,18 @@ INSERT INTO m_dictionary VALUES('live_detail_wave_mission_11007301_1','合計183
 INSERT INTO m_dictionary VALUES('live_detail_wave_mission_11007301_2','合計139700ボルテージを獲得する');
 INSERT INTO m_dictionary VALUES('live_detail_wave_mission_11007301_3','合計227800ボルテージを獲得する');
 INSERT INTO m_dictionary VALUES('live_detail_wave_mission_11007301_4','合計183800ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_11008101_1','合計8000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_11008101_2','合計26000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_11008101_3','合計18000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_11008201_1','合計36000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_11008201_2','合計36000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_11008201_3','合計30000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_11008201_4','合計55000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_11008301_1','合計89000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_11008301_2','合計134000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_11008301_3','合計105000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_11008301_4','合計134000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_11008301_5','合計78000ボルテージを獲得する');
 INSERT INTO m_dictionary VALUES('live_detail_wave_mission_11014101_1','合計28000ボルテージを獲得する');
 INSERT INTO m_dictionary VALUES('live_detail_wave_mission_11014101_2','合計31300ボルテージを獲得する');
 INSERT INTO m_dictionary VALUES('live_detail_wave_mission_11014201_1','合計45400ボルテージを獲得する');
@@ -8744,6 +9031,76 @@ INSERT INTO m_dictionary VALUES('live_detail_wave_mission_32010301_1','合計850
 INSERT INTO m_dictionary VALUES('live_detail_wave_mission_32010301_2','合計14300ボルテージを獲得する');
 INSERT INTO m_dictionary VALUES('live_detail_wave_mission_32010301_3','合計11100ボルテージを獲得する');
 INSERT INTO m_dictionary VALUES('live_detail_wave_mission_32010301_4','合計22000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000001_1','合計35000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000001_2','合計75000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000001_3','合計60000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000001_4','合計50000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000002_1','合計9000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000002_2','合計28000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000002_3','SP特技で合計19000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000002_4','合計58000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000003_1','合計50000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000003_2','合計70000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000003_3','合計70000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000004_1','合計60000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000004_2','合計62000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000004_3','合計70000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000005_1','合計27000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000005_2','合計50000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000005_3','合計30000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000005_4','合計60000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000006_1','合計38000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000006_2','合計70000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000006_3','合計77000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000007_1','合計49000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000007_2','合計52000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000007_3','合計62000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000007_4','合計76000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000008_1','4人のスクールアイドルでアピールする');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000008_2','合計18000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000008_3','SP特技で合計20000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000008_4','合計48000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000009_1','合計30000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000009_2','合計90000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000009_3','合計60000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000009_4','合計35000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000010_1','合計38000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000010_2','合計60000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000010_3','合計50000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000010_4','合計95000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000011_1','合計30000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000011_2','合計60000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000011_3','合計60000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000011_4','合計50000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000012_1','合計46000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000012_2','合計90000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000013_1','合計80000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000013_2','合計85000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000014_1','合計38000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000014_2','合計63000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000014_3','合計65000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000014_4','合計66000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000015_1','合計54000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000015_2','合計90000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000015_3','合計65000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000015_4','合計25000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000016_1','合計47000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000016_2','合計80000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000016_3','合計65000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000017_1','合計30500ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000017_2','合計73400ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000017_3','合計53100ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000018_1','合計68000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000018_2','合計68000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000018_3','合計85000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000019_1','SP特技で合計22000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000019_2','SP特技で合計20000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000019_3','合計50000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000020_1','合計58500ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000020_2','合計90000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000020_3','合計72000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000020_4','合計90000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_33000020_5','合計49500ボルテージを獲得する');
 INSERT INTO m_dictionary VALUES('live_friend_select_l_101','ゲスト選択');
 INSERT INTO m_dictionary VALUES('live_friend_select_l_107','ON');
 INSERT INTO m_dictionary VALUES('live_friend_select_l_108','OFF');
@@ -8979,6 +9336,37 @@ INSERT INTO m_dictionary VALUES('m_active_skill_type_setting_parameter','パラ�
 INSERT INTO m_dictionary VALUES('m_active_skill_type_setting_special_buff','特殊バフ系(仮)');
 INSERT INTO m_dictionary VALUES('m_active_skill_type_setting_stamina','スタミナ回復系(仮)');
 INSERT INTO m_dictionary VALUES('m_active_skill_type_setting_voltage','ボルテージ獲得系(仮)');
+INSERT INTO m_dictionary VALUES('m_billing_product_asset_product_pack_10014_desc','ラブカスター（有償）と特訓で必要なゴールドが入った
+初心者おすすめのセットです♪
+一度だけ購入できます');
+INSERT INTO m_dictionary VALUES('m_billing_product_asset_product_pack_10014_name','初心者応援！セット');
+INSERT INTO m_dictionary VALUES('m_billing_product_asset_product_pack_10015_desc','ラブカスター（有償）と特訓で必要なゴールド、スクールアイドルの証
+2色のマカロンが入ったお得なセットです♪
+毎月1回購入できます
+※毎月1日 0:00に購入回数はリセットされます。');
+INSERT INTO m_dictionary VALUES('m_billing_product_asset_product_pack_10015_name','育成応援セットA');
+INSERT INTO m_dictionary VALUES('m_billing_product_asset_product_pack_10016_desc','ラブカスター（有償）と特訓で必要なゴールド、スクールアイドルの証
+2色のマカロンが入ったお得なセットです♪
+毎月1回購入できます
+※毎月1日 0:00に購入回数はリセットされます。');
+INSERT INTO m_dictionary VALUES('m_billing_product_asset_product_pack_10016_name','育成応援セットB');
+INSERT INTO m_dictionary VALUES('m_billing_product_asset_product_pack_10017_desc','ラブカスター（有償）と特訓で必要なゴールド、スクールアイドルの証
+2色のマカロンが入ったお得なセットです♪
+毎月1回購入できます
+※毎月1日 0:00に購入回数はリセットされます。');
+INSERT INTO m_dictionary VALUES('m_billing_product_asset_product_pack_10017_name','育成応援セットC');
+INSERT INTO m_dictionary VALUES('m_billing_product_asset_product_pack_10018_desc','ラブカスター（有償）と小原鞠莉・高海千歌・国木田花丸の
+KOKORO Magic “A to Z”衣装が入った記念セットです♪
+期間中に一度だけ購入できます');
+INSERT INTO m_dictionary VALUES('m_billing_product_asset_product_pack_10018_name','KOKORO Magic “A to Z”発売記念セットA');
+INSERT INTO m_dictionary VALUES('m_billing_product_asset_product_pack_10019_desc','ラブカスター（有償）と松浦果南・渡辺 曜・黒澤ルビィの
+KOKORO Magic “A to Z”衣装が入った記念セットです♪
+期間中に一度だけ購入できます');
+INSERT INTO m_dictionary VALUES('m_billing_product_asset_product_pack_10019_name','KOKORO Magic “A to Z”発売記念セットB');
+INSERT INTO m_dictionary VALUES('m_billing_product_asset_product_pack_10020_desc','ラブカスター（有償）と黒澤ダイヤ・桜内梨子・津島善子の
+KOKORO Magic “A to Z”衣装が入った記念セットです♪
+期間中に一度だけ購入できます');
+INSERT INTO m_dictionary VALUES('m_billing_product_asset_product_pack_10020_name','KOKORO Magic “A to Z”発売記念セットC');
 INSERT INTO m_dictionary VALUES('m_billing_product_asset_product_pack_11001_desc','『プレミアムμ&apos;sUR確定ガチャチケット』と
 『プレミアムμ&apos;sSR以上1枚確定10連ガチャチケット』が入った
 お得なセット♪');
@@ -9088,6 +9476,7 @@ INSERT INTO m_dictionary VALUES('m_dic_emblem_description_10100811','「元気�
 INSERT INTO m_dictionary VALUES('m_dic_emblem_description_10100821','「Strawberry Trapper」を100回クリアする');
 INSERT INTO m_dictionary VALUES('m_dic_emblem_description_10100831','「トリコリコPLEASE!!」を100回クリアする');
 INSERT INTO m_dictionary VALUES('m_dic_emblem_description_10100861','「僕らは今のなかで」を100回クリアする');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_description_10100871','「HAPPY PARTY TRAIN」を100回クリアする');
 INSERT INTO m_dictionary VALUES('m_dic_emblem_description_10200161','μ&apos;sのみのライブ編成でライブを100回クリアする');
 INSERT INTO m_dictionary VALUES('m_dic_emblem_description_10200162','μ&apos;sのみのライブ編成でライブを1000回クリアする');
 INSERT INTO m_dictionary VALUES('m_dic_emblem_description_10200163','μ&apos;sのみのライブ編成でライブを5000回クリアする');
@@ -9308,6 +9697,7 @@ INSERT INTO m_dictionary VALUES('m_dic_emblem_name_10100811','元気全開DAY!DA
 INSERT INTO m_dictionary VALUES('m_dic_emblem_name_10100821','Strawberry Trapper');
 INSERT INTO m_dictionary VALUES('m_dic_emblem_name_10100831','トリコリコPLEASE!!');
 INSERT INTO m_dictionary VALUES('m_dic_emblem_name_10100861','僕らは今のなかで');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_name_10100871','HAPPY PARTY TRAIN');
 INSERT INTO m_dictionary VALUES('m_dic_emblem_name_10200161','μ&apos;s 推し★');
 INSERT INTO m_dictionary VALUES('m_dic_emblem_name_10200162','μ&apos;s 推し★★');
 INSERT INTO m_dictionary VALUES('m_dic_emblem_name_10200163','μ&apos;s 推し★★★');
@@ -9985,6 +10375,8 @@ INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_37','季節');
 INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_38','季節');
 INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_39','季節');
 INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_4','キズナLv.5');
+INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_40','季節');
+INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_41','季節');
 INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_44','時間');
 INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_45','時間');
 INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_46','時間');
@@ -10009,6 +10401,7 @@ INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_62','タッチ');
 INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_63','タッチ');
 INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_64','誕生日');
 INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_66','誕生日');
+INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_69','誕生日');
 INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_7','キズナLv.30');
 INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_8','キズナLv.40');
 INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_9','キズナLv.50');
@@ -10032,6 +10425,7 @@ INSERT INTO m_dictionary VALUES('m_dic_stage_name_bg0007_10_s1','講堂ステー
 INSERT INTO m_dictionary VALUES('m_dic_stage_name_bg0008_01_s1','野外ステージ');
 INSERT INTO m_dictionary VALUES('m_dic_stage_name_bg0008_10_s1','野外ステージ');
 INSERT INTO m_dictionary VALUES('m_dic_stage_name_bg0011_01_s1','特別ステージ');
+INSERT INTO m_dictionary VALUES('m_dic_stage_name_bg0014_01_s1','特別ステージ');
 INSERT INTO m_dictionary VALUES('m_dic_stage_name_bg0023_01_s1','特別ステージ');
 INSERT INTO m_dictionary VALUES('m_dic_str3_communication_member_story_side_unlock','{0}「{1}」の{2}解放');
 INSERT INTO m_dictionary VALUES('m_dic_str_ap_recover_at','{0}');
@@ -10200,6 +10594,12 @@ INSERT INTO m_dictionary VALUES('m_gacha_point_icon_text_2002_32','<:icon_quartz
 INSERT INTO m_dictionary VALUES('m_gacha_point_icon_text_2003','<:icon_quartz_2003/>');
 INSERT INTO m_dictionary VALUES('m_gacha_point_icon_text_2003_28','<:icon_quartz_2003_28/>');
 INSERT INTO m_dictionary VALUES('m_gacha_point_icon_text_2003_32','<:icon_quartz_2003_32/>');
+INSERT INTO m_dictionary VALUES('m_gacha_point_icon_text_2004','<:icon_quartz_2004/>');
+INSERT INTO m_dictionary VALUES('m_gacha_point_icon_text_2004_28','<:icon_quartz_2004_28/>');
+INSERT INTO m_dictionary VALUES('m_gacha_point_icon_text_2004_32','<:icon_quartz_2004_32/>');
+INSERT INTO m_dictionary VALUES('m_gacha_point_icon_text_2005','<:icon_quartz_2005/>');
+INSERT INTO m_dictionary VALUES('m_gacha_point_icon_text_2005_28','<:icon_quartz_2005_28/>');
+INSERT INTO m_dictionary VALUES('m_gacha_point_icon_text_2005_32','<:icon_quartz_2005_32/>');
 INSERT INTO m_dictionary VALUES('m_gacha_retry_out_of_term_message','リトライ期間外です');
 INSERT INTO m_dictionary VALUES('m_gacha_retry_out_of_term_title','注意');
 INSERT INTO m_dictionary VALUES('m_gacha_ticket_icon_text_9000','<:icon_gacha_ticket_9000/>');
@@ -10517,6 +10917,7 @@ INSERT INTO m_dictionary VALUES('member_story_description_1_2','　「同じ方�
 INSERT INTO m_dictionary VALUES('member_story_description_1_3','　迷子になってしまったあなたがたどり着いたのは、穂乃果の家だった。みんなを元気に引っ張っていってくれる穂乃果だが、そんな穂乃果にも意外な一面があったようで……？');
 INSERT INTO m_dictionary VALUES('member_story_description_1_4','　大好きなスクールアイドル以外のことには力が入らない様子の穂乃果。でも、そんな一面が穂乃果らしくも思えてきて……穂乃果の大好物を知ったあなたは、一つの提案をする。');
 INSERT INTO m_dictionary VALUES('member_story_description_1_5','　部活以外でも仲良くなれたことに、喜びを感じる穂乃果とあなた。作曲中のあなたにも、穂乃果は手を差し伸べてくれて……。');
+INSERT INTO m_dictionary VALUES('member_story_description_1_6','　共に手を取り合って進んでいく二人。互いに助け合えることが何よりも嬉しい。そして、あなたが来るのを待ちきれない穂乃果は……。');
 INSERT INTO m_dictionary VALUES('member_story_description_201_1','　眠気を抑えながら朝食を食べるあなたの家に、幼馴染みの歩夢が訪ねてきた。あなたは歩夢と連れ立って学校へ向かう。');
 INSERT INTO m_dictionary VALUES('member_story_description_201_2','　お昼休みになり、食堂に移動したあなたと歩夢。歩夢は手作りのお弁当を持って来ており、その丁寧で色鮮やかな中身にあなたは感心する。');
 INSERT INTO m_dictionary VALUES('member_story_description_201_3','　帰りの電車の中で、あなたは歩夢と自分が初めて同じ部活に入っていることを知る。それを喜ぶあなたに、歩夢も嬉しそうな表情を浮かべて……。');
@@ -10567,41 +10968,49 @@ INSERT INTO m_dictionary VALUES('member_story_description_2_2','　音ノ木坂�
 INSERT INTO m_dictionary VALUES('member_story_description_2_3','　絵里のおかげで、部活のサポートも上々。安心したあなたが聞いたものは……。');
 INSERT INTO m_dictionary VALUES('member_story_description_2_4','　夜の学校に響く絵里の悲鳴。忍び寄るのは恐怖か、それとも……？？');
 INSERT INTO m_dictionary VALUES('member_story_description_2_5','　絵里の魅力にもふれて、毎日の部活はどんどん充実していきます♪');
+INSERT INTO m_dictionary VALUES('member_story_description_2_6','　あなたのサポートを受けて、充実した日々を送っている絵里。妹の亜里沙もあなたの存在が気になるようで……？');
 INSERT INTO m_dictionary VALUES('member_story_description_3_1','　μ&apos;sの活動を手伝うことになったあなたは、スクールアイドルになる前からずっと仲良しだった穂乃果、海未、ことりの三人に話を聞くことに。');
 INSERT INTO m_dictionary VALUES('member_story_description_3_2','　普段は穂乃果や海未たちを優しくサポートしていることり。それでも、ことりには絶対妥協できないコダワリがあったようで……！');
 INSERT INTO m_dictionary VALUES('member_story_description_3_3','　μ&apos;sの衣装作りを担当していることり。ことりのこだわりを知ったあなたは、街でことりにばったり出会い……って、ことりちゃんじゃないの！？');
 INSERT INTO m_dictionary VALUES('member_story_description_3_4','　メイドカフェでミナリンスキーとしてバイトをしていたことり。μ&apos;sとメイドさんを両立していることりだが、衣装のことで悩んでいる様子で……。');
 INSERT INTO m_dictionary VALUES('member_story_description_3_5','　衣装のことで悩んでいたことりを、博物館へ連れ出したあなた。困ったときに助けてくれるあなたの存在を、ことりは心強く思っているようで……♪');
+INSERT INTO m_dictionary VALUES('member_story_description_3_6','　ことりはあなたに助けてもらったこと、あなたとお出かけしたことをとても嬉しく思っている様子。話題も自然とあなたのことになって……。');
 INSERT INTO m_dictionary VALUES('member_story_description_4_1','　μ&apos;sの手伝いをすることになったあなたは、海未にスクールアイドルへの想いを聞くことに。海未にとってのスクールアイドルとは？');
 INSERT INTO m_dictionary VALUES('member_story_description_4_2','　スクールアイドル。それは穂乃果にとっての夢であり、海未にとっての夢でもあった。海未がμ&apos;sの歌詞をほとんど手がけていると聞いたあなたは……。');
 INSERT INTO m_dictionary VALUES('member_story_description_4_3','　海未の家で、作詞風景を見学させてもらうことになったあなた。海未が心を込めて作詞をする中、あなたは……。');
 INSERT INTO m_dictionary VALUES('member_story_description_4_4','　海未が感情豊かに作詞をする姿を見たあなたは、海未に惹かれていくことを実感する。ある日、海未の弓道大会についていくことになり……。');
 INSERT INTO m_dictionary VALUES('member_story_description_4_5','　μ&apos;sの活動以外でも見えてくる、海未の色々な魅力。これからもお互いをもっと知っていきたいと望む二人は……。');
+INSERT INTO m_dictionary VALUES('member_story_description_4_6','　μ&apos;sの活動を着実にサポートして、更に海未との交流も深めているあなた。海未はあなたへ感謝の気持ちを表したいようで……。');
 INSERT INTO m_dictionary VALUES('member_story_description_5_1','　元気いっぱいの凛。真姫と花陽と一緒にごあいさつ♪');
 INSERT INTO m_dictionary VALUES('member_story_description_5_2','　花陽といつも仲良しの凛。何か手伝えることはないかと聞くあなたですが……。');
 INSERT INTO m_dictionary VALUES('member_story_description_5_3','　花陽の代わりに、凛を応援することになったあなたは……。');
 INSERT INTO m_dictionary VALUES('member_story_description_5_4','　花陽のおにぎりを食べてうれしそうな凛。でもなんだか恥ずかしそうで……。');
 INSERT INTO m_dictionary VALUES('member_story_description_5_5','　あなたに応援されてラーメンの味もわからなくなるほど嬉しい凛は……。');
+INSERT INTO m_dictionary VALUES('member_story_description_5_6','　あなたのサポートを心待ちにするようになった凛。部活をたくさん頑張ったら、一緒にお出かけも出来るかな？とあれこれ計画中！');
 INSERT INTO m_dictionary VALUES('member_story_description_6_1','　μ&apos;sの活動を手伝うことになったあなたは、μ’sの作曲を担当する真姫と話をすることに。');
 INSERT INTO m_dictionary VALUES('member_story_description_6_2','　あなたに手伝ってもらう必要性を感じない、と話した真姫。それでも、あなたのことを拒絶したかったわけではないようで……。');
 INSERT INTO m_dictionary VALUES('member_story_description_6_3','　これから仲良くなれたら、と伝えてくれた真姫は不器用ながらも優しい子。そんな彼女とあなたが音楽室で出会い……。');
 INSERT INTO m_dictionary VALUES('member_story_description_6_4','　ピアノを弾きながら互いの話をした二人は、ピアノを弾く理由もなんだか共感出来て。あなたが作曲しているところに、真姫が通りがかり……。');
 INSERT INTO m_dictionary VALUES('member_story_description_6_5','　作曲の才能がある、と真姫にほめられたあなた。μ’sの曲にも、真姫の言葉にも、強く励まされていることを実感して……♪');
+INSERT INTO m_dictionary VALUES('member_story_description_6_6','　あなたとなら新しいμ&apos;sを作れるかも――　そう言って、あなたを迎え入れてくれた真姫。自己紹介ムービーの撮影にも、心境の変化が現れて……。');
 INSERT INTO m_dictionary VALUES('member_story_description_7_1','　面白い子が来た、と喜ぶ希。でも、それって……？');
 INSERT INTO m_dictionary VALUES('member_story_description_7_2','　生徒会の副会長としても活動する希。希の学校生活に対する想いにふれることに。');
 INSERT INTO m_dictionary VALUES('member_story_description_7_3','　希お得意の占いは……ま、まさかの結果に！');
 INSERT INTO m_dictionary VALUES('member_story_description_7_4','　わるーい占いの結果。希のアドバイスで、このピンチを切り抜けたい！');
 INSERT INTO m_dictionary VALUES('member_story_description_7_5','　希の言葉に導かれ、赤点を取らないよう行動することにしたあなたは……。');
+INSERT INTO m_dictionary VALUES('member_story_description_7_6','　希のおかげで、自然にみんなと仲良くなれたあなた。今日も希は部室であなたを待っているみたいです♪');
 INSERT INTO m_dictionary VALUES('member_story_description_8_1','　花陽が何よりも大好きなもの、それはもちろん……！');
 INSERT INTO m_dictionary VALUES('member_story_description_8_2','　引っ込み思案だった花陽の手を引いてくれたのは、凛だった。');
 INSERT INTO m_dictionary VALUES('member_story_description_8_3','　朝の秋葉原を歩いていたあなたは花陽を見かけるが、様子がいつもと違うみたい！');
 INSERT INTO m_dictionary VALUES('member_story_description_8_4','　今日の花陽はなんだか嬉しそう。その理由は……？');
-INSERT INTO m_dictionary VALUES('member_story_description_8_5','　一緒におでかけして花陽との絆の少しずつ強くなってきた。');
+INSERT INTO m_dictionary VALUES('member_story_description_8_5','　一緒におでかけして花陽との絆が少しずつ強くなってきた。');
+INSERT INTO m_dictionary VALUES('member_story_description_8_6','　あなたと花陽の少しずつ強くなる絆。一緒に朝練頑張ろう！と心を新たにする花陽だが、一つ気がかりなことがあって……。');
 INSERT INTO m_dictionary VALUES('member_story_description_9_1','　μ&apos;sの部活を手伝うことになったあなた。１人だけそのことに不満そうなメンバーが……。');
 INSERT INTO m_dictionary VALUES('member_story_description_9_2','　にこに本気の気持ちを伝えたいあなた。にこは疑念を隠せない様子だが……。');
 INSERT INTO m_dictionary VALUES('member_story_description_9_3','　期待に応えられるよう、努力するあなた。その熱意はにこにもだんだん伝わって……。');
 INSERT INTO m_dictionary VALUES('member_story_description_9_4','　スクールアイドルが好きなのに、どうしてスクールアイドルにならないの？　と訊くにこにあなたは……。');
 INSERT INTO m_dictionary VALUES('member_story_description_9_5','　にこに認められたいあなた。特訓の成果を発揮するときがきた！');
+INSERT INTO m_dictionary VALUES('member_story_description_9_6','　一緒にステージを作り上げていく存在として、あなたのことを認めたにこ。絵里や希もそのことを喜んでいるようだが、にこ本人の想いは……。');
 INSERT INTO m_dictionary VALUES('member_story_title_101_1','1話 みかんを救え！');
 INSERT INTO m_dictionary VALUES('member_story_title_101_2','2話 お宅訪問');
 INSERT INTO m_dictionary VALUES('member_story_title_101_3','3話 曲の裏側');
@@ -10652,6 +11061,7 @@ INSERT INTO m_dictionary VALUES('member_story_title_1_2','2話 たどり着い�
 INSERT INTO m_dictionary VALUES('member_story_title_1_3','3話 知らない一面');
 INSERT INTO m_dictionary VALUES('member_story_title_1_4','4話 焼きたてパンは楽しい味♪');
 INSERT INTO m_dictionary VALUES('member_story_title_1_5','5話 二人の重なる想い');
+INSERT INTO m_dictionary VALUES('member_story_title_1_6','6話 あなたを待ちわびて');
 INSERT INTO m_dictionary VALUES('member_story_title_201_1','1話 いつもの朝');
 INSERT INTO m_dictionary VALUES('member_story_title_201_2','2話 お馴染みの味');
 INSERT INTO m_dictionary VALUES('member_story_title_201_3','3話 一緒にいたい');
@@ -10702,41 +11112,49 @@ INSERT INTO m_dictionary VALUES('member_story_title_2_2','2話 学校生活の�
 INSERT INTO m_dictionary VALUES('member_story_title_2_3','3話 夜、誰もいない学校で');
 INSERT INTO m_dictionary VALUES('member_story_title_2_4','4話 キケンの予感');
 INSERT INTO m_dictionary VALUES('member_story_title_2_5','5話 内緒の話');
+INSERT INTO m_dictionary VALUES('member_story_title_2_6','6話 お姉ちゃんを好きな人');
 INSERT INTO m_dictionary VALUES('member_story_title_3_1','1話 ケンカするほど仲がいい？');
 INSERT INTO m_dictionary VALUES('member_story_title_3_2','2話 ことりのコダワリ');
 INSERT INTO m_dictionary VALUES('member_story_title_3_3','3話 ミナリンスキーとの出会い');
 INSERT INTO m_dictionary VALUES('member_story_title_3_4','4話 ことりの悩み事');
 INSERT INTO m_dictionary VALUES('member_story_title_3_5','5話 もっと話を聞きたいの');
+INSERT INTO m_dictionary VALUES('member_story_title_3_6','6話 あなたといる時間');
 INSERT INTO m_dictionary VALUES('member_story_title_4_1','1話 スクールアイドルへの想い');
 INSERT INTO m_dictionary VALUES('member_story_title_4_2','2話 μ&apos;sの作詞担当');
 INSERT INTO m_dictionary VALUES('member_story_title_4_3','3話 心をこめて');
 INSERT INTO m_dictionary VALUES('member_story_title_4_4','4話 弓道大会へ');
 INSERT INTO m_dictionary VALUES('member_story_title_4_5','5話 もっとあなたを知りたくて');
+INSERT INTO m_dictionary VALUES('member_story_title_4_6','6話 想いを手紙にこめて');
 INSERT INTO m_dictionary VALUES('member_story_title_5_1','1話 猫ちゃん大好き凛ちゃん');
 INSERT INTO m_dictionary VALUES('member_story_title_5_2','2話 いつでもかよちんと一緒！');
 INSERT INTO m_dictionary VALUES('member_story_title_5_3','3話 ピンチヒッター！');
 INSERT INTO m_dictionary VALUES('member_story_title_5_4','4話 ラーメンの味が分からない～');
 INSERT INTO m_dictionary VALUES('member_story_title_5_5','5話 いっぱい応援してほしい！');
+INSERT INTO m_dictionary VALUES('member_story_title_5_6','6話 二人は仲良しさん♪');
 INSERT INTO m_dictionary VALUES('member_story_title_6_1','1話 返事しなくちゃいけない？');
 INSERT INTO m_dictionary VALUES('member_story_title_6_2','2話 一歩前進？');
 INSERT INTO m_dictionary VALUES('member_story_title_6_3','3話 二人のピアノ');
 INSERT INTO m_dictionary VALUES('member_story_title_6_4','4話 真姫の採点');
 INSERT INTO m_dictionary VALUES('member_story_title_6_5','5話 あなたとなら……');
+INSERT INTO m_dictionary VALUES('member_story_title_6_6','6話 真姫の自己紹介');
 INSERT INTO m_dictionary VALUES('member_story_title_7_1','1話 パワーでお迎え♪');
 INSERT INTO m_dictionary VALUES('member_story_title_7_2','2話 生徒会のお仕事');
 INSERT INTO m_dictionary VALUES('member_story_title_7_3','3話 ウチの占いが告げているっ');
 INSERT INTO m_dictionary VALUES('member_story_title_7_4','4話 希のアドバイス？');
 INSERT INTO m_dictionary VALUES('member_story_title_7_5','5話 アイドル研究部へようこそ♪');
+INSERT INTO m_dictionary VALUES('member_story_title_7_6','6話 あなたの椅子');
 INSERT INTO m_dictionary VALUES('member_story_title_8_1','1話 スクールアイドル大好き！');
 INSERT INTO m_dictionary VALUES('member_story_title_8_2','2話 二人、手を取り合って');
 INSERT INTO m_dictionary VALUES('member_story_title_8_3','3話 花陽、大ピンチ！');
 INSERT INTO m_dictionary VALUES('member_story_title_8_4','4話 花陽とショップ巡り');
 INSERT INTO m_dictionary VALUES('member_story_title_8_5','5話 お友達になれました♪');
+INSERT INTO m_dictionary VALUES('member_story_title_8_6','6話 練習のための練習');
 INSERT INTO m_dictionary VALUES('member_story_title_9_1','1話 手伝いなんていらないっ！');
 INSERT INTO m_dictionary VALUES('member_story_title_9_2','2話 本気を見せて');
 INSERT INTO m_dictionary VALUES('member_story_title_9_3','3話 待ってて、にこちゃん');
 INSERT INTO m_dictionary VALUES('member_story_title_9_4','4話 にこの疑問');
 INSERT INTO m_dictionary VALUES('member_story_title_9_5','5話 輝きサポート！');
+INSERT INTO m_dictionary VALUES('member_story_title_9_6','6話 二人の絆');
 INSERT INTO m_dictionary VALUES('menu_l_p201','スクフェスID実績');
 INSERT INTO m_dictionary VALUES('menu_l_p202','スクフェスID実績の機能は後日解放を予定しています');
 INSERT INTO m_dictionary VALUES('menu_l_p203','とじる');
@@ -14965,6 +15383,9 @@ INSERT INTO m_dictionary VALUES('song_copyright_so1006','作詞：畑 亜貴
 INSERT INTO m_dictionary VALUES('song_copyright_so1007','作詞：畑 亜貴
 作曲：光増ハジメ
 編曲：EFFY');
+INSERT INTO m_dictionary VALUES('song_copyright_so1008','作詞：畑 亜貴
+作曲：渡辺拓也
+編曲：EFFY');
 INSERT INTO m_dictionary VALUES('song_copyright_so1014','作詞：畑 亜貴
 作曲・編曲：EFFY(FirstCall)');
 INSERT INTO m_dictionary VALUES('song_copyright_so1059','作詞：畑 亜貴
@@ -15025,6 +15446,7 @@ INSERT INTO m_dictionary VALUES('song_name_so1004','元気全開DAY!DAY!DAY!');
 INSERT INTO m_dictionary VALUES('song_name_so1005','トリコリコPLEASE!!');
 INSERT INTO m_dictionary VALUES('song_name_so1006','Strawberry Trapper');
 INSERT INTO m_dictionary VALUES('song_name_so1007','未来の僕らは知ってるよ');
+INSERT INTO m_dictionary VALUES('song_name_so1008','HAPPY PARTY TRAIN');
 INSERT INTO m_dictionary VALUES('song_name_so1014','KOKORO Magic “A to Z”');
 INSERT INTO m_dictionary VALUES('song_name_so1059','One More Sunshine Story');
 INSERT INTO m_dictionary VALUES('song_name_so1062','おやすみなさん！');
@@ -15068,6 +15490,7 @@ INSERT INTO m_dictionary VALUES('song_pronunciation_so1004','げんきぜんか�
 INSERT INTO m_dictionary VALUES('song_pronunciation_so1005','とりこりこぷりーず');
 INSERT INTO m_dictionary VALUES('song_pronunciation_so1006','すとろべりーとらっぱー');
 INSERT INTO m_dictionary VALUES('song_pronunciation_so1007','みらいのぼくらはしってるよ');
+INSERT INTO m_dictionary VALUES('song_pronunciation_so1008','はっぴーぱーてぃーとれいん');
 INSERT INTO m_dictionary VALUES('song_pronunciation_so1014','こころまじっくえーとぅーずぃー');
 INSERT INTO m_dictionary VALUES('song_pronunciation_so1059','わんもあさんしゃいんすとーりー');
 INSERT INTO m_dictionary VALUES('song_pronunciation_so1062','おやすみなさん');
@@ -15147,6 +15570,15 @@ INSERT INTO m_dictionary VALUES('suit_name_100061001','音ノ木坂学院制服�
 INSERT INTO m_dictionary VALUES('suit_name_100071001','音ノ木坂学院制服（冬服）');
 INSERT INTO m_dictionary VALUES('suit_name_100081001','音ノ木坂学院制服（冬服）');
 INSERT INTO m_dictionary VALUES('suit_name_100091001','音ノ木坂学院制服（冬服）');
+INSERT INTO m_dictionary VALUES('suit_name_100101','KOKORO Magic “A to Z” 高海千歌');
+INSERT INTO m_dictionary VALUES('suit_name_100102','KOKORO Magic “A to Z” 桜内梨子');
+INSERT INTO m_dictionary VALUES('suit_name_100103','KOKORO Magic “A to Z” 松浦果南');
+INSERT INTO m_dictionary VALUES('suit_name_100104','KOKORO Magic “A to Z” 黒澤ダイヤ');
+INSERT INTO m_dictionary VALUES('suit_name_100105','KOKORO Magic “A to Z” 渡辺 曜');
+INSERT INTO m_dictionary VALUES('suit_name_100106','KOKORO Magic “A to Z” 津島善子');
+INSERT INTO m_dictionary VALUES('suit_name_100107','KOKORO Magic “A to Z” 国木田花丸');
+INSERT INTO m_dictionary VALUES('suit_name_100108','KOKORO Magic “A to Z” 小原鞠莉');
+INSERT INTO m_dictionary VALUES('suit_name_100109','KOKORO Magic “A to Z” 黒澤ルビィ');
 INSERT INTO m_dictionary VALUES('suit_name_101011001','浦の星女学院制服（冬服）');
 INSERT INTO m_dictionary VALUES('suit_name_101021001','浦の星女学院制服（冬服）');
 INSERT INTO m_dictionary VALUES('suit_name_101031001','浦の星女学院制服（冬服）');
@@ -16654,6 +17086,13 @@ INSERT INTO m_dictionary VALUES('vo_na_m0001_0039','10月になると
 涼しくなってくるね～
 一緒にランニングに
 行こっか♪');
+INSERT INTO m_dictionary VALUES('vo_na_m0001_0040','寒いね～
+でも練習中は寒さを
+全然感じないんだ！');
+INSERT INTO m_dictionary VALUES('vo_na_m0001_0041','寒くなってくると
+朝が眠くて……
+あなたにやさしく起こして
+もらいたいな……');
 INSERT INTO m_dictionary VALUES('vo_na_m0001_0044','今日は小テスト
 ありませんように……');
 INSERT INTO m_dictionary VALUES('vo_na_m0001_0045','授業が終わったら、
@@ -16703,6 +17142,11 @@ INSERT INTO m_dictionary VALUES('vo_na_m0001_0063','きゃっ！
 INSERT INTO m_dictionary VALUES('vo_na_m0001_0064','お誕生日、おめでとーーっ！
 えへへ、あなたのことを
 お祝いできて嬉しいな♪');
+INSERT INTO m_dictionary VALUES('vo_na_m0001_0069','にゃんにゃんにゃーん♪
+凛ちゃん
+お誕生日おめでとう♪
+凛ちゃんと
+もっと一緒に歌いたいな♪');
 INSERT INTO m_dictionary VALUES('vo_na_m0001_0096','トリックオアトリート！
 お菓子をくれないと……
 いっぱいいたずら
@@ -16806,6 +17250,13 @@ INSERT INTO m_dictionary VALUES('vo_na_m0002_0038','学業にスポーツに芸�
 INSERT INTO m_dictionary VALUES('vo_na_m0002_0039','秋は公園を散歩したくなるわ
 ……キミが隣を歩いて
 くれたら、最高なんだけど');
+INSERT INTO m_dictionary VALUES('vo_na_m0002_0040','寒い？
+今日は温かいお風呂に入って
+リラックスしましょう♪');
+INSERT INTO m_dictionary VALUES('vo_na_m0002_0041','秋は不思議と
+物思いにふけってしまって。
+キミのことを考えている
+時間が多いの');
 INSERT INTO m_dictionary VALUES('vo_na_m0002_0044','充実した一日にするためにも
 午前中から気合いを
 入れましょう♪');
@@ -16868,6 +17319,8 @@ INSERT INTO m_dictionary VALUES('vo_na_m0002_0064','ハッピーバースデー�
 キミの誕生日を
 こうしてお祝いできて、
 とっても幸せよ♡');
+INSERT INTO m_dictionary VALUES('vo_na_m0002_0069','凛、誕生日おめでとう！
+天真爛漫な凛の笑顔が私は大好きなのよ♪♪');
 INSERT INTO m_dictionary VALUES('vo_na_m0002_0096','トリックオアトリート♪
 お菓子をくれたら、いたずらしないで許してあげるわよ？');
 INSERT INTO m_dictionary VALUES('vo_na_m0002_0104','お話の続きが気になるの。
@@ -16964,6 +17417,14 @@ INSERT INTO m_dictionary VALUES('vo_na_m0003_0039','秋はなんだか
 寂しくなっちゃうの。
 あなたがそばにいてくれたら
 ……嬉しいな');
+INSERT INTO m_dictionary VALUES('vo_na_m0003_0040','フォンダンショコラを
+作ったの。
+あったかとろーり
+チョコレートを味わってね♪');
+INSERT INTO m_dictionary VALUES('vo_na_m0003_0041','身体が冷えたままだと
+風邪ひいちゃうよ。
+ことりが暖めて
+あげますね～っ');
 INSERT INTO m_dictionary VALUES('vo_na_m0003_0044','休み時間はことりに
 会いに来てくれたら
 嬉しいな♪');
@@ -17025,6 +17486,10 @@ INSERT INTO m_dictionary VALUES('vo_na_m0003_0064','えへへ……
 お誕生日おめでとう♡
 あなたのお誕生日を
 お祝いできて嬉しいな');
+INSERT INTO m_dictionary VALUES('vo_na_m0003_0069','凛ちゃん、
+お誕生日おめでとうっ！
+かわいいかわいい凛ちゃん、
+大好きです♪');
 INSERT INTO m_dictionary VALUES('vo_na_m0003_0096','お菓子をくれないと、
 ことりが朝まで
 いたずらしちゃうぞ～
@@ -17134,6 +17599,14 @@ INSERT INTO m_dictionary VALUES('vo_na_m0004_0038','秋になると花陽はい�
 INSERT INTO m_dictionary VALUES('vo_na_m0004_0039','女心と秋の空は変わりやすいとも言いますが……
 私の気持ちはずっと
 変わりません');
+INSERT INTO m_dictionary VALUES('vo_na_m0004_0040','次の休みは紅葉狩りに
+行きましょう。
+美しい景色と登山が
+楽しめるなんて、最高です！');
+INSERT INTO m_dictionary VALUES('vo_na_m0004_0041','ふふ。
+寒さであなたの鼻の頭が
+ほんのり赤く染まって……
+愛おしい、なんて');
 INSERT INTO m_dictionary VALUES('vo_na_m0004_0044','授業をより理解する
 ためにも、予習の習慣を
 つけるといいかもしれません');
@@ -17203,6 +17676,9 @@ INSERT INTO m_dictionary VALUES('vo_na_m0004_0064','会えてよかった……�
 あなたの誕生日ですから、
 どうしても直接お祝いが
 言いたかったんです');
+INSERT INTO m_dictionary VALUES('vo_na_m0004_0069','にゃんにゃんにゃーん♪
+……コホン。
+今日は凛の誕生日なんですよ');
 INSERT INTO m_dictionary VALUES('vo_na_m0004_0096','あの。お菓子を
 あげなかった場合……
 私もいたずらされて
@@ -17315,6 +17791,14 @@ INSERT INTO m_dictionary VALUES('vo_na_m0005_0038','かよちんが新米で
 INSERT INTO m_dictionary VALUES('vo_na_m0005_0039','スポーツの秋だにゃ！
 準備運動して、あなたと
 一緒に運動したいにゃ～っ');
+INSERT INTO m_dictionary VALUES('vo_na_m0005_0040','はぁ～っ。
+えへへ、息が白くなるのって
+面白いよね。
+何度もやっちゃうにゃ♪');
+INSERT INTO m_dictionary VALUES('vo_na_m0005_0041','ちょこっと寒いから……
+あなたにぴとって
+くっついてもいい？
+えへへ、あったかいにゃ♡');
 INSERT INTO m_dictionary VALUES('vo_na_m0005_0044','まだ眠いの？
 それじゃあ凛と一緒に校庭を
 走ろうよ、目が覚めること
@@ -17377,6 +17861,11 @@ INSERT INTO m_dictionary VALUES('vo_na_m0005_0064','にゃんにゃんにゃー�
 お誕生日おめでとう♪
 えへへ、ビックリさせようと
 思って待ってたんだにゃ');
+INSERT INTO m_dictionary VALUES('vo_na_m0005_0069','今日は凛の誕生日！
+みんなと一緒に
+いられるだけで、
+とーっても幸せな
+誕生日になるんだにゃ♪');
 INSERT INTO m_dictionary VALUES('vo_na_m0005_0096','がおーっ！
 お菓子をくれたら、凛が
 すりすりしてあげるにゃ☆');
@@ -17483,6 +17972,13 @@ INSERT INTO m_dictionary VALUES('vo_na_m0006_0039','あなた、
 そんな薄着で大丈夫？
 私のストールを貸すから……
 風邪ひかないようにね');
+INSERT INTO m_dictionary VALUES('vo_na_m0006_0040','寒くなってきたわね。
+でも、そのおかげで思考が
+クリアになってる気がするわ');
+INSERT INTO m_dictionary VALUES('vo_na_m0006_0041','枯れ葉の舞う道を
+あなたと歩くのが好きよ。
+……今日も一緒に
+帰ってくれるんでしょう？');
 INSERT INTO m_dictionary VALUES('vo_na_m0006_0044','今日の予定は？
 朝のうちにきちんと
 確認しておいた方がいいわよ');
@@ -17539,6 +18035,11 @@ INSERT INTO m_dictionary VALUES('vo_na_m0006_0064','お誕生日おめでとう�
 ……あ、あなたのことに
 決まってるでしょ！
 鈍いんだから……');
+INSERT INTO m_dictionary VALUES('vo_na_m0006_0069','凛、いつもの部室で
+待ってるわよ。
+ふふ、今日はあなたの
+バースデーパーティ
+なんだから♪');
 INSERT INTO m_dictionary VALUES('vo_na_m0006_0096','トリックオアトリート♪
 ふふ、お菓子をくれても
 いたずらしちゃうんだからね');
@@ -17648,6 +18149,12 @@ INSERT INTO m_dictionary VALUES('vo_na_m0007_0039','えっ、
 わしわしの秋を期待してた？
 あはは、
 あなたって面白いな～');
+INSERT INTO m_dictionary VALUES('vo_na_m0007_0040','最近は冷えるように
+なってきたね。
+部室にこたつが
+ほしくなっちゃう');
+INSERT INTO m_dictionary VALUES('vo_na_m0007_0041','寒くても、心はあったかい♪
+ふふ、あなたのおかげやね');
 INSERT INTO m_dictionary VALUES('vo_na_m0007_0044','今日もいい一日に
 なりますように。
 ウチが応援してるよ♪');
@@ -17708,6 +18215,10 @@ INSERT INTO m_dictionary VALUES('vo_na_m0007_0064','ハッピーバースデー�
 うふふ、
 あなたのお誕生日は盛大に
 お祝いしなくちゃね！');
+INSERT INTO m_dictionary VALUES('vo_na_m0007_0069','元気いっぱいで、
+それでいて繊細さも
+持っている凛ちゃん。
+ウチ……大好きなんだ♪');
 INSERT INTO m_dictionary VALUES('vo_na_m0007_0096','トリックオアトリート♪
 わしわしされたい子は
 いないか～っ');
@@ -17813,6 +18324,14 @@ INSERT INTO m_dictionary VALUES('vo_na_m0008_0038','ごめんね、
 INSERT INTO m_dictionary VALUES('vo_na_m0008_0039','はぁ……ごはんおいしい♡
 あなたと一緒に食べると
 もっとおいしい♡');
+INSERT INTO m_dictionary VALUES('vo_na_m0008_0040','ええっ、
+身体が冷えちゃったの？
+じゃあ一緒に
+おしくらまんじゅうする？');
+INSERT INTO m_dictionary VALUES('vo_na_m0008_0041','もうすぐ一年が
+終わっちゃうんだ、
+って思うと少しさみしいね。
+でもあなたがいるから……♪');
 INSERT INTO m_dictionary VALUES('vo_na_m0008_0044','朝ごはんはしっかり
 食べないと元気でないの。
 おにぎり食べて、
@@ -17878,6 +18397,11 @@ INSERT INTO m_dictionary VALUES('vo_na_m0008_0064','今日はあなたの
 お誕生日だね！
 みんなでいっぱいいっぱい
 お祝いしようねっ♪');
+INSERT INTO m_dictionary VALUES('vo_na_m0008_0069','凛ちゃん、
+お誕生日おめでとう。
+何度言っても
+言い足りないくらい……
+大好きな凛ちゃん♡');
 INSERT INTO m_dictionary VALUES('vo_na_m0008_0096','お菓子をくれなきゃいたずら……ええっ！？
 私がいたずら
 されちゃうの！？
@@ -17991,6 +18515,15 @@ INSERT INTO m_dictionary VALUES('vo_na_m0009_0038','ふっ、
 INSERT INTO m_dictionary VALUES('vo_na_m0009_0039','栗が安かったの♪
 炊き込みごはんにして、
 あなたのお弁当にしよーっと');
+INSERT INTO m_dictionary VALUES('vo_na_m0009_0040','秋は
+物悲しくなるものよね……
+ニコのブロマイドを
+あげるから、
+これで元気出して');
+INSERT INTO m_dictionary VALUES('vo_na_m0009_0041','いちょう並木が金色に
+染まってるわ♪
+さ、二人でゆっくり
+歩きましょう');
 INSERT INTO m_dictionary VALUES('vo_na_m0009_0044','おはよう♪
 今日もニコに会えて
 よかったわね♡');
@@ -18056,6 +18589,8 @@ INSERT INTO m_dictionary VALUES('vo_na_m0009_0064','今日は何の日だと
 思ってるの？
 あなたの誕生日なんだから
 最高の一日にしなくちゃ！');
+INSERT INTO m_dictionary VALUES('vo_na_m0009_0069','ニコはあなたのかわいさをたーっくさん知ってるのよ。
+凛、お誕生日おめでとう♡');
 INSERT INTO m_dictionary VALUES('vo_na_m0009_0096','きゃあ！
 ニコはかよわいから、
 おばけが苦手なんです～……
@@ -18156,6 +18691,13 @@ INSERT INTO m_dictionary VALUES('vo_na_m0101_0039','ご飯が美味しい秋だ�
 大好きなあなたと食べると、
 もっともっと美味しく
 感じちゃう♡');
+INSERT INTO m_dictionary VALUES('vo_na_m0101_0040','涼しくなってきたね。
+お腹出して寝ないように
+気を付けなくちゃ');
+INSERT INTO m_dictionary VALUES('vo_na_m0101_0041','私の目の色が紅葉色……？
+うわ～っ、
+そ、そんな表現されたの
+初めてだよ～っ！');
 INSERT INTO m_dictionary VALUES('vo_na_m0101_0044','夜更かししてると
 お姉ちゃん達に
 怒られちゃうんだよ～');
@@ -18205,6 +18747,9 @@ INSERT INTO m_dictionary VALUES('vo_na_m0101_0064','お誕生日おめでとう�
 こうしてあなたを
 お祝い出来るの、
 すごく嬉しいよ');
+INSERT INTO m_dictionary VALUES('vo_na_m0101_0069','凛ちゃん、お誕生日
+おめでとうだにゃ～♡
+えへへ、真似しちゃった♪');
 INSERT INTO m_dictionary VALUES('vo_na_m0101_0096','ハロウィンだからかぼちゃ買ってきたよ～。
 煮物にする？
 コロッケにする？');
@@ -18318,6 +18863,13 @@ INSERT INTO m_dictionary VALUES('vo_na_m0102_0038','秋と言えば……
 INSERT INTO m_dictionary VALUES('vo_na_m0102_0039','新しいセーターを
 出してみたの。
 うふふ、似合うかな？');
+INSERT INTO m_dictionary VALUES('vo_na_m0102_0040','千歌ちゃんの鞄からみかんが
+見えてるんだけど……
+あれってお昼のデザート？
+それともおやつ……？');
+INSERT INTO m_dictionary VALUES('vo_na_m0102_0041','ぐっと冷え込んできたから、
+体を冷やさないように
+気を付けてね');
 INSERT INTO m_dictionary VALUES('vo_na_m0102_0044','朝ご飯は食べた？
 １日の始まりだもの。
 しっかり食べないとね');
@@ -18372,6 +18924,10 @@ INSERT INTO m_dictionary VALUES('vo_na_m0102_0064','お誕生日おめでとう�
 あなたの声援が
 私達の力になります。
 本当にありがとう');
+INSERT INTO m_dictionary VALUES('vo_na_m0102_0069','凛ちゃん、
+お誕生日おめでとう。
+……いえ！
+ど、どういたしまして、にゃー！');
 INSERT INTO m_dictionary VALUES('vo_na_m0102_0096','今年のハロウィンは
 何を作ろう？
 かぼちゃ……
@@ -18488,6 +19044,14 @@ INSERT INTO m_dictionary VALUES('vo_na_m0103_0039','あ、うろこ雲だ。
 ん？　違うの？　いわし雲？
 ええ～、
 うろこだよ、うろこ～');
+INSERT INTO m_dictionary VALUES('vo_na_m0103_0040','この時期の部室にはみかんが
+たくさんストック
+されてるんだよね。
+千歌あたりが
+持ち込んでるのかな');
+INSERT INTO m_dictionary VALUES('vo_na_m0103_0041','青い海がきらめく夏も、
+山が鮮やかな秋も、
+キミと過ごせて幸せだよ');
 INSERT INTO m_dictionary VALUES('vo_na_m0103_0044','朝起きたら、海におはようの
 あいさつをするんだ。
 波の音で
@@ -18553,6 +19117,10 @@ INSERT INTO m_dictionary VALUES('vo_na_m0103_0064','誕生日おめでとう。
 幸せを運んでくれた。
 今日は私が
 キミを幸せにするよ');
+INSERT INTO m_dictionary VALUES('vo_na_m0103_0069','凛ちゃん、魚駄目なの？
+ごめん……
+誕生日プレゼント、
+魚の干物なんだ……');
 INSERT INTO m_dictionary VALUES('vo_na_m0103_0096','トリックオアハグ！
 お菓子をくれなきゃ
 ハグするぞ～♪
@@ -18668,6 +19236,12 @@ INSERT INTO m_dictionary VALUES('vo_na_m0104_0039','だいぶ気温が
 季節の変わり目は
 体調を崩しがちです。
 ご自愛なさって');
+INSERT INTO m_dictionary VALUES('vo_na_m0104_0040','樹々の色付きが
+美しい季節ですわね。
+今日は少し……
+遠回りして帰りましょうか');
+INSERT INTO m_dictionary VALUES('vo_na_m0104_0041','少しお話しませんこと？
+秋の夜は長いですから……');
 INSERT INTO m_dictionary VALUES('vo_na_m0104_0044','寝坊は許しませんわよ？');
 INSERT INTO m_dictionary VALUES('vo_na_m0104_0045','髪を結うこと、ですか？
 そうですわね、
@@ -18731,6 +19305,10 @@ INSERT INTO m_dictionary VALUES('vo_na_m0104_0064','お誕生日
 おめでとうございます。
 あなたに出会えたことは、
 この上ない幸福ですわ');
+INSERT INTO m_dictionary VALUES('vo_na_m0104_0069','凛さん、お誕生日
+おめでとうございます。
+あなたの元気がμ&apos;sを
+活気づけているのですね');
 INSERT INTO m_dictionary VALUES('vo_na_m0104_0096','お祭りだからって、
 あまりに派手派手しい仮装は
 お断りですわ！');
@@ -18847,6 +19425,14 @@ INSERT INTO m_dictionary VALUES('vo_na_m0105_0039','ぎゅー。
 思って薄着したら、
 意外と寒くて……
 キミ、あったかいから……');
+INSERT INTO m_dictionary VALUES('vo_na_m0105_0040','みかんの美味しい季節に
+なったね～！
+うちでもみかんのストックが
+増えてるよ');
+INSERT INTO m_dictionary VALUES('vo_na_m0105_0041','おー、山がぽつぽつ
+赤くなってる！
+もっと色付いたら、
+紅葉狩りに行ってみようか♪');
 INSERT INTO m_dictionary VALUES('vo_na_m0105_0044','今日も１日、
 全速ヨーソローで
 がんばろー！');
@@ -18894,6 +19480,10 @@ INSERT INTO m_dictionary VALUES('vo_na_m0105_0063','あはは！
 INSERT INTO m_dictionary VALUES('vo_na_m0105_0064','誕生日おめでとう！
 今日はAqoursのみんなと
 盛大にお祝いするよ！');
+INSERT INTO m_dictionary VALUES('vo_na_m0105_0069','凛ちゃんもスポーツが
+好きなんだね。
+高飛び込みはどう？
+興味ない！？');
 INSERT INTO m_dictionary VALUES('vo_na_m0105_0096','トリックオアトリート☆
 お化けも一緒に
 ハロウィンパーティしよう♪');
@@ -18997,6 +19587,14 @@ INSERT INTO m_dictionary VALUES('vo_na_m0106_0038','秋の七草……って、�
 INSERT INTO m_dictionary VALUES('vo_na_m0106_0039','闇が下りてきたら、
 ヨハネを見失ってしまうわよ
 目を離さないでね');
+INSERT INTO m_dictionary VALUES('vo_na_m0106_0040','部室にカゴ山盛りの
+みかんがあったわ。
+私以外みんな
+美味しそうに食べるから、
+疎外感感じちゃう');
+INSERT INTO m_dictionary VALUES('vo_na_m0106_0041','気温がかなり下がってきたわ
+ヨハネを置いて風邪で休む
+なんて許さないんだからね');
 INSERT INTO m_dictionary VALUES('vo_na_m0106_0044','スクールアイドルなんて
 浮ついたモノ、
 このヨハネには
@@ -19062,6 +19660,10 @@ INSERT INTO m_dictionary VALUES('vo_na_m0106_0063','ちょ、くすぐったい�
 INSERT INTO m_dictionary VALUES('vo_na_m0106_0064','愛しのリトルデーモンが
 誕生日を迎えたわ。
 祝杯の準備よ～！');
+INSERT INTO m_dictionary VALUES('vo_na_m0106_0069','ヨハネは使い魔にするなら猫って決めてるの。
+ってことで凛、
+ヨハネの使い魔に
+ならないかにゃん？');
 INSERT INTO m_dictionary VALUES('vo_na_m0106_0096','街中、仮装した人だらけ
 だし……今日は
 堕天使コスチュームでも、
@@ -19181,6 +19783,13 @@ INSERT INTO m_dictionary VALUES('vo_na_m0107_0039','おはぎ美味しいずら�
 ふふふ、口のとこに
 あんこ付いてるよ。
 春の頃とは逆だね♪');
+INSERT INTO m_dictionary VALUES('vo_na_m0107_0040','綺麗な夕焼けには
+見惚れちゃうずら。
+空も海も山も、この季節は
+みんなもみじ色だね');
+INSERT INTO m_dictionary VALUES('vo_na_m0107_0041','マルとあなた、
+真っ赤なほっぺたは
+お揃いだね♪');
 INSERT INTO m_dictionary VALUES('vo_na_m0107_0044','遠くの波の音を聴きながら、
 大好きな本を読んで、
 お茶を飲む。
@@ -19231,6 +19840,10 @@ INSERT INTO m_dictionary VALUES('vo_na_m0107_0064','誕生日おめでとう。
 これからも、
 あなたが幸せな人生を
 送ってゆけますように');
+INSERT INTO m_dictionary VALUES('vo_na_m0107_0069','凛ちゃん、
+誕生日おめでとう。
+マルも凛ちゃんみたいに
+身軽になりたいなぁ……');
 INSERT INTO m_dictionary VALUES('vo_na_m0107_0096','はろうぃんは
 かぼちゃのお菓子をたくさん
 食べられる日ずら～♪
@@ -19349,6 +19962,14 @@ INSERT INTO m_dictionary VALUES('vo_na_m0108_0038','秋の日は……何だっ�
 INSERT INTO m_dictionary VALUES('vo_na_m0108_0039','あなたのくちびるは
 リンゴみたいに赤いのね。
 キスもリンゴ味なのかしら？');
+INSERT INTO m_dictionary VALUES('vo_na_m0108_0040','着物姿の子供達を
+見かけるようになったわ。
+お人形さんみたいで
+とってもキュートね♡');
+INSERT INTO m_dictionary VALUES('vo_na_m0108_0041','涼しくなったから
+服はもこもこふわふわ。
+抱きしめた時も
+気持ちいいわよ♡');
 INSERT INTO m_dictionary VALUES('vo_na_m0108_0044','むぅ。
 マリーが買い物しようと
 するとダイヤや果南が
@@ -19409,6 +20030,8 @@ INSERT INTO m_dictionary VALUES('vo_na_m0108_0064','ハッピーバースデー�
 ずっと待ってたわ。
 さぁ、バースデーパーティの
 始まりよ♪');
+INSERT INTO m_dictionary VALUES('vo_na_m0108_0069','ハッピーバースデー凛♪
+うふふ、ちっちゃくてお目目くりくりで、子猫みたい！');
 INSERT INTO m_dictionary VALUES('vo_na_m0108_0096','みんな……
 今まで隠してたけど実は……
 マリーは、お化けなの……！
@@ -19537,6 +20160,15 @@ INSERT INTO m_dictionary VALUES('vo_na_m0109_0039','秋はすぐ暗くなっち�
 あなたとあんまり一緒に
 いられないよ……
 寂しいなぁ');
+INSERT INTO m_dictionary VALUES('vo_na_m0109_0040','七五三の時は、
+着物が重くて苦しくて、
+お化粧も恥ずかしくて……
+早く脱ぎたい！
+って思ってたなぁ');
+INSERT INTO m_dictionary VALUES('vo_na_m0109_0041','いつもはあなたに
+あっためてもらうから、
+今日はルビィがあなたを
+あっためてあげるね');
 INSERT INTO m_dictionary VALUES('vo_na_m0109_0044','毎日ダンス練習や筋トレしてるから、ルビィの体も少しはたくましくなったかな？');
 INSERT INTO m_dictionary VALUES('vo_na_m0109_0045','可愛い衣装、
 実はあなたの前で着るの
@@ -19584,6 +20216,10 @@ INSERT INTO m_dictionary VALUES('vo_na_m0109_0063','くすぐったいよぉ！
 INSERT INTO m_dictionary VALUES('vo_na_m0109_0064','お誕生日おめでとう。
 あなたの応援が
 ルビィの勇気の源だよ');
+INSERT INTO m_dictionary VALUES('vo_na_m0109_0069','凛ちゃんみたいな優しい
+猫さんなら、
+ルビィも怖がらずに
+なでなで出来そう♪');
 INSERT INTO m_dictionary VALUES('vo_na_m0109_0096','道を歩いてたら、
 お化けの格好の子供達に
 追いかけられたよ……
@@ -19686,6 +20322,14 @@ INSERT INTO m_dictionary VALUES('vo_na_m0201_0039','秋のお月さまって
 綺麗だよね……
 夜道を照らしてくれて……
 まるであなたみたい');
+INSERT INTO m_dictionary VALUES('vo_na_m0201_0040','秋といえば……
+芋煮会の季節だよね！
+……え？
+幼稚園の時やらなかった？');
+INSERT INTO m_dictionary VALUES('vo_na_m0201_0041','さむ〜い。
+あ、そんな薄着してたら
+風邪ひいちゃうよ。
+手袋片方貸してあげるね');
 INSERT INTO m_dictionary VALUES('vo_na_m0201_0044','おはよう！
 新しい一日の始まりだね。
 今日も一緒に頑張ろうね！');
@@ -19757,6 +20401,12 @@ INSERT INTO m_dictionary VALUES('vo_na_m0201_0064','お誕生日おめでとう�
 あなたが生まれて
 私と出会ってくれたこと……
 本当に嬉しい');
+INSERT INTO m_dictionary VALUES('vo_na_m0201_0069','凛ちゃんに教えてもらった
+ラーメン、すっごく
+おいしかったよ。今日は私が
+オススメのお店を紹介するね
+お誕生日おめでと、
+凛ちゃん！');
 INSERT INTO m_dictionary VALUES('vo_na_m0201_0096','あなたから
 トリックオアトリートって
 言われたら、お菓子もあげて
@@ -19859,6 +20509,12 @@ INSERT INTO m_dictionary VALUES('vo_na_m0202_0039','舞い散る落ち葉、
 春に負けず劣らず
 カワイイですよね！
 くるくる～');
+INSERT INTO m_dictionary VALUES('vo_na_m0202_0040','教室で外を見てると、
+落ち葉がひらひら舞って……
+感傷にふけるかすみんも……
+可愛いって思うんです……');
+INSERT INTO m_dictionary VALUES('vo_na_m0202_0041','栗ご飯に対抗して、栗コッペパン作ってみたんです！
+召し上がれ☆');
 INSERT INTO m_dictionary VALUES('vo_na_m0202_0044','今日も一日始まりましたね！
 頑張っちゃいますぅ～！');
 INSERT INTO m_dictionary VALUES('vo_na_m0202_0045','先輩、かすみんがお布団から
@@ -19939,6 +20595,10 @@ INSERT INTO m_dictionary VALUES('vo_na_m0202_0064','今日お誕生日
 かすみんのこと応援して
 くれる先輩には、すてきな
 企画があったのに〜！');
+INSERT INTO m_dictionary VALUES('vo_na_m0202_0069','凛ちゃん、おめ〜！
+かすみんも凛ちゃんみたく
+語尾に個性つけたいんだけど
+なにがいいかなあ？');
 INSERT INTO m_dictionary VALUES('vo_na_m0202_0096','かすみんのために
 あるような日ですよね！　
 さっそく先輩に
@@ -20064,6 +20724,15 @@ INSERT INTO m_dictionary VALUES('vo_na_m0203_0039','先輩、甘い物
 食べにいきませんか？
 駅の近くに新しいお店が
 できたんですよ！');
+INSERT INTO m_dictionary VALUES('vo_na_m0203_0040','お芝居のアイディアを
+考えなくちゃ……
+先輩、ぜひアドバイスを
+お願いします！');
+INSERT INTO m_dictionary VALUES('vo_na_m0203_0041','うう、スポーツの秋なんて
+どなたが
+言い始めたんでしょう……
+ソフトボールは苦手なので、
+練習に付き合ってください');
 INSERT INTO m_dictionary VALUES('vo_na_m0203_0044','おはようございます。
 今日も素敵な一日に
 しましょうね');
@@ -20144,6 +20813,12 @@ INSERT INTO m_dictionary VALUES('vo_na_m0203_0064','お誕生日
 おめでとうございます、
 先輩！　これからもずっと
 ご指導、お願いしますね！');
+INSERT INTO m_dictionary VALUES('vo_na_m0203_0069','凛さん、お誕生日
+おめでとうございます。
+凛さんみたいに、私も
+運動神経がよかったらな……
+球技がどうしても
+ダメなんです……うう……');
 INSERT INTO m_dictionary VALUES('vo_na_m0203_0096','ハロウィンのコスプレ……
 ですか？　お芝居で
 いろいろな恰好をするので
@@ -20257,6 +20932,13 @@ INSERT INTO m_dictionary VALUES('vo_na_m0204_0038','秋の楽しみといえば�
 INSERT INTO m_dictionary VALUES('vo_na_m0204_0039','行楽の秋！　ってことで、
 たまには息抜きにいかない？
 うーんと、登山とか……');
+INSERT INTO m_dictionary VALUES('vo_na_m0204_0040','落ち葉で
+しおりを作ってみたの。
+すごく秋っぽいでしょう？');
+INSERT INTO m_dictionary VALUES('vo_na_m0204_0041','空気が
+澄んできたからかしら。
+星空がきれいね……
+キミも一緒に見ない？');
 INSERT INTO m_dictionary VALUES('vo_na_m0204_0044','まだねむいかもしれないけど
 元気だしていきましょうね');
 INSERT INTO m_dictionary VALUES('vo_na_m0204_0045','昨日の夜は遅かったから
@@ -20322,6 +21004,10 @@ INSERT INTO m_dictionary VALUES('vo_na_m0204_0063','全然だいじょ……
 INSERT INTO m_dictionary VALUES('vo_na_m0204_0064','おめでとう。キミの一年が
 素敵なものになりますように
 私の影響で……、ね♪');
+INSERT INTO m_dictionary VALUES('vo_na_m0204_0069','凛ちゃん、おめでと。
+いつもハッピーで溢れている
+凛ちゃんの秘訣を
+教えて欲しいわ');
 INSERT INTO m_dictionary VALUES('vo_na_m0204_0096','トリックアンドトリック！
 いたずらばかりだって？
 私はお菓子より
@@ -20429,6 +21115,14 @@ INSERT INTO m_dictionary VALUES('vo_na_m0205_0039','へへへ……焼き芋
 買ってきちゃった。
 はい、半分こ。
 これで共犯だぞ〜！');
+INSERT INTO m_dictionary VALUES('vo_na_m0205_0040','枯葉ってさみしいよね……
+あの最後の一枚が
+落ちた時……焼き芋を焼く
+たき火の準備が整う……');
+INSERT INTO m_dictionary VALUES('vo_na_m0205_0041','寒くなってきたね～。
+こういうときは、
+くっつくに限る！
+ぎゅうぎゅう！');
 INSERT INTO m_dictionary VALUES('vo_na_m0205_0044','おはよう！
 愛さんは朝からテンアゲ！
 ご一緒にテンアゲ！');
@@ -20509,6 +21203,10 @@ INSERT INTO m_dictionary VALUES('vo_na_m0205_0064','ハッピーバースデー�
 今日は最高の誕生日に
 してあげるからね！
 愛さんについてこーい！！');
+INSERT INTO m_dictionary VALUES('vo_na_m0205_0069','凛、おめー！
+よっし、これから愛さんと
+ラーメンデートだぞ！
+レッツゴー♪');
 INSERT INTO m_dictionary VALUES('vo_na_m0205_0096','トリックオアトリート！
 アタシの場合、
 トリックもトリートも
@@ -20611,6 +21309,10 @@ INSERT INTO m_dictionary VALUES('vo_na_m0206_0039','部室に羽毛布団持ち�
 せつ菜ちゃんに
 叱られたぁ……彼方ちゃんを
 慰めてください');
+INSERT INTO m_dictionary VALUES('vo_na_m0206_0040','……あの最後の葉の
+一枚が落ちた時……
+私は寝てしまう……ぐぅ');
+INSERT INTO m_dictionary VALUES('vo_na_m0206_0041','さむい……一緒に寝ようよ〜');
 INSERT INTO m_dictionary VALUES('vo_na_m0206_0044','あっ……お味噌汁のにおい
 ……おはよーございます……');
 INSERT INTO m_dictionary VALUES('vo_na_m0206_0045','二度寝しないよう
@@ -20670,6 +21372,11 @@ INSERT INTO m_dictionary VALUES('vo_na_m0206_0063','彼方ちゃん、
 INSERT INTO m_dictionary VALUES('vo_na_m0206_0064','おめでと〜！　今日は一日
 彼方ちゃんとお昼寝Day♪
 膝枕もしてあげちゃう〜');
+INSERT INTO m_dictionary VALUES('vo_na_m0206_0069','凛ちゃんおめでと〜！
+凛ちゃんみたいに、
+彼方ちゃんも
+側転とかしてみたいから
+教えてほしいな');
 INSERT INTO m_dictionary VALUES('vo_na_m0206_0096','トリックオアスリープ？
 選べないよ〜');
 INSERT INTO m_dictionary VALUES('vo_na_m0206_0104','まだ見てない
@@ -20777,6 +21484,16 @@ INSERT INTO m_dictionary VALUES('vo_na_m0207_0039','実りの秋ですね！
 スクールアイドル活動も、
 実りある時間に
 したいですね！');
+INSERT INTO m_dictionary VALUES('vo_na_m0207_0040','文化祭の裏方が
+忙しいんですが、
+みんなの楽しそうな
+姿を見ると、
+私もやる気がでます！');
+INSERT INTO m_dictionary VALUES('vo_na_m0207_0041','文化の秋ってことで、
+博物館や美術館に
+通ってみようと思うんです。
+あなたの感想も聞きたいから
+一緒にどうですか？');
 INSERT INTO m_dictionary VALUES('vo_na_m0207_0044','おはようございます！
 午前も
 頑張っていきましょうね！');
@@ -20861,6 +21578,12 @@ INSERT INTO m_dictionary VALUES('vo_na_m0207_0064','お誕生日
 おめでとうございます！
 あなたに出会えた奇跡に
 最上級の感謝を……！');
+INSERT INTO m_dictionary VALUES('vo_na_m0207_0069','凛さん、誕生日
+おめでとうございます。
+運動神経のいい凛さんと、
+今度一緒に新しい
+体力づくりのメニューを
+考えたいです！');
 INSERT INTO m_dictionary VALUES('vo_na_m0207_0096','うーん……
 お菓子もいたずらも
 なしなので……
@@ -20978,6 +21701,15 @@ INSERT INTO m_dictionary VALUES('vo_na_m0208_0039','この季節は
 わたしのそばには
 あなたがいてくれるから、
 すぐに元気になれちゃう');
+INSERT INTO m_dictionary VALUES('vo_na_m0208_0040','寒くなってきたね～。
+こういう時は
+チーズフォンデュで
+心も身体もぽっかぽか！');
+INSERT INTO m_dictionary VALUES('vo_na_m0208_0041','冬になるとね、
+刺繍をしながら
+暖かいお家で過ごすの。
+あなたにも
+何か作ってあげたいな');
 INSERT INTO m_dictionary VALUES('vo_na_m0208_0044','おはよ！
 今日も頑張ろうね！');
 INSERT INTO m_dictionary VALUES('vo_na_m0208_0045','おはよう！
@@ -21046,6 +21778,12 @@ INSERT INTO m_dictionary VALUES('vo_na_m0208_0064','ハッピーバースデー�
 ほんとは
 サプライズパーティー
 したかったのにぃ');
+INSERT INTO m_dictionary VALUES('vo_na_m0208_0069','ハッピーバースデー、
+凛ちゃん！
+なんだか
+凛ちゃんを見ていると
+妹たちのことを思い出すの。
+頭……撫でてもいい？');
 INSERT INTO m_dictionary VALUES('vo_na_m0208_0096','ハッピーハロウィーン！
 お菓子ならいっぱい
 用意してるから任せて！');
@@ -21144,6 +21882,14 @@ INSERT INTO m_dictionary VALUES('vo_na_m0209_0039','子供のころ、紅葉の�
 今、あなたと一緒に行ったら
 あの時とは違う景色が
 見えるのかな……');
+INSERT INTO m_dictionary VALUES('vo_na_m0209_0040','リスってどんぐりを埋めた
+場所を忘れるんだって。
+それが育って
+大きな樹になるの。
+ところで、私、栗まんじゅうどこにしまったっけ……？');
+INSERT INTO m_dictionary VALUES('vo_na_m0209_0041','焼き芋焼くよって
+エマさんが言ってる。
+はやく行こ');
 INSERT INTO m_dictionary VALUES('vo_na_m0209_0044','授業には、集中');
 INSERT INTO m_dictionary VALUES('vo_na_m0209_0045','なんだか眠そう……
 まぶたに目を描く？');
@@ -21208,6 +21954,11 @@ INSERT INTO m_dictionary VALUES('vo_na_m0209_0064','あの、お誕生日おめ�
 あなたに会ってから、私、
 笑顔でいること多くなった。
 だから、ありがと');
+INSERT INTO m_dictionary VALUES('vo_na_m0209_0069','凛ちゃん、
+お誕生日おめでとう。
+凛ちゃんの勢いに、
+負けないよう、
+頑張らないとって思ってるの');
 INSERT INTO m_dictionary VALUES('vo_na_m0209_0096','トリックオアトリート……！
 結構、いたずらは好き');
 INSERT INTO m_dictionary VALUES('vo_na_m0209_0104','読んでないとこ、あるよ？');

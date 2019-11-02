@@ -236,6 +236,7 @@ INSERT INTO m_dictionary VALUES('freemission_desc_300800001','ストーリー4�
 INSERT INTO m_dictionary VALUES('freemission_desc_300800002','ストーリー5章をクリアする');
 INSERT INTO m_dictionary VALUES('freemission_desc_300800003','ストーリー6章をクリアする');
 INSERT INTO m_dictionary VALUES('freemission_desc_300800004','ストーリー7章をクリアする');
+INSERT INTO m_dictionary VALUES('freemission_desc_300800005','ストーリー8章をクリアする');
 INSERT INTO m_dictionary VALUES('freemission_desc_300900001','キズナエピソードを1話視聴');
 INSERT INTO m_dictionary VALUES('freemission_desc_300900002','キズナエピソードを5話視聴');
 INSERT INTO m_dictionary VALUES('freemission_desc_300900003','キズナエピソードを10話視聴');
@@ -393,6 +394,9 @@ INSERT INTO m_dictionary VALUES('freemission_desc_301400133','「New winding roa
 INSERT INTO m_dictionary VALUES('freemission_desc_301400134','「僕らは今のなかで」を10回クリアする');
 INSERT INTO m_dictionary VALUES('freemission_desc_301400135','「僕らは今のなかで」を50回クリアする');
 INSERT INTO m_dictionary VALUES('freemission_desc_301400136','「僕らは今のなかで」を100回クリアする');
+INSERT INTO m_dictionary VALUES('freemission_desc_301400137','「HAPPY PARTY TRAIN」を10回クリアする');
+INSERT INTO m_dictionary VALUES('freemission_desc_301400138','「HAPPY PARTY TRAIN」を50回クリアする');
+INSERT INTO m_dictionary VALUES('freemission_desc_301400139','「HAPPY PARTY TRAIN」を100回クリアする');
 INSERT INTO m_dictionary VALUES('freemission_desc_301800001','Perfect Liveを10回達成');
 INSERT INTO m_dictionary VALUES('freemission_desc_301800002','Perfect Liveを50回達成');
 INSERT INTO m_dictionary VALUES('freemission_desc_301800003','Perfect Liveを100回達成');
@@ -1140,6 +1144,7 @@ INSERT INTO m_dictionary VALUES('story_main_chapter_description_4','only our shi
 INSERT INTO m_dictionary VALUES('story_main_chapter_description_5','μ&apos;sの秘密を探れ！');
 INSERT INTO m_dictionary VALUES('story_main_chapter_description_6','勝負の行方');
 INSERT INTO m_dictionary VALUES('story_main_chapter_description_7','TOKIMEKI Runners');
+INSERT INTO m_dictionary VALUES('story_main_chapter_description_8','夢への一歩を抱きしめて');
 INSERT INTO m_dictionary VALUES('story_main_chapter_title_1','第1章');
 INSERT INTO m_dictionary VALUES('story_main_chapter_title_2','第2章');
 INSERT INTO m_dictionary VALUES('story_main_chapter_title_3','第3章');
@@ -1147,6 +1152,7 @@ INSERT INTO m_dictionary VALUES('story_main_chapter_title_4','第4章');
 INSERT INTO m_dictionary VALUES('story_main_chapter_title_5','第5章');
 INSERT INTO m_dictionary VALUES('story_main_chapter_title_6','第6章');
 INSERT INTO m_dictionary VALUES('story_main_chapter_title_7','第7章');
+INSERT INTO m_dictionary VALUES('story_main_chapter_title_8','第8章');
 INSERT INTO m_dictionary VALUES('story_main_summary_1_10','　果林も加わり、虹ヶ咲学園スクールアイドル同好会としての目指すスタイルも固まった！
 　以前の部員で一番目立っていたせつ菜を探すも、誰に聞いても見つからなくて……。');
 INSERT INTO m_dictionary VALUES('story_main_summary_1_1a','　あなたはお台場にある虹ヶ咲学園に通う高校２年生。同じ学園に通う幼馴染の上原歩夢と一緒に、秋葉原に遊びに来ていた。そこで……。');
@@ -1283,6 +1289,25 @@ INSERT INTO m_dictionary VALUES('story_main_summary_7_8','　虹ヶ咲のメン�
 　みんなと一緒に、みんなの話を聞きながら、虹ヶ咲のための曲作りをする。周りのメンバーもわいわいと楽しそうだ。');
 INSERT INTO m_dictionary VALUES('story_main_summary_7_9','　出来上がった曲をみんなに聞いてもらうと、それぞれのメンバーが共感を覚え、みんなが私の歌だと感じてくれている。
 　ようやく虹ヶ咲のための曲ができたのに、スクールアイドルフェスティバル中止のメールが届いて……。');
+INSERT INTO m_dictionary VALUES('story_main_summary_8_1','　予想外に叶ってしまった、μ&apos;s・Aqours・虹ヶ咲のステージ。それはあなたが思い描いていたものより、ずっと眩しいステージだった。
+　こんなに輝いているみんなをもっとたくさんの人に見てもらいたい……そう思ったあなたが決意したこととは！？');
+INSERT INTO m_dictionary VALUES('story_main_summary_8_10','　薫子からの後押しもあり、スクールアイドルフェスティバルの実行委員会を引き継ぐことにしたメンバー。イベント運営経験のあるAqours、すでに知名度のあるμ&apos;sがいてくれることが心強い。
+　「さあこれから」というとき、部室の扉は叩かれた！');
+INSERT INTO m_dictionary VALUES('story_main_summary_8_2','　思い切ってスクールアイドルフェスティバル実行委員長に電話をかけたあなた。すると、スクールアイドルフェスティバルの中止はオリンピックのことだけが問題ではないと判り落胆するメンバー。
+　そこに週末にみんなで集まれないかと穂乃果から連絡がきた。');
+INSERT INTO m_dictionary VALUES('story_main_summary_8_3','　μ&apos;s・Aqours・虹ヶ咲が集まり新たにした思い。それはスクールアイドルフェスティバルを諦めたくないということ。
+　過去の情報を調べて出て来た「薫子」という人物に話を聞いてみようと決めたところで下校時間に。この後の時間はそれぞれで楽しむことになって……？');
+INSERT INTO m_dictionary VALUES('story_main_summary_8_4','　あなたの部屋に泊まった穂乃果と千歌。共通の話題はもちろんスクールアイドル愛！
+　話題は尽きず夜遅くまで盛り上がった。時を戻して他のメンバーたちはというと……？');
+INSERT INTO m_dictionary VALUES('story_main_summary_8_5','　ファミレスで盛り上がっている梨子・曜・ことり・海未・歩夢・かすみ。大好きだけど困った人の話題で話が尽きない。
+　一方、ダイヤたちはカラオケルームで……');
+INSERT INTO m_dictionary VALUES('story_main_summary_8_6','　「スクールアイドルソング、誰が一番知ってるか大会」を競うルビィ・花陽・にこ・せつ菜。ジャッジはダイヤと彼方。一歩も譲らぬ攻防が繰り広げられる熱いカラオケルームの外では、一体何が起こってるのか！？');
+INSERT INTO m_dictionary VALUES('story_main_summary_8_7','　善子曰く堕天使の集う街・原宿に来た凛・希・花丸・善子・愛・璃奈。アイスにクレープに本屋にシューズショップに……と街歩きを堪能している。
+　さて、お台場で遊ぶと言っていた果南たちは……？');
+INSERT INTO m_dictionary VALUES('story_main_summary_8_8','　お台場組はショッピングにボーリングに温泉とアクティブに楽しんだようだ。それぞれ思い思いに楽しい時間を過ごした土曜日に大満足なメンバー。
+　翌朝、早起きしてしまったあなたがベランダに出ると、隣の部屋の歩夢もそこにいた。');
+INSERT INTO m_dictionary VALUES('story_main_summary_8_9','　薫子からのメッセージを受け取ったあなた。
+　朝日の中、歩夢に話しているうちに新たな決意が固まる。薫子からのメッセージと共に、そのことをみんなに伝えると……？');
 INSERT INTO m_dictionary VALUES('story_main_title_1_10','もう一度、スタート！');
 INSERT INTO m_dictionary VALUES('story_main_title_1_1a','スクールアイドルを応援したい！');
 INSERT INTO m_dictionary VALUES('story_main_title_1_1b','スクールアイドルを応援したい！');
@@ -1356,6 +1381,16 @@ INSERT INTO m_dictionary VALUES('story_main_title_7_6','せつ菜の秘密');
 INSERT INTO m_dictionary VALUES('story_main_title_7_7','みんなを想って');
 INSERT INTO m_dictionary VALUES('story_main_title_7_8','一難去ってまた一難！？');
 INSERT INTO m_dictionary VALUES('story_main_title_7_9','私たちの曲');
+INSERT INTO m_dictionary VALUES('story_main_title_8_1','諦めたくない！');
+INSERT INTO m_dictionary VALUES('story_main_title_8_10','突然の訪問者');
+INSERT INTO m_dictionary VALUES('story_main_title_8_2','動き出せ！');
+INSERT INTO m_dictionary VALUES('story_main_title_8_3','私たちの共通点');
+INSERT INTO m_dictionary VALUES('story_main_title_8_4','大好きだから仕方ない');
+INSERT INTO m_dictionary VALUES('story_main_title_8_5','負けられない！');
+INSERT INTO m_dictionary VALUES('story_main_title_8_6','堕天使の集う街');
+INSERT INTO m_dictionary VALUES('story_main_title_8_7','大江戸漫遊記');
+INSERT INTO m_dictionary VALUES('story_main_title_8_8','朝日の中の決意');
+INSERT INTO m_dictionary VALUES('story_main_title_8_9','新たな一歩');
 INSERT INTO m_dictionary VALUES('vo_sys_m0001_005','ファイトだよっ！');
 INSERT INTO m_dictionary VALUES('vo_sys_m0001_006','頑張ろうね！');
 INSERT INTO m_dictionary VALUES('vo_sys_m0001_007','みんな、いっくよー！');
