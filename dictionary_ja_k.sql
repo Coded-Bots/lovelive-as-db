@@ -1,12 +1,3 @@
--- The values of various per-database settings
-PRAGMA page_size=1024;
--- PRAGMA encoding='UTF-8';
--- PRAGMA auto_vacuum=NONE;
--- PRAGMA max_page_count=1073741823;
-
-BEGIN TRANSACTION;
-
--- Table  m_dictionary
 DROP TABLE IF EXISTS m_dictionary;
 CREATE TABLE m_dictionary(
   id TEXT NOT NULL,
@@ -2617,8 +2608,12 @@ INSERT INTO m_dictionary VALUES('card_name_300033001','こっち手伝ってく�
 INSERT INTO m_dictionary VALUES('card_name_300033001_voice','【UR】[こっち手伝ってくれる？]');
 INSERT INTO m_dictionary VALUES('card_name_300043001','一射入魂');
 INSERT INTO m_dictionary VALUES('card_name_300043001_voice','【UR】[一射入魂]');
+INSERT INTO m_dictionary VALUES('card_name_300052001','お布団気持ちいいにゃ～♪♪');
+INSERT INTO m_dictionary VALUES('card_name_300052001_voice','【SR】[お布団気持ちいいにゃ～♪♪]');
 INSERT INTO m_dictionary VALUES('card_name_300062001','あまりジロジロ見ないでくれる？');
 INSERT INTO m_dictionary VALUES('card_name_300062001_voice','【SR】[あまりジロジロ見ないでくれる？]');
+INSERT INTO m_dictionary VALUES('card_name_301033001','ちゃんと繋がれたんだから');
+INSERT INTO m_dictionary VALUES('card_name_301033001_voice','【UR】[ちゃんと繋がれたんだから]');
 INSERT INTO m_dictionary VALUES('card_name_301043001','次のポーズはどのように？');
 INSERT INTO m_dictionary VALUES('card_name_301043001_voice','【UR】[次のポーズはどのように？]');
 INSERT INTO m_dictionary VALUES('card_name_301052001','つまみ食いしちゃダメだよ？');
@@ -2631,16 +2626,22 @@ INSERT INTO m_dictionary VALUES('card_name_302032001','虹ヶ咲のジュリエ�
 INSERT INTO m_dictionary VALUES('card_name_302032001_voice','【SR】[虹ヶ咲のジュリエット]');
 INSERT INTO m_dictionary VALUES('card_name_400013001','今日は目一杯楽しもー！');
 INSERT INTO m_dictionary VALUES('card_name_400013001_voice','【UR】[今日は目一杯楽しもー！]');
+INSERT INTO m_dictionary VALUES('card_name_400083001','一歩きりで終わらせないように');
+INSERT INTO m_dictionary VALUES('card_name_400083001_voice','【UR】[一歩きりで終わらせないように]');
 INSERT INTO m_dictionary VALUES('card_name_400092001','誰が七五三よ！');
 INSERT INTO m_dictionary VALUES('card_name_400092001_voice','【SR】[誰が七五三よ！]');
 INSERT INTO m_dictionary VALUES('card_name_401012001','沼津の名産');
 INSERT INTO m_dictionary VALUES('card_name_401012001_voice','【SR】[沼津の名産]');
+INSERT INTO m_dictionary VALUES('card_name_401082001','これが下町マジック……！');
+INSERT INTO m_dictionary VALUES('card_name_401082001_voice','【SR】[これが下町マジック……！]');
 INSERT INTO m_dictionary VALUES('card_name_401093001','こ、こう、ですか？');
 INSERT INTO m_dictionary VALUES('card_name_401093001_voice','【UR】[こ、こう、ですか？]');
 INSERT INTO m_dictionary VALUES('card_name_402012001','みんな喜んでくれるかな？');
 INSERT INTO m_dictionary VALUES('card_name_402012001_voice','【SR】[みんな喜んでくれるかな？]');
 INSERT INTO m_dictionary VALUES('card_name_402022001','かすみんに死角はないですよ～！');
 INSERT INTO m_dictionary VALUES('card_name_402022001_voice','【SR】[かすみんに死角はないですよ～！]');
+INSERT INTO m_dictionary VALUES('card_name_402052001','特別なお出かけ');
+INSERT INTO m_dictionary VALUES('card_name_402052001_voice','【SR】[特別なお出かけ]');
 INSERT INTO m_dictionary VALUES('card_name_awaken_100011001','笑顔で元気いっぱいの女の子');
 INSERT INTO m_dictionary VALUES('card_name_awaken_100011001_voice','【R】[笑顔で元気いっぱいの女の子]');
 INSERT INTO m_dictionary VALUES('card_name_awaken_100011002','飽くなき挑戦');
@@ -2845,8 +2846,12 @@ INSERT INTO m_dictionary VALUES('card_name_awaken_300033001','welcome to the par
 INSERT INTO m_dictionary VALUES('card_name_awaken_300033001_voice','【UR】[welcome to the party]');
 INSERT INTO m_dictionary VALUES('card_name_awaken_300043001','ブルーアモール');
 INSERT INTO m_dictionary VALUES('card_name_awaken_300043001_voice','【UR】[ブルーアモール]');
+INSERT INTO m_dictionary VALUES('card_name_awaken_300052001','Snow halation');
+INSERT INTO m_dictionary VALUES('card_name_awaken_300052001_voice','【SR】[Snow halation]');
 INSERT INTO m_dictionary VALUES('card_name_awaken_300062001','Snow halation');
 INSERT INTO m_dictionary VALUES('card_name_awaken_300062001_voice','【SR】[Snow halation]');
+INSERT INTO m_dictionary VALUES('card_name_awaken_301033001','ブルーレーヴ');
+INSERT INTO m_dictionary VALUES('card_name_awaken_301033001_voice','【UR】[ブルーレーヴ]');
 INSERT INTO m_dictionary VALUES('card_name_awaken_301043001','ラピヌ・ミミ');
 INSERT INTO m_dictionary VALUES('card_name_awaken_301043001_voice','【UR】[ラピヌ・ミミ]');
 INSERT INTO m_dictionary VALUES('card_name_awaken_301052001','君のこころは輝いてるかい？');
@@ -2859,16 +2864,22 @@ INSERT INTO m_dictionary VALUES('card_name_awaken_302032001','わくわくアニ
 INSERT INTO m_dictionary VALUES('card_name_awaken_302032001_voice','【SR】[わくわくアニマル]');
 INSERT INTO m_dictionary VALUES('card_name_awaken_400013001','welcome to the party');
 INSERT INTO m_dictionary VALUES('card_name_awaken_400013001_voice','【UR】[welcome to the party]');
+INSERT INTO m_dictionary VALUES('card_name_awaken_400083001','フルールレーヴ');
+INSERT INTO m_dictionary VALUES('card_name_awaken_400083001_voice','【UR】[フルールレーヴ]');
 INSERT INTO m_dictionary VALUES('card_name_awaken_400092001','Snow halation');
 INSERT INTO m_dictionary VALUES('card_name_awaken_400092001_voice','【SR】[Snow halation]');
 INSERT INTO m_dictionary VALUES('card_name_awaken_401012001','君のこころは輝いてるかい？');
 INSERT INTO m_dictionary VALUES('card_name_awaken_401012001_voice','【SR】[君のこころは輝いてるかい？]');
+INSERT INTO m_dictionary VALUES('card_name_awaken_401082001','君のこころは輝いてるかい？');
+INSERT INTO m_dictionary VALUES('card_name_awaken_401082001_voice','【SR】[君のこころは輝いてるかい？]');
 INSERT INTO m_dictionary VALUES('card_name_awaken_401093001','ラピヌ・ミミ');
 INSERT INTO m_dictionary VALUES('card_name_awaken_401093001_voice','【UR】[ラピヌ・ミミ]');
 INSERT INTO m_dictionary VALUES('card_name_awaken_402012001','わくわくアニマル');
 INSERT INTO m_dictionary VALUES('card_name_awaken_402012001_voice','【SR】[わくわくアニマル]');
 INSERT INTO m_dictionary VALUES('card_name_awaken_402022001','わくわくアニマル');
 INSERT INTO m_dictionary VALUES('card_name_awaken_402022001_voice','【SR】[わくわくアニマル]');
+INSERT INTO m_dictionary VALUES('card_name_awaken_402052001','わくわくアニマル');
+INSERT INTO m_dictionary VALUES('card_name_awaken_402052001_voice','【SR】[わくわくアニマル]');
 INSERT INTO m_dictionary VALUES('card_name_hiragana_100011001','おとのきざかがくいんにねんせい');
 INSERT INTO m_dictionary VALUES('card_name_hiragana_100011002','みゅーずのりーだー');
 INSERT INTO m_dictionary VALUES('card_name_hiragana_100012001','ことりちゃんとたべるぱん');
@@ -2971,18 +2982,23 @@ INSERT INTO m_dictionary VALUES('card_name_hiragana_102092001','はいちーず'
 INSERT INTO m_dictionary VALUES('card_name_hiragana_300022001','すこしとなりでまっててくれる');
 INSERT INTO m_dictionary VALUES('card_name_hiragana_300033001','こっちてつだってくれる');
 INSERT INTO m_dictionary VALUES('card_name_hiragana_300043001','いちしゃじっこん');
+INSERT INTO m_dictionary VALUES('card_name_hiragana_300052001','おふとんきもちいいにゃ～おんぷおんぷ');
 INSERT INTO m_dictionary VALUES('card_name_hiragana_300062001','あまりじろじろみないでくれる');
+INSERT INTO m_dictionary VALUES('card_name_hiragana_301033001','ちゃんとつながれたんだから');
 INSERT INTO m_dictionary VALUES('card_name_hiragana_301043001','つぎのぽーずはどのように');
 INSERT INTO m_dictionary VALUES('card_name_hiragana_301052001','つまみぐいしちゃだめだよ');
 INSERT INTO m_dictionary VALUES('card_name_hiragana_301063001','だてんしこうりんっ');
 INSERT INTO m_dictionary VALUES('card_name_hiragana_301072001','まるのだいすきなほん');
 INSERT INTO m_dictionary VALUES('card_name_hiragana_302032001','にじがざきのじゅりえっと');
 INSERT INTO m_dictionary VALUES('card_name_hiragana_400013001','きょうはめいっぱいたのしもー');
+INSERT INTO m_dictionary VALUES('card_name_hiragana_400083001','いっぽきりでおわらせないように');
 INSERT INTO m_dictionary VALUES('card_name_hiragana_400092001','だれがしちごさんよ');
 INSERT INTO m_dictionary VALUES('card_name_hiragana_401012001','ぬまづのめいさん');
+INSERT INTO m_dictionary VALUES('card_name_hiragana_401082001','これがしたまちまじっく');
 INSERT INTO m_dictionary VALUES('card_name_hiragana_401093001','ここうですか');
 INSERT INTO m_dictionary VALUES('card_name_hiragana_402012001','みんなよろこんでくれるかな');
 INSERT INTO m_dictionary VALUES('card_name_hiragana_402022001','かすみんにしかくはないですよ～');
+INSERT INTO m_dictionary VALUES('card_name_hiragana_402052001','とくべつなおでかけ');
 INSERT INTO m_dictionary VALUES('card_name_hiragana_awaken_100011001','えがおでげんきいっぱいのおんなのこ');
 INSERT INTO m_dictionary VALUES('card_name_hiragana_awaken_100011002','あくなきちょうせん');
 INSERT INTO m_dictionary VALUES('card_name_hiragana_awaken_100012001','ふれっしゅふるーつぱーらー');
@@ -3085,18 +3101,23 @@ INSERT INTO m_dictionary VALUES('card_name_hiragana_awaken_102092001','どきぴ
 INSERT INTO m_dictionary VALUES('card_name_hiragana_awaken_300022001','すのーはれーしょん');
 INSERT INTO m_dictionary VALUES('card_name_hiragana_awaken_300033001','うぇるかむとぅーざぱーてぃー');
 INSERT INTO m_dictionary VALUES('card_name_hiragana_awaken_300043001','ぶるーあもーる');
+INSERT INTO m_dictionary VALUES('card_name_hiragana_awaken_300052001','すのーはれーしょん');
 INSERT INTO m_dictionary VALUES('card_name_hiragana_awaken_300062001','すのーはれーしょん');
+INSERT INTO m_dictionary VALUES('card_name_hiragana_awaken_301033001','ぶるーれーゔ');
 INSERT INTO m_dictionary VALUES('card_name_hiragana_awaken_301043001','らぴぬみみ');
 INSERT INTO m_dictionary VALUES('card_name_hiragana_awaken_301052001','きみのこころはかがやいてるかい');
 INSERT INTO m_dictionary VALUES('card_name_hiragana_awaken_301063001','とわいらいとでーもん');
 INSERT INTO m_dictionary VALUES('card_name_hiragana_awaken_301072001','きみのこころはかがやいてるかい');
 INSERT INTO m_dictionary VALUES('card_name_hiragana_awaken_302032001','わくわくあにまる');
 INSERT INTO m_dictionary VALUES('card_name_hiragana_awaken_400013001','うぇるかむとぅーざぱーてぃー');
+INSERT INTO m_dictionary VALUES('card_name_hiragana_awaken_400083001','ふるーるれーゔ');
 INSERT INTO m_dictionary VALUES('card_name_hiragana_awaken_400092001','すのーはれーしょん');
 INSERT INTO m_dictionary VALUES('card_name_hiragana_awaken_401012001','きみのこころはかがやいてるかい');
+INSERT INTO m_dictionary VALUES('card_name_hiragana_awaken_401082001','きみのこころはかがやいてるかい');
 INSERT INTO m_dictionary VALUES('card_name_hiragana_awaken_401093001','らぴぬみみ');
 INSERT INTO m_dictionary VALUES('card_name_hiragana_awaken_402012001','わくわくあにまる');
 INSERT INTO m_dictionary VALUES('card_name_hiragana_awaken_402022001','わくわくあにまる');
+INSERT INTO m_dictionary VALUES('card_name_hiragana_awaken_402052001','わくわくあにまる');
 INSERT INTO m_dictionary VALUES('card_rarity_rare','R');
 INSERT INTO m_dictionary VALUES('card_rarity_s_rare','SR');
 INSERT INTO m_dictionary VALUES('card_rarity_u_rare','UR');
@@ -4612,11 +4633,15 @@ INSERT INTO m_dictionary VALUES('gacha_vo_ca_1010830016','もっと近づかな�
 INSERT INTO m_dictionary VALUES('gacha_vo_ca_1010930016','えへへ……美味しくって……幸せ～♡');
 INSERT INTO m_dictionary VALUES('gacha_vo_ca_3000330016','やったぁ〜♪');
 INSERT INTO m_dictionary VALUES('gacha_vo_ca_3000430016','気持ちを落ち着かせて、1点に集中……');
+INSERT INTO m_dictionary VALUES('gacha_vo_ca_3010330016','私たちの心はちゃんと繋がってる。
+ね、そうでしょ？');
 INSERT INTO m_dictionary VALUES('gacha_vo_ca_3010430016','日舞で着慣れているとはいえ
 和装は身が引き締まりますわ');
 INSERT INTO m_dictionary VALUES('gacha_vo_ca_3010630016','衣装で堕天っぽさ3割増し？　失礼ね！
 どんな格好だろうとヨハネは立派な堕天使よ！');
 INSERT INTO m_dictionary VALUES('gacha_vo_ca_4000130016','ねえねえ、あなたのこと、もっと教えてよ！');
+INSERT INTO m_dictionary VALUES('gacha_vo_ca_4000830016','毎日みんなと過ごしてきた、大切な思い出。
+一つ一つが宝物なんだ。');
 INSERT INTO m_dictionary VALUES('gacha_vo_ca_4010930016','こんな素敵な着物を着られるなんて、
 とっても嬉しいな。 似合ってるかなあ？');
 INSERT INTO m_dictionary VALUES('giftbox_l_p101','コース購入完了');
@@ -5598,6 +5623,8 @@ INSERT INTO m_dictionary VALUES('item_desc_1500','レアアイテムのドロッ
 課題の達成時に獲得できます');
 INSERT INTO m_dictionary VALUES('item_desc_15001','獲得できるイベントポイントを増やすアイテム
 課題の達成時に獲得できます');
+INSERT INTO m_dictionary VALUES('item_desc_15002','獲得できるイベントポイントを増やすアイテム
+課題の達成時に獲得できます');
 INSERT INTO m_dictionary VALUES('item_desc_16001','ライブをスキップできるアイテム
 課題の達成時に獲得できます');
 INSERT INTO m_dictionary VALUES('item_desc_1700','特訓でスクールアイドルの覚醒に使用するアイテム
@@ -5711,6 +5738,7 @@ INSERT INTO m_dictionary VALUES('item_name_14002','スクールアイドルメ�
 INSERT INTO m_dictionary VALUES('item_name_14003','スクールアイドルメダル★3');
 INSERT INTO m_dictionary VALUES('item_name_1500','幸運のおまもり★1');
 INSERT INTO m_dictionary VALUES('item_name_15001','おうえんブレード');
+INSERT INTO m_dictionary VALUES('item_name_15002','観光ガイドブック');
 INSERT INTO m_dictionary VALUES('item_name_16001','スキップチケット');
 INSERT INTO m_dictionary VALUES('item_name_1700','スクールアイドルの証');
 INSERT INTO m_dictionary VALUES('item_name_1800','スクールアイドルの輝き');
@@ -6277,6 +6305,12 @@ INSERT INTO m_dictionary VALUES('live_detail_hint_20016201','【攻略ヒント�
 注意しよう。');
 INSERT INTO m_dictionary VALUES('live_detail_hint_20016301','【攻略ヒント】アピールチャンス中に、スタミナダメージの効果を持つノーツがあるのでスタミナダメージに
 注意しよう。最後のアピールチャンスでSP特技を2回発動できるようゲージをためておこう');
+INSERT INTO m_dictionary VALUES('live_detail_hint_21012101','【攻略ヒント】楽曲開始直後のアピールチャンスは、4人のスクールアイドルでアピールしないといけないの
+で注意しよう。3つ目のアピールチャンスはSP特技を必要とするので、事前にSPゲージをためておこう');
+INSERT INTO m_dictionary VALUES('live_detail_hint_21012201','【攻略ヒント】4つ目のアピールチャンスはSP特技を必要とするので、事前にSPゲージをためておこう。
+ゲージの獲得量を増やすために、SPタイプのスクールアイドルを編成した作戦に切り替えてみよう');
+INSERT INTO m_dictionary VALUES('live_detail_hint_21012301','【攻略ヒント】5つ目のアピールチャンスはSP特技を必要とするので、事前にSPゲージをためておこう。
+ゲージの獲得量を増やすために、SPタイプのスクールアイドルを編成した作戦に切り替えてみよう');
 INSERT INTO m_dictionary VALUES('live_detail_hint_30001101','【攻略ヒント】操作に慣れよう！');
 INSERT INTO m_dictionary VALUES('live_detail_hint_30001102','【攻略ヒント】2回目のアピールチャンスでSP特技を発動できるように、ゲージをためておこう。ボルテー
 ジが目標に届かない時は、パラメータの高いスクールアイドルをSP特技対象スクールアイドルに編成してみよう');
@@ -7753,6 +7787,57 @@ INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_20016301_3','【特殊
 INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_20016301_4','【特殊効果】SPゲージ獲得量100%上昇
 時間：アピールチャンス中
 対象：SPタイプ');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_21012101_1','【特殊効果】SPゲージ獲得量20%上昇
+時間：アピールチャンス中
+対象：全員');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_21012101_2','【特殊効果】アピール10%増加
+時間：アピールチャンス中
+対象：ボルテージタイプ');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_21012101_3','【特殊効果】SPゲージ獲得量20%上昇
+時間：アピールチャンス中
+対象：全員');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_21012101_4','【特殊効果】アピール10%増加
+時間：アピールチャンス中
+対象：ボルテージタイプ');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_21012201_1','【特殊効果】SPゲージ獲得量20%上昇
+時間：アピールチャンス中
+対象：全員');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_21012201_2','【特殊効果】アピール10%増加
+時間：アピールチャンス中
+対象：ボルテージタイプ');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_21012201_3','【特殊効果】特技発動率10%上昇
+時間：アピールチャンス中
+対象：スキルタイプ');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_21012201_4','【特殊効果】なし
+
+');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_21012201_5','【特殊効果】SPゲージ獲得量20%上昇
+時間：アピールチャンス中
+対象：全員');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_21012201_6','【特殊効果】アピール10%増加
+時間：アピールチャンス中
+対象：ボルテージタイプ');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_21012301_1','【特殊効果】SPゲージ獲得量20%上昇
+時間：アピールチャンス中
+対象：全員');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_21012301_2','【特殊効果】アピール20%増加
+時間：アピールチャンス中
+対象：ボルテージタイプ');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_21012301_3','【特殊効果】SPゲージ獲得量20%上昇
+時間：アピールチャンス中
+対象：全員');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_21012301_4','【特殊効果】特技発動率10%上昇
+時間：アピールチャンス中
+対象：スキルタイプ');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_21012301_5','【特殊効果】なし
+
+');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_21012301_6','【特殊効果】特技発動率10%上昇
+時間：アピールチャンス中
+対象：スキルタイプ');
+INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_21012301_7','【特殊効果】アピール20%増加
+時間：アピールチャンス中
+対象：ボルテージタイプ');
 INSERT INTO m_dictionary VALUES('live_detail_wave_gimmick_30000000','【特殊効果】なし
 
 ');
@@ -8448,10 +8533,10 @@ INSERT INTO m_dictionary VALUES('live_detail_wave_mission_11001101_3','合計850
 INSERT INTO m_dictionary VALUES('live_detail_wave_mission_11001201_1','合計82900ボルテージを獲得する');
 INSERT INTO m_dictionary VALUES('live_detail_wave_mission_11001201_2','合計82900ボルテージを獲得する');
 INSERT INTO m_dictionary VALUES('live_detail_wave_mission_11001201_3','合計92400ボルテージを獲得する');
-INSERT INTO m_dictionary VALUES('live_detail_wave_mission_11001301_1','合計154,200ボルテージを獲得する');
-INSERT INTO m_dictionary VALUES('live_detail_wave_mission_11001301_2','合計137,900ボルテージを獲得する');
-INSERT INTO m_dictionary VALUES('live_detail_wave_mission_11001301_3','合計162,300ボルテージを獲得する');
-INSERT INTO m_dictionary VALUES('live_detail_wave_mission_11001301_4','合計194,900ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_11001301_1','合計154200ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_11001301_2','合計137900ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_11001301_3','合計162300ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_11001301_4','合計194900ボルテージを獲得する');
 INSERT INTO m_dictionary VALUES('live_detail_wave_mission_11002101_1','SP特技で合計6000ボルテージを獲得する');
 INSERT INTO m_dictionary VALUES('live_detail_wave_mission_11002101_2','SP特技で合計6000ボルテージを獲得する');
 INSERT INTO m_dictionary VALUES('live_detail_wave_mission_11002101_3','合計14000ボルテージを獲得する');
@@ -8753,6 +8838,23 @@ INSERT INTO m_dictionary VALUES('live_detail_wave_mission_20016301_1','合計860
 INSERT INTO m_dictionary VALUES('live_detail_wave_mission_20016301_2','合計179000ボルテージを獲得する');
 INSERT INTO m_dictionary VALUES('live_detail_wave_mission_20016301_3','合計191000ボルテージを獲得する');
 INSERT INTO m_dictionary VALUES('live_detail_wave_mission_20016301_4','SP特技で合計62000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_21012101_1','4人のスクールアイドルでアピールする');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_21012101_2','合計16000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_21012101_3','SP特技で合計6800ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_21012101_4','合計8000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_21012201_1','合計13000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_21012201_2','合計40000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_21012201_3','6人のスクールアイドルでアピールする');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_21012201_4','SP特技で合計15000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_21012201_5','合計22000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_21012201_6','合計41000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_21012301_1','合計62000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_21012301_2','合計103000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_21012301_3','合計101000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_21012301_4','合計24000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_21012301_5','SP特技で合計30000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_21012301_6','合計49000ボルテージを獲得する');
+INSERT INTO m_dictionary VALUES('live_detail_wave_mission_21012301_7','合計93000ボルテージを獲得する');
 INSERT INTO m_dictionary VALUES('live_detail_wave_mission_30001102_1','合計7000ボルテージを獲得する');
 INSERT INTO m_dictionary VALUES('live_detail_wave_mission_30001102_2','SP特技で合計8400ボルテージを獲得する');
 INSERT INTO m_dictionary VALUES('live_detail_wave_mission_30001103_1','SP特技で合計12000ボルテージを獲得する');
@@ -9136,9 +9238,9 @@ INSERT INTO m_dictionary VALUES('live_friend_select_ls_210','ランク{0}');
 INSERT INTO m_dictionary VALUES('live_friend_select_ls_211','ストーリー');
 INSERT INTO m_dictionary VALUES('live_friend_select_ls_212','<img src="Common/InlineImage/Icon/tex_inlineimage_item_16001_s" width="28px" height="28px" offsety="-8px" />-{0}');
 INSERT INTO m_dictionary VALUES('live_friend_select_ls_p201','獲得イベントポイント{0}倍');
-INSERT INTO m_dictionary VALUES('live_friend_select_ls_p202','おうえんブレードとスキップチケットを使用して
+INSERT INTO m_dictionary VALUES('live_friend_select_ls_p202','観光ガイドブックとスキップチケットを使用して
 ライブを開始しますか？');
-INSERT INTO m_dictionary VALUES('live_friend_select_ls_p204','おうえんブレードを使用して
+INSERT INTO m_dictionary VALUES('live_friend_select_ls_p204','観光ガイドブックを使用して
 ライブを開始しますか？');
 INSERT INTO m_dictionary VALUES('live_friend_select_ls_p205','<img src="Common/InlineImage/Icon/tex_inlineimage_item_16001_s" width="28px" height="28px" offsety="-8px" />-{0}');
 INSERT INTO m_dictionary VALUES('live_mission_clear_count','{0}回以上クリア');
@@ -9654,6 +9756,40 @@ INSERT INTO m_dictionary VALUES('m_dic_emblem_description_13000231','「和装�
 INSERT INTO m_dictionary VALUES('m_dic_emblem_description_13000232','「和装モデルはお任せあれ！」ランキングTOP90000の称号');
 INSERT INTO m_dictionary VALUES('m_dic_emblem_description_13000233','「和装モデルはお任せあれ！」ランキングTOP100000の称号');
 INSERT INTO m_dictionary VALUES('m_dic_emblem_description_13000298','「和装モデルはお任せあれ！」参加賞');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_description_13000301','「下町巡り珍道中」ランキング1位の称号');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_description_13000302','「下町巡り珍道中」ランキング2位の称号');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_description_13000303','「下町巡り珍道中」ランキング3位の称号');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_description_13000304','「下町巡り珍道中」ランキング4位の称号');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_description_13000305','「下町巡り珍道中」ランキング5位の称号');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_description_13000306','「下町巡り珍道中」ランキング6位の称号');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_description_13000307','「下町巡り珍道中」ランキング7位の称号');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_description_13000308','「下町巡り珍道中」ランキング8位の称号');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_description_13000309','「下町巡り珍道中」ランキング9位の称号');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_description_13000310','「下町巡り珍道中」ランキング10位の称号');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_description_13000311','「下町巡り珍道中」ランキングTOP50の称号');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_description_13000312','「下町巡り珍道中」ランキングTOP100の称号');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_description_13000313','「下町巡り珍道中」ランキングTOP300の称号');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_description_13000314','「下町巡り珍道中」ランキングTOP500の称号');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_description_13000315','「下町巡り珍道中」ランキングTOP1000の称号');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_description_13000316','「下町巡り珍道中」ランキングTOP2000の称号');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_description_13000317','「下町巡り珍道中」ランキングTOP3000の称号');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_description_13000318','「下町巡り珍道中」ランキングTOP4000の称号');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_description_13000319','「下町巡り珍道中」ランキングTOP5000の称号');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_description_13000320','「下町巡り珍道中」ランキングTOP6000の称号');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_description_13000321','「下町巡り珍道中」ランキングTOP7000の称号');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_description_13000322','「下町巡り珍道中」ランキングTOP8000の称号');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_description_13000323','「下町巡り珍道中」ランキングTOP9000の称号');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_description_13000324','「下町巡り珍道中」ランキングTOP10000の称号');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_description_13000325','「下町巡り珍道中」ランキングTOP20000の称号');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_description_13000326','「下町巡り珍道中」ランキングTOP30000の称号');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_description_13000327','「下町巡り珍道中」ランキングTOP40000の称号');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_description_13000328','「下町巡り珍道中」ランキングTOP50000の称号');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_description_13000329','「下町巡り珍道中」ランキングTOP60000の称号');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_description_13000330','「下町巡り珍道中」ランキングTOP70000の称号');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_description_13000331','「下町巡り珍道中」ランキングTOP80000の称号');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_description_13000332','「下町巡り珍道中」ランキングTOP90000の称号');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_description_13000333','「下町巡り珍道中」ランキングTOP100000の称号');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_description_13000398','「下町巡り珍道中」参加賞');
 INSERT INTO m_dictionary VALUES('m_dic_emblem_name_10100011','君のこころは輝いてるかい？');
 INSERT INTO m_dictionary VALUES('m_dic_emblem_name_10100021','それは僕たちの奇跡');
 INSERT INTO m_dictionary VALUES('m_dic_emblem_name_10100031','Snow halation');
@@ -9875,6 +10011,40 @@ INSERT INTO m_dictionary VALUES('m_dic_emblem_name_13000231','和装モデルは
 INSERT INTO m_dictionary VALUES('m_dic_emblem_name_13000232','和装モデルはお任せあれ！TOP90000');
 INSERT INTO m_dictionary VALUES('m_dic_emblem_name_13000233','和装モデルはお任せあれ！TOP100000');
 INSERT INTO m_dictionary VALUES('m_dic_emblem_name_13000298','和装モデルはお任せあれ！参加賞');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_name_13000301','下町巡り珍道中1位');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_name_13000302','下町巡り珍道中2位');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_name_13000303','下町巡り珍道中3位');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_name_13000304','下町巡り珍道中4位');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_name_13000305','下町巡り珍道中5位');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_name_13000306','下町巡り珍道中6位');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_name_13000307','下町巡り珍道中7位');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_name_13000308','下町巡り珍道中8位');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_name_13000309','下町巡り珍道中9位');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_name_13000310','下町巡り珍道中10位');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_name_13000311','下町巡り珍道中TOP50');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_name_13000312','下町巡り珍道中TOP100');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_name_13000313','下町巡り珍道中TOP300');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_name_13000314','下町巡り珍道中TOP500');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_name_13000315','下町巡り珍道中TOP1000');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_name_13000316','下町巡り珍道中TOP2000');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_name_13000317','下町巡り珍道中TOP3000');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_name_13000318','下町巡り珍道中TOP4000');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_name_13000319','下町巡り珍道中TOP5000');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_name_13000320','下町巡り珍道中TOP6000');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_name_13000321','下町巡り珍道中TOP7000');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_name_13000322','下町巡り珍道中TOP8000');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_name_13000323','下町巡り珍道中TOP9000');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_name_13000324','下町巡り珍道中TOP10000');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_name_13000325','下町巡り珍道中TOP20000');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_name_13000326','下町巡り珍道中TOP30000');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_name_13000327','下町巡り珍道中TOP40000');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_name_13000328','下町巡り珍道中TOP50000');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_name_13000329','下町巡り珍道中TOP60000');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_name_13000330','下町巡り珍道中TOP70000');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_name_13000331','下町巡り珍道中TOP80000');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_name_13000332','下町巡り珍道中TOP90000');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_name_13000333','下町巡り珍道中TOP100000');
+INSERT INTO m_dictionary VALUES('m_dic_emblem_name_13000398','下町巡り珍道中参加賞');
 INSERT INTO m_dictionary VALUES('m_dic_expect_year_datetime','{0:M月d日 HH:mm}');
 INSERT INTO m_dictionary VALUES('m_dic_group_name_aqours','Aqours');
 INSERT INTO m_dictionary VALUES('m_dic_group_name_azalea','AZALEA');
@@ -10218,6 +10388,8 @@ INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_1005032','衣装「フレ
 INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_1005033','衣装「フレッシュフルーツパーラー」2');
 INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_1005042','衣装「月光の踊り子」1');
 INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_1005043','衣装「月光の踊り子」2');
+INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_1005052','衣装「Snow halation」１');
+INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_1005053','衣装「Snow halation」２');
 INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_1006032','衣装「フレッシュフルーツパーラー」1');
 INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_1006033','衣装「フレッシュフルーツパーラー」2');
 INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_1006042','衣装「スカーレットロワイヤル」1');
@@ -10232,6 +10404,8 @@ INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_1008032','衣装「フレ
 INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_1008033','衣装「フレッシュフルーツパーラー」2');
 INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_1008042','衣装「チェリーフラッター」1');
 INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_1008043','衣装「チェリーフラッター」2');
+INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_1008052','衣装「フルールレーヴ」１');
+INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_1008053','衣装「フルールレーヴ」２');
 INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_1009032','衣装「フレッシュフルーツパーラー」1');
 INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_1009033','衣装「フレッシュフルーツパーラー」2');
 INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_1009042','衣装「My Sweet Devil」1');
@@ -10260,6 +10434,8 @@ INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_1103032','衣装「ハピ
 INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_1103033','衣装「ハピネスチアガール」2');
 INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_1103042','衣装「海神の巫女」1');
 INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_1103043','衣装「海神の巫女」2');
+INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_1103052','衣装「ブルーレーヴ」１');
+INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_1103053','衣装「ブルーレーヴ」２');
 INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_1104032','衣装「ハピネスチアガール」1');
 INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_1104033','衣装「ハピネスチアガール」2');
 INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_1104042','衣装「巫女舞ステップ」1');
@@ -10288,6 +10464,8 @@ INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_1108032','衣装「ハピ
 INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_1108033','衣装「ハピネスチアガール」2');
 INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_1108042','衣装「Bitter &amp; Sweet」1');
 INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_1108043','衣装「Bitter &amp; Sweet」2');
+INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_1108052','衣装「君のこころは輝いてるかい？」１');
+INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_1108053','衣装「君のこころは輝いてるかい？」２');
 INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_1109032','衣装「ハピネスチアガール」1');
 INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_1109033','衣装「ハピネスチアガール」2');
 INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_1109042','衣装「ファンタスティックピエロ」1');
@@ -10321,6 +10499,8 @@ INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_1204032','衣装「Starli
 INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_1204033','衣装「Starlight」2');
 INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_1205032','衣装「めっちゃGoing!!」1');
 INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_1205033','衣装「めっちゃGoing!!」2');
+INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_1205042','衣装「わくわくアニマル」１');
+INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_1205043','衣装「わくわくアニマル」２');
 INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_1206032','衣装「眠れる森に行きたいな」1');
 INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_1206033','衣装「眠れる森に行きたいな」2');
 INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_1207032','衣装「CHASE！」1');
@@ -10404,6 +10584,7 @@ INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_66','誕生日');
 INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_69','誕生日');
 INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_7','キズナLv.30');
 INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_8','キズナLv.40');
+INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_88','誕生日');
 INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_9','キズナLv.50');
 INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_92','記念日');
 INSERT INTO m_dictionary VALUES('m_dic_navi_voice_name_93','記念日');
@@ -10600,6 +10781,9 @@ INSERT INTO m_dictionary VALUES('m_gacha_point_icon_text_2004_32','<:icon_quartz
 INSERT INTO m_dictionary VALUES('m_gacha_point_icon_text_2005','<:icon_quartz_2005/>');
 INSERT INTO m_dictionary VALUES('m_gacha_point_icon_text_2005_28','<:icon_quartz_2005_28/>');
 INSERT INTO m_dictionary VALUES('m_gacha_point_icon_text_2005_32','<:icon_quartz_2005_32/>');
+INSERT INTO m_dictionary VALUES('m_gacha_point_icon_text_2006','<:icon_quartz_2006/>');
+INSERT INTO m_dictionary VALUES('m_gacha_point_icon_text_2006_28','<:icon_quartz_2006_28/>');
+INSERT INTO m_dictionary VALUES('m_gacha_point_icon_text_2006_32','<:icon_quartz_2006_32/>');
 INSERT INTO m_dictionary VALUES('m_gacha_retry_out_of_term_message','リトライ期間外です');
 INSERT INTO m_dictionary VALUES('m_gacha_retry_out_of_term_title','注意');
 INSERT INTO m_dictionary VALUES('m_gacha_ticket_icon_text_9000','<:icon_gacha_ticket_9000/>');
@@ -15386,6 +15570,8 @@ INSERT INTO m_dictionary VALUES('song_copyright_so1007','作詞：畑 亜貴
 INSERT INTO m_dictionary VALUES('song_copyright_so1008','作詞：畑 亜貴
 作曲：渡辺拓也
 編曲：EFFY');
+INSERT INTO m_dictionary VALUES('song_copyright_so1012','作詞：畑 亜貴
+作曲・編曲：藤井亮太、小高光太郎');
 INSERT INTO m_dictionary VALUES('song_copyright_so1014','作詞：畑 亜貴
 作曲・編曲：EFFY(FirstCall)');
 INSERT INTO m_dictionary VALUES('song_copyright_so1059','作詞：畑 亜貴
@@ -15447,6 +15633,7 @@ INSERT INTO m_dictionary VALUES('song_name_so1005','トリコリコPLEASE!!');
 INSERT INTO m_dictionary VALUES('song_name_so1006','Strawberry Trapper');
 INSERT INTO m_dictionary VALUES('song_name_so1007','未来の僕らは知ってるよ');
 INSERT INTO m_dictionary VALUES('song_name_so1008','HAPPY PARTY TRAIN');
+INSERT INTO m_dictionary VALUES('song_name_so1012','スリリング・ワンウェイ');
 INSERT INTO m_dictionary VALUES('song_name_so1014','KOKORO Magic “A to Z”');
 INSERT INTO m_dictionary VALUES('song_name_so1059','One More Sunshine Story');
 INSERT INTO m_dictionary VALUES('song_name_so1062','おやすみなさん！');
@@ -15491,6 +15678,7 @@ INSERT INTO m_dictionary VALUES('song_pronunciation_so1005','とりこりこぷ�
 INSERT INTO m_dictionary VALUES('song_pronunciation_so1006','すとろべりーとらっぱー');
 INSERT INTO m_dictionary VALUES('song_pronunciation_so1007','みらいのぼくらはしってるよ');
 INSERT INTO m_dictionary VALUES('song_pronunciation_so1008','はっぴーぱーてぃーとれいん');
+INSERT INTO m_dictionary VALUES('song_pronunciation_so1012','すりりんぐわんうぇい');
 INSERT INTO m_dictionary VALUES('song_pronunciation_so1014','こころまじっくえーとぅーずぃー');
 INSERT INTO m_dictionary VALUES('song_pronunciation_so1059','わんもあさんしゃいんすとーりー');
 INSERT INTO m_dictionary VALUES('song_pronunciation_so1062','おやすみなさん');
@@ -16876,6 +17064,23 @@ INSERT INTO m_dictionary VALUES('vo_ca_3000430014','衣装を身にまとうと
 INSERT INTO m_dictionary VALUES('vo_ca_3000430015','あなたとどこか遠くへ
 行ってみたい……い、いえ。
 何でもありません！');
+INSERT INTO m_dictionary VALUES('vo_ca_3000520012','雪の冷たさも
+忘れちゃうような、
+楽しいライブにするよ♪');
+INSERT INTO m_dictionary VALUES('vo_ca_3000520013','ズボン短くて
+寒くないかって？平気だよ。
+このくらいのほうが
+動きやすくて
+ちょうどいいにゃ！');
+INSERT INTO m_dictionary VALUES('vo_ca_3000520014','好きなラーメンの味？
+えーっとねぇ、
+醤油と味噌と塩と豚骨と……
+全部大好きにゃ～♡');
+INSERT INTO m_dictionary VALUES('vo_ca_3000520015','凛は体を動かすのが大好き！
+だからダンスの練習
+とっても楽しいよ。
+もっともっと色んなダンス
+やってみたいにゃ！');
 INSERT INTO m_dictionary VALUES('vo_ca_3000620012','いつかあなたの考えた曲を
 弾いてみたいわね');
 INSERT INTO m_dictionary VALUES('vo_ca_3000620013','作曲中はよくみんなが
@@ -16887,6 +17092,21 @@ INSERT INTO m_dictionary VALUES('vo_ca_3000620014','あなたの作曲方法、
 INSERT INTO m_dictionary VALUES('vo_ca_3000620015','ピアノの調律って
 あなたはどうしてる？
 相談したいんだけど');
+INSERT INTO m_dictionary VALUES('vo_ca_3010330012','キミを安眠の世界にご案内。
+なんてね♪');
+INSERT INTO m_dictionary VALUES('vo_ca_3010330013','パジャマを
+イメージした衣装なら、
+普段寝る時に着ても……
+さすがにやめとこうか。
+シワになっちゃうからね');
+INSERT INTO m_dictionary VALUES('vo_ca_3010330014','ふわぁ……なんか
+本当に眠くなってきた。
+着るものって
+気分に影響するんだね……');
+INSERT INTO m_dictionary VALUES('vo_ca_3010330015','ハグは
+特別なことが無くたって
+してもいいんだよ。
+ということで……ハグ～♪');
 INSERT INTO m_dictionary VALUES('vo_ca_3010430012','この衣装のまま、
 あなたとお忍びで
 出かけるのも楽しいかも
@@ -16974,6 +17194,22 @@ INSERT INTO m_dictionary VALUES('vo_ca_4000130014','パーティって言葉だ�
 INSERT INTO m_dictionary VALUES('vo_ca_4000130015','ふふふ～ん♪　えへっ、
 私も真姫ちゃんみたく
 作曲ができたらいいのにな〜');
+INSERT INTO m_dictionary VALUES('vo_ca_4000830012','睡眠って
+とっても大事だよね。
+元気に生きるためにも、
+たっぷり眠ろう');
+INSERT INTO m_dictionary VALUES('vo_ca_4000830013','眠る時はいつも、
+あなたのことを思い出すの。
+そうすれば、夢でも
+あなたに会える気がするから');
+INSERT INTO m_dictionary VALUES('vo_ca_4000830014','もしμ&apos;sに
+入ってなかったら、
+私、今頃
+何をしていたんだろう……。
+全然想像出来ないや');
+INSERT INTO m_dictionary VALUES('vo_ca_4000830015','練習は大変だけど、これも
+素敵なライブを作るため！
+頑張りますっ！');
 INSERT INTO m_dictionary VALUES('vo_ca_4000920012','純粋なニコには
 真っ白な衣装が似合うわね～');
 INSERT INTO m_dictionary VALUES('vo_ca_4000920013','え？　かわいい？
@@ -17003,6 +17239,26 @@ INSERT INTO m_dictionary VALUES('vo_ca_4010120014','んー！
 INSERT INTO m_dictionary VALUES('vo_ca_4010120015','おなかすいたかも〜。
 ねえ、こっそりおやつ
 食べちゃおうか？');
+INSERT INTO m_dictionary VALUES('vo_ca_4010820012','シックでエレガントな
+紫のカラーリングが、
+このコスチュームを
+甘過ぎず幼過ぎず、ベストな
+イメージに留めてるわ。
+マリーにぴったりね♪');
+INSERT INTO m_dictionary VALUES('vo_ca_4010820013','胸元のリボンで光るのは、
+高鳴るハートの
+パッション・スター！
+太陽よりも
+まばゆく輝いてみせるわ！');
+INSERT INTO m_dictionary VALUES('vo_ca_4010820014','シャイニーの意味？
+そんなの言葉通りよ！
+私達の熱くきらめく
+パッションを解き放つ、
+魔法のワードなんだから♪');
+INSERT INTO m_dictionary VALUES('vo_ca_4010820015','未来は誰にも分からない。
+それはきっと、
+眩しく輝いているせいで
+見えないからね');
 INSERT INTO m_dictionary VALUES('vo_ca_4010930012','わ、笑わないでね……？');
 INSERT INTO m_dictionary VALUES('vo_ca_4010930013','楽しかったことも
 悲しかったことも、
@@ -17038,6 +17294,24 @@ INSERT INTO m_dictionary VALUES('vo_ca_4020220014','すんすん……
 泣き真似練習中……');
 INSERT INTO m_dictionary VALUES('vo_ca_4020220015','あ〜ん、かすみん
 靴擦れしちゃいましたあ……');
+INSERT INTO m_dictionary VALUES('vo_ca_4020520012','ガオ～♪
+今の愛さんは猛獣注意！
+なでなでしたけりゃ、
+極上のダジャレを
+持ってこい♪');
+INSERT INTO m_dictionary VALUES('vo_ca_4020520013','さすがネコ科なだけあって、
+豹も身軽だよね～。
+木の上にだって
+軽々上っちゃうじゃん？
+豹だけに、ヒョーイってね♪');
+INSERT INTO m_dictionary VALUES('vo_ca_4020520014','ダンスの練習、
+ボイストレーニング、
+運動部の助っ人……
+毎日忙し過ぎー！
+体がもう１個欲しいくらい！');
+INSERT INTO m_dictionary VALUES('vo_ca_4020520015','アタシのライブ観てくれた？
+えへへっ、なかなか
+イイ感じだったでしょ？');
 INSERT INTO m_dictionary VALUES('vo_na_m0001_0001','おかえり♪
 今日は何しよっか？');
 INSERT INTO m_dictionary VALUES('vo_na_m0001_0002','早く次のライブやりたいな～
@@ -17078,14 +17352,6 @@ INSERT INTO m_dictionary VALUES('vo_na_m0001_0019','音ノ木坂学院って、
 学年ごとにリボンの色が
 違うんだよ。
 知ってた？');
-INSERT INTO m_dictionary VALUES('vo_na_m0001_0038','芸術の秋だね。
-えへへ、私は海未ちゃんに
-日本舞踊を教えてもらおうと
-思って');
-INSERT INTO m_dictionary VALUES('vo_na_m0001_0039','10月になると
-涼しくなってくるね～
-一緒にランニングに
-行こっか♪');
 INSERT INTO m_dictionary VALUES('vo_na_m0001_0040','寒いね～
 でも練習中は寒さを
 全然感じないんだ！');
@@ -17142,15 +17408,10 @@ INSERT INTO m_dictionary VALUES('vo_na_m0001_0063','きゃっ！
 INSERT INTO m_dictionary VALUES('vo_na_m0001_0064','お誕生日、おめでとーーっ！
 えへへ、あなたのことを
 お祝いできて嬉しいな♪');
-INSERT INTO m_dictionary VALUES('vo_na_m0001_0069','にゃんにゃんにゃーん♪
-凛ちゃん
+INSERT INTO m_dictionary VALUES('vo_na_m0001_0088','璃奈ちゃん、
 お誕生日おめでとう♪
-凛ちゃんと
-もっと一緒に歌いたいな♪');
-INSERT INTO m_dictionary VALUES('vo_na_m0001_0096','トリックオアトリート！
-お菓子をくれないと……
-いっぱいいたずら
-しちゃうぞっ♪');
+私、璃奈ちゃんとたくさん
+お話してみたいなあっ');
 INSERT INTO m_dictionary VALUES('vo_na_m0001_0104','ストーリーの続きを見ない？
 先が気になるんだ～');
 INSERT INTO m_dictionary VALUES('vo_na_m0001_0105','まだまだライブ出来るよ！
@@ -17244,12 +17505,6 @@ INSERT INTO m_dictionary VALUES('vo_na_m0002_0019','制服を着ているとど�
 学校の生徒かすぐ分かるのよ
 ……変なこと
 しないようにね？');
-INSERT INTO m_dictionary VALUES('vo_na_m0002_0038','学業にスポーツに芸術に。
-秋はたくさんのことを
-吸収したいわね♪');
-INSERT INTO m_dictionary VALUES('vo_na_m0002_0039','秋は公園を散歩したくなるわ
-……キミが隣を歩いて
-くれたら、最高なんだけど');
 INSERT INTO m_dictionary VALUES('vo_na_m0002_0040','寒い？
 今日は温かいお風呂に入って
 リラックスしましょう♪');
@@ -17319,10 +17574,9 @@ INSERT INTO m_dictionary VALUES('vo_na_m0002_0064','ハッピーバースデー�
 キミの誕生日を
 こうしてお祝いできて、
 とっても幸せよ♡');
-INSERT INTO m_dictionary VALUES('vo_na_m0002_0069','凛、誕生日おめでとう！
-天真爛漫な凛の笑顔が私は大好きなのよ♪♪');
-INSERT INTO m_dictionary VALUES('vo_na_m0002_0096','トリックオアトリート♪
-お菓子をくれたら、いたずらしないで許してあげるわよ？');
+INSERT INTO m_dictionary VALUES('vo_na_m0002_0088','璃奈、誕生日おめでとう♪
+あなたのこと、少しずつ
+知っていけたら嬉しいわ');
 INSERT INTO m_dictionary VALUES('vo_na_m0002_0104','お話の続きが気になるの。
 一緒に見てみない？');
 INSERT INTO m_dictionary VALUES('vo_na_m0002_0105','実践練習が大切よ。
@@ -17410,13 +17664,6 @@ INSERT INTO m_dictionary VALUES('vo_na_m0003_0018','いつもの衣装とは違�
 INSERT INTO m_dictionary VALUES('vo_na_m0003_0019','音ノ木坂の制服はブレザーで
 きちんとした雰囲気が
 気に入ってるの');
-INSERT INTO m_dictionary VALUES('vo_na_m0003_0038','秋と言えば、収穫の秋！
-うふふ、花陽ちゃんに
-教わったんだよ♪');
-INSERT INTO m_dictionary VALUES('vo_na_m0003_0039','秋はなんだか
-寂しくなっちゃうの。
-あなたがそばにいてくれたら
-……嬉しいな');
 INSERT INTO m_dictionary VALUES('vo_na_m0003_0040','フォンダンショコラを
 作ったの。
 あったかとろーり
@@ -17486,14 +17733,10 @@ INSERT INTO m_dictionary VALUES('vo_na_m0003_0064','えへへ……
 お誕生日おめでとう♡
 あなたのお誕生日を
 お祝いできて嬉しいな');
-INSERT INTO m_dictionary VALUES('vo_na_m0003_0069','凛ちゃん、
-お誕生日おめでとうっ！
-かわいいかわいい凛ちゃん、
-大好きです♪');
-INSERT INTO m_dictionary VALUES('vo_na_m0003_0096','お菓子をくれないと、
-ことりが朝まで
-いたずらしちゃうぞ～
-ふふ、怖かった？');
+INSERT INTO m_dictionary VALUES('vo_na_m0003_0088','璃奈ちゃん、
+お誕生日おめでとう♪
+璃奈ちゃんの優しい心、
+ことりまで届いてるんだよ♪');
 INSERT INTO m_dictionary VALUES('vo_na_m0003_0104','ストーリーの続きが
 読めるんだって！
 ね、一緒に読もうよ～っ');
@@ -17593,12 +17836,6 @@ INSERT INTO m_dictionary VALUES('vo_na_m0004_0019','この制服は
 落ち着いた雰囲気で、
 学業の邪魔にも
 なりませんよね');
-INSERT INTO m_dictionary VALUES('vo_na_m0004_0038','秋になると花陽はいつでも
-満面の笑みになるんです。
-新米の季節ですね');
-INSERT INTO m_dictionary VALUES('vo_na_m0004_0039','女心と秋の空は変わりやすいとも言いますが……
-私の気持ちはずっと
-変わりません');
 INSERT INTO m_dictionary VALUES('vo_na_m0004_0040','次の休みは紅葉狩りに
 行きましょう。
 美しい景色と登山が
@@ -17676,13 +17913,9 @@ INSERT INTO m_dictionary VALUES('vo_na_m0004_0064','会えてよかった……�
 あなたの誕生日ですから、
 どうしても直接お祝いが
 言いたかったんです');
-INSERT INTO m_dictionary VALUES('vo_na_m0004_0069','にゃんにゃんにゃーん♪
-……コホン。
-今日は凛の誕生日なんですよ');
-INSERT INTO m_dictionary VALUES('vo_na_m0004_0096','あの。お菓子を
-あげなかった場合……
-私もいたずらされて
-しまうのでしょうか！？');
+INSERT INTO m_dictionary VALUES('vo_na_m0004_0088','今日は璃奈の誕生日。
+みんなでボードをつけて
+お祝いです♪');
 INSERT INTO m_dictionary VALUES('vo_na_m0004_0104','ストーリーの続きが
 気になりますね。
 一緒にいかがですか？');
@@ -17784,13 +18017,6 @@ INSERT INTO m_dictionary VALUES('vo_na_m0005_0018','学校に行くときは
 INSERT INTO m_dictionary VALUES('vo_na_m0005_0019','走ると制服のスカートが
 ひらひらってするでしょ。
 結構いい感じだよね♪');
-INSERT INTO m_dictionary VALUES('vo_na_m0005_0038','かよちんが新米で
-おにぎりを握ってくれるの！
-最近は毎日おにぎり
-食べてるにゃ♪');
-INSERT INTO m_dictionary VALUES('vo_na_m0005_0039','スポーツの秋だにゃ！
-準備運動して、あなたと
-一緒に運動したいにゃ～っ');
 INSERT INTO m_dictionary VALUES('vo_na_m0005_0040','はぁ～っ。
 えへへ、息が白くなるのって
 面白いよね。
@@ -17861,14 +18087,11 @@ INSERT INTO m_dictionary VALUES('vo_na_m0005_0064','にゃんにゃんにゃー�
 お誕生日おめでとう♪
 えへへ、ビックリさせようと
 思って待ってたんだにゃ');
-INSERT INTO m_dictionary VALUES('vo_na_m0005_0069','今日は凛の誕生日！
-みんなと一緒に
-いられるだけで、
-とーっても幸せな
-誕生日になるんだにゃ♪');
-INSERT INTO m_dictionary VALUES('vo_na_m0005_0096','がおーっ！
-お菓子をくれたら、凛が
-すりすりしてあげるにゃ☆');
+INSERT INTO m_dictionary VALUES('vo_na_m0005_0088','璃奈ちゃん、
+お誕生日おめでとう♡
+ボードさんのお顔も
+そうだけど、中身もすごく
+かわいい女の子だにゃ');
 INSERT INTO m_dictionary VALUES('vo_na_m0005_0104','ストーリーの続きが
 あるんだって。
 読んでみるにゃ？');
@@ -17965,13 +18188,6 @@ INSERT INTO m_dictionary VALUES('vo_na_m0006_0019','制服はスクールアイ�
 衣装ってわけじゃないけど
 ……思い出は
 山ほど詰まってるわ');
-INSERT INTO m_dictionary VALUES('vo_na_m0006_0038','秋と言えば……芸術の秋♪
-あなたも音楽や美術を
-楽しんでね');
-INSERT INTO m_dictionary VALUES('vo_na_m0006_0039','あなた、
-そんな薄着で大丈夫？
-私のストールを貸すから……
-風邪ひかないようにね');
 INSERT INTO m_dictionary VALUES('vo_na_m0006_0040','寒くなってきたわね。
 でも、そのおかげで思考が
 クリアになってる気がするわ');
@@ -18035,14 +18251,10 @@ INSERT INTO m_dictionary VALUES('vo_na_m0006_0064','お誕生日おめでとう�
 ……あ、あなたのことに
 決まってるでしょ！
 鈍いんだから……');
-INSERT INTO m_dictionary VALUES('vo_na_m0006_0069','凛、いつもの部室で
-待ってるわよ。
-ふふ、今日はあなたの
-バースデーパーティ
-なんだから♪');
-INSERT INTO m_dictionary VALUES('vo_na_m0006_0096','トリックオアトリート♪
-ふふ、お菓子をくれても
-いたずらしちゃうんだからね');
+INSERT INTO m_dictionary VALUES('vo_na_m0006_0088','璃奈、ハッピーバースデー♪
+璃奈ちゃんボードの表情が
+くるくる変わっていくのを
+見るの、好きなのよね');
 INSERT INTO m_dictionary VALUES('vo_na_m0006_0104','ストーリーを読んでみない？
 新しい発見があるかもよ');
 INSERT INTO m_dictionary VALUES('vo_na_m0006_0105','そろそろライブをしない？
@@ -18141,14 +18353,6 @@ INSERT INTO m_dictionary VALUES('vo_na_m0007_0018','音ノ木坂の制服は
 INSERT INTO m_dictionary VALUES('vo_na_m0007_0019','制服でステージに上がるのも好きだよ。
 スクールアイドルならでは、
 だもんね♪');
-INSERT INTO m_dictionary VALUES('vo_na_m0007_0038','秋と言えば芸術の秋、
-運動の秋、わしわしの秋……
-ん？　おかしいこと
-言ってないよね？');
-INSERT INTO m_dictionary VALUES('vo_na_m0007_0039','えっ、
-わしわしの秋を期待してた？
-あはは、
-あなたって面白いな～');
 INSERT INTO m_dictionary VALUES('vo_na_m0007_0040','最近は冷えるように
 なってきたね。
 部室にこたつが
@@ -18215,13 +18419,9 @@ INSERT INTO m_dictionary VALUES('vo_na_m0007_0064','ハッピーバースデー�
 うふふ、
 あなたのお誕生日は盛大に
 お祝いしなくちゃね！');
-INSERT INTO m_dictionary VALUES('vo_na_m0007_0069','元気いっぱいで、
-それでいて繊細さも
-持っている凛ちゃん。
-ウチ……大好きなんだ♪');
-INSERT INTO m_dictionary VALUES('vo_na_m0007_0096','トリックオアトリート♪
-わしわしされたい子は
-いないか～っ');
+INSERT INTO m_dictionary VALUES('vo_na_m0007_0088','璃奈っち、おめでとう！
+今度一緒に練習したいな。
+絶対楽しくなりそう♪');
 INSERT INTO m_dictionary VALUES('vo_na_m0007_0104','時間があったら、
 ストーリーを読んでみてね♪');
 INSERT INTO m_dictionary VALUES('vo_na_m0007_0105','今ならライブも
@@ -18318,12 +18518,6 @@ INSERT INTO m_dictionary VALUES('vo_na_m0008_0018','制服はスクールアイ�
 INSERT INTO m_dictionary VALUES('vo_na_m0008_0019','音ノ木坂学院の制服は
 ブレザータイプで、学年別に
 色が違うリボンが特徴です！');
-INSERT INTO m_dictionary VALUES('vo_na_m0008_0038','ごめんね、
-今ちょっと考え事を
-してて……新米……新米……');
-INSERT INTO m_dictionary VALUES('vo_na_m0008_0039','はぁ……ごはんおいしい♡
-あなたと一緒に食べると
-もっとおいしい♡');
 INSERT INTO m_dictionary VALUES('vo_na_m0008_0040','ええっ、
 身体が冷えちゃったの？
 じゃあ一緒に
@@ -18397,15 +18591,12 @@ INSERT INTO m_dictionary VALUES('vo_na_m0008_0064','今日はあなたの
 お誕生日だね！
 みんなでいっぱいいっぱい
 お祝いしようねっ♪');
-INSERT INTO m_dictionary VALUES('vo_na_m0008_0069','凛ちゃん、
-お誕生日おめでとう。
-何度言っても
-言い足りないくらい……
-大好きな凛ちゃん♡');
-INSERT INTO m_dictionary VALUES('vo_na_m0008_0096','お菓子をくれなきゃいたずら……ええっ！？
-私がいたずら
-されちゃうの！？
-誰か助けて～っ');
+INSERT INTO m_dictionary VALUES('vo_na_m0008_0088','璃奈ちゃん、
+お誕生日おめでとう♪
+人前に出るのが
+ちょっと苦手な私。
+璃奈ちゃんと
+似てるかも……？');
 INSERT INTO m_dictionary VALUES('vo_na_m0008_0104','ストーリーを読みませんか？
 私、気になっちゃって……！');
 INSERT INTO m_dictionary VALUES('vo_na_m0008_0105','ライブの準備が出来たら
@@ -18507,14 +18698,6 @@ INSERT INTO m_dictionary VALUES('vo_na_m0009_0019','ピンクのカーディガ�
 お気に入りなの♪
 ふんわりして愛らしくて、
 にこみたいっ');
-INSERT INTO m_dictionary VALUES('vo_na_m0009_0038','ふっ、
-食欲の秋なんて古いわ！
-イマドキは
-スクールアイドルの秋、
-矢澤の秋にこ♪');
-INSERT INTO m_dictionary VALUES('vo_na_m0009_0039','栗が安かったの♪
-炊き込みごはんにして、
-あなたのお弁当にしよーっと');
 INSERT INTO m_dictionary VALUES('vo_na_m0009_0040','秋は
 物悲しくなるものよね……
 ニコのブロマイドを
@@ -18589,12 +18772,10 @@ INSERT INTO m_dictionary VALUES('vo_na_m0009_0064','今日は何の日だと
 思ってるの？
 あなたの誕生日なんだから
 最高の一日にしなくちゃ！');
-INSERT INTO m_dictionary VALUES('vo_na_m0009_0069','ニコはあなたのかわいさをたーっくさん知ってるのよ。
-凛、お誕生日おめでとう♡');
-INSERT INTO m_dictionary VALUES('vo_na_m0009_0096','きゃあ！
-ニコはかよわいから、
-おばけが苦手なんです～……
-って、その視線はやめて！');
+INSERT INTO m_dictionary VALUES('vo_na_m0009_0088','璃奈、お誕生日おめでとう♪
+にっこにっこスマイルの
+璃奈ちゃんボードを
+作ってきたわ♪');
 INSERT INTO m_dictionary VALUES('vo_na_m0009_0104','ストーリーがあるみたい♪
 一緒に読もっ！');
 INSERT INTO m_dictionary VALUES('vo_na_m0009_0105','ニコはもっともーっと
@@ -18686,11 +18867,6 @@ INSERT INTO m_dictionary VALUES('vo_na_m0101_0018','浦女は学年によって
 スカーフの色が違うんだ～');
 INSERT INTO m_dictionary VALUES('vo_na_m0101_0019','浦女の制服、可愛いでしょ♪
 結構人気があるんだよ');
-INSERT INTO m_dictionary VALUES('vo_na_m0101_0038','長袖、まだちょっと暑いなぁ……半袖出そう');
-INSERT INTO m_dictionary VALUES('vo_na_m0101_0039','ご飯が美味しい秋だよ～！
-大好きなあなたと食べると、
-もっともっと美味しく
-感じちゃう♡');
 INSERT INTO m_dictionary VALUES('vo_na_m0101_0040','涼しくなってきたね。
 お腹出して寝ないように
 気を付けなくちゃ');
@@ -18747,12 +18923,10 @@ INSERT INTO m_dictionary VALUES('vo_na_m0101_0064','お誕生日おめでとう�
 こうしてあなたを
 お祝い出来るの、
 すごく嬉しいよ');
-INSERT INTO m_dictionary VALUES('vo_na_m0101_0069','凛ちゃん、お誕生日
-おめでとうだにゃ～♡
-えへへ、真似しちゃった♪');
-INSERT INTO m_dictionary VALUES('vo_na_m0101_0096','ハロウィンだからかぼちゃ買ってきたよ～。
-煮物にする？
-コロッケにする？');
+INSERT INTO m_dictionary VALUES('vo_na_m0101_0088','いつか、璃奈ちゃんが
+素顔を見せてもいいって
+思ってくれるように……
+たくさん仲良くしたいな♪');
 INSERT INTO m_dictionary VALUES('vo_na_m0101_0104','読めるストーリーが
 あるみたいだよ！');
 INSERT INTO m_dictionary VALUES('vo_na_m0101_0105','準備はバッチリ！
@@ -18856,13 +19030,6 @@ INSERT INTO m_dictionary VALUES('vo_na_m0102_0019','この赤いスカーフ、
 気に入ってるの。
 でも学年が上がったら
 変わっちゃうのよね');
-INSERT INTO m_dictionary VALUES('vo_na_m0102_0038','秋と言えば……
-んー、芸術の秋。
-久し振りに絵を
-描きに行こうかしら');
-INSERT INTO m_dictionary VALUES('vo_na_m0102_0039','新しいセーターを
-出してみたの。
-うふふ、似合うかな？');
 INSERT INTO m_dictionary VALUES('vo_na_m0102_0040','千歌ちゃんの鞄からみかんが
 見えてるんだけど……
 あれってお昼のデザート？
@@ -18924,14 +19091,11 @@ INSERT INTO m_dictionary VALUES('vo_na_m0102_0064','お誕生日おめでとう�
 あなたの声援が
 私達の力になります。
 本当にありがとう');
-INSERT INTO m_dictionary VALUES('vo_na_m0102_0069','凛ちゃん、
+INSERT INTO m_dictionary VALUES('vo_na_m0102_0088','璃奈ちゃん、
 お誕生日おめでとう。
-……いえ！
-ど、どういたしまして、にゃー！');
-INSERT INTO m_dictionary VALUES('vo_na_m0102_0096','今年のハロウィンは
-何を作ろう？
-かぼちゃ……
-かぼちゃプリンにしよう！');
+あ、笑った顔になった。
+ふふ、
+喜んでもらえてよかった♡');
 INSERT INTO m_dictionary VALUES('vo_na_m0102_0104','まだ読んでいない
 ストーリーがあるみたい');
 INSERT INTO m_dictionary VALUES('vo_na_m0102_0105','素敵なライブをしましょう♪');
@@ -19036,14 +19200,6 @@ INSERT INTO m_dictionary VALUES('vo_na_m0103_0019','海辺の町だから
 なんて思ったことも
 あったけど……
 多分関係無いよね');
-INSERT INTO m_dictionary VALUES('vo_na_m0103_0038','朝夕はもうだいぶ涼しいね。
-今の季節が一番
-過ごしやすいよ');
-INSERT INTO m_dictionary VALUES('vo_na_m0103_0039','あ、うろこ雲だ。
-綺麗だねぇ……。
-ん？　違うの？　いわし雲？
-ええ～、
-うろこだよ、うろこ～');
 INSERT INTO m_dictionary VALUES('vo_na_m0103_0040','この時期の部室にはみかんが
 たくさんストック
 されてるんだよね。
@@ -19117,14 +19273,11 @@ INSERT INTO m_dictionary VALUES('vo_na_m0103_0064','誕生日おめでとう。
 幸せを運んでくれた。
 今日は私が
 キミを幸せにするよ');
-INSERT INTO m_dictionary VALUES('vo_na_m0103_0069','凛ちゃん、魚駄目なの？
-ごめん……
-誕生日プレゼント、
-魚の干物なんだ……');
-INSERT INTO m_dictionary VALUES('vo_na_m0103_0096','トリックオアハグ！
-お菓子をくれなきゃ
-ハグするぞ～♪
-くれてもハグするぞ～♪♪');
+INSERT INTO m_dictionary VALUES('vo_na_m0103_0088','璃奈ちゃん、
+誕生日おめでとう。
+いつかボード越しじゃなくて
+素顔の璃奈ちゃんに
+おめでとうを言わせてね');
 INSERT INTO m_dictionary VALUES('vo_na_m0103_0104','読んでいない
 ストーリーがあるよ');
 INSERT INTO m_dictionary VALUES('vo_na_m0103_0105','ライブだ！
@@ -19227,15 +19380,6 @@ INSERT INTO m_dictionary VALUES('vo_na_m0104_0019','入学したての頃は
 真新しかった制服も、
 ３年も着ていれば
 くたびれてきますわね……');
-INSERT INTO m_dictionary VALUES('vo_na_m0104_0038','夏に比べて食欲が出るのは
-分かりますが、
-油断するとすぐに
-肥えてしまいますわよ！');
-INSERT INTO m_dictionary VALUES('vo_na_m0104_0039','だいぶ気温が
-下がってきましたわね。
-季節の変わり目は
-体調を崩しがちです。
-ご自愛なさって');
 INSERT INTO m_dictionary VALUES('vo_na_m0104_0040','樹々の色付きが
 美しい季節ですわね。
 今日は少し……
@@ -19305,13 +19449,11 @@ INSERT INTO m_dictionary VALUES('vo_na_m0104_0064','お誕生日
 おめでとうございます。
 あなたに出会えたことは、
 この上ない幸福ですわ');
-INSERT INTO m_dictionary VALUES('vo_na_m0104_0069','凛さん、お誕生日
+INSERT INTO m_dictionary VALUES('vo_na_m0104_0088','璃奈さん、お誕生日
 おめでとうございます。
-あなたの元気がμ&apos;sを
-活気づけているのですね');
-INSERT INTO m_dictionary VALUES('vo_na_m0104_0096','お祭りだからって、
-あまりに派手派手しい仮装は
-お断りですわ！');
+ボードを外して
+いただくことは……
+駄目ですのね');
 INSERT INTO m_dictionary VALUES('vo_na_m0104_0104','ストーリーをお読みに
 なってはいかがです？');
 INSERT INTO m_dictionary VALUES('vo_na_m0104_0105','わたくし達のライブ、
@@ -19416,15 +19558,6 @@ INSERT INTO m_dictionary VALUES('vo_na_m0105_0019','浦女の制服は、
 夏と冬でスカーフの結び方が
 違うんだよ。
 ３年生は同じなんだけどね');
-INSERT INTO m_dictionary VALUES('vo_na_m0105_0038','だいぶ過ごしやすく
-なってきたね。
-この時期と春は
-運動にもってこいだよ♪');
-INSERT INTO m_dictionary VALUES('vo_na_m0105_0039','ぎゅー。
-うう、今日あったかいと
-思って薄着したら、
-意外と寒くて……
-キミ、あったかいから……');
 INSERT INTO m_dictionary VALUES('vo_na_m0105_0040','みかんの美味しい季節に
 なったね～！
 うちでもみかんのストックが
@@ -19480,13 +19613,10 @@ INSERT INTO m_dictionary VALUES('vo_na_m0105_0063','あはは！
 INSERT INTO m_dictionary VALUES('vo_na_m0105_0064','誕生日おめでとう！
 今日はAqoursのみんなと
 盛大にお祝いするよ！');
-INSERT INTO m_dictionary VALUES('vo_na_m0105_0069','凛ちゃんもスポーツが
-好きなんだね。
-高飛び込みはどう？
-興味ない！？');
-INSERT INTO m_dictionary VALUES('vo_na_m0105_0096','トリックオアトリート☆
-お化けも一緒に
-ハロウィンパーティしよう♪');
+INSERT INTO m_dictionary VALUES('vo_na_m0105_0088','璃奈ちゃんって、表情ごとに
+ボード変えるんだよね？
+何パターンくらい
+持ち歩いてるの？');
 INSERT INTO m_dictionary VALUES('vo_na_m0105_0104','ストーリー、読まないなら
 私が読んじゃうよ？');
 INSERT INTO m_dictionary VALUES('vo_na_m0105_0105','今ならどんなライブも
@@ -19581,12 +19711,6 @@ INSERT INTO m_dictionary VALUES('vo_na_m0106_0019','実は制服のある部分�
 どこだと……ぎゃっ！
 こ、こらー！
 めくるなー！');
-INSERT INTO m_dictionary VALUES('vo_na_m0106_0038','秋の七草……って、何？
-春の七草みたいに
-おかゆにして食べるの？');
-INSERT INTO m_dictionary VALUES('vo_na_m0106_0039','闇が下りてきたら、
-ヨハネを見失ってしまうわよ
-目を離さないでね');
 INSERT INTO m_dictionary VALUES('vo_na_m0106_0040','部室にカゴ山盛りの
 みかんがあったわ。
 私以外みんな
@@ -19660,14 +19784,11 @@ INSERT INTO m_dictionary VALUES('vo_na_m0106_0063','ちょ、くすぐったい�
 INSERT INTO m_dictionary VALUES('vo_na_m0106_0064','愛しのリトルデーモンが
 誕生日を迎えたわ。
 祝杯の準備よ～！');
-INSERT INTO m_dictionary VALUES('vo_na_m0106_0069','ヨハネは使い魔にするなら猫って決めてるの。
-ってことで凛、
-ヨハネの使い魔に
-ならないかにゃん？');
-INSERT INTO m_dictionary VALUES('vo_na_m0106_0096','街中、仮装した人だらけ
-だし……今日は
-堕天使コスチュームでも、
-堂々と歩き回れるわ♪');
+INSERT INTO m_dictionary VALUES('vo_na_m0106_0088','璃奈、大層な仮面を
+付けているじゃない。
+しかし！
+このヨハネの魔眼には
+仮面なぞガラス同然よ！');
 INSERT INTO m_dictionary VALUES('vo_na_m0106_0104','物語の封印が
 まだ残っているようね');
 INSERT INTO m_dictionary VALUES('vo_na_m0106_0105','我らが織りなす闇の舞台、
@@ -19774,15 +19895,6 @@ INSERT INTO m_dictionary VALUES('vo_na_m0107_0019','２年生や３年生の制�
 マルに似合うかなぁ。
 スカーフの色が違うだけで
 印象もだいぶ変わるし……');
-INSERT INTO m_dictionary VALUES('vo_na_m0107_0038','春だけじゃなく、
-秋にも七草があるんだよ。
-ただし秋は食べずに
-見て楽しむんだって');
-INSERT INTO m_dictionary VALUES('vo_na_m0107_0039','おはぎ美味しいずら～♡
-あれ？
-ふふふ、口のとこに
-あんこ付いてるよ。
-春の頃とは逆だね♪');
 INSERT INTO m_dictionary VALUES('vo_na_m0107_0040','綺麗な夕焼けには
 見惚れちゃうずら。
 空も海も山も、この季節は
@@ -19840,14 +19952,11 @@ INSERT INTO m_dictionary VALUES('vo_na_m0107_0064','誕生日おめでとう。
 これからも、
 あなたが幸せな人生を
 送ってゆけますように');
-INSERT INTO m_dictionary VALUES('vo_na_m0107_0069','凛ちゃん、
+INSERT INTO m_dictionary VALUES('vo_na_m0107_0088','璃奈ちゃん、
 誕生日おめでとう。
-マルも凛ちゃんみたいに
-身軽になりたいなぁ……');
-INSERT INTO m_dictionary VALUES('vo_na_m0107_0096','はろうぃんは
-かぼちゃのお菓子をたくさん
-食べられる日ずら～♪
-え、違う？');
+プレゼントは
+マルおすすめの小説ずら♪
+楽しんでもらえるといいな');
 INSERT INTO m_dictionary VALUES('vo_na_m0107_0104','一緒にお話読むずら～');
 INSERT INTO m_dictionary VALUES('vo_na_m0107_0105','ううう～、マル、今とってもライブがしたいずら～！');
 INSERT INTO m_dictionary VALUES('vo_na_m0107_0106','特訓して、マルももっと
@@ -19955,13 +20064,6 @@ INSERT INTO m_dictionary VALUES('vo_na_m0108_0019','もう使わない
 これを見ると、
 あの頃は若かったわ～☆
 って思うのよね♪');
-INSERT INTO m_dictionary VALUES('vo_na_m0108_0038','秋の日は……何だっけ？
-ナントカっていうじゃない？
-あ～ん、思い出せない！
-むずむずする！');
-INSERT INTO m_dictionary VALUES('vo_na_m0108_0039','あなたのくちびるは
-リンゴみたいに赤いのね。
-キスもリンゴ味なのかしら？');
 INSERT INTO m_dictionary VALUES('vo_na_m0108_0040','着物姿の子供達を
 見かけるようになったわ。
 お人形さんみたいで
@@ -20030,12 +20132,12 @@ INSERT INTO m_dictionary VALUES('vo_na_m0108_0064','ハッピーバースデー�
 ずっと待ってたわ。
 さぁ、バースデーパーティの
 始まりよ♪');
-INSERT INTO m_dictionary VALUES('vo_na_m0108_0069','ハッピーバースデー凛♪
-うふふ、ちっちゃくてお目目くりくりで、子猫みたい！');
-INSERT INTO m_dictionary VALUES('vo_na_m0108_0096','みんな……
-今まで隠してたけど実は……
-マリーは、お化けなの……！
-……なーんちゃって～♪');
+INSERT INTO m_dictionary VALUES('vo_na_m0108_0088','璃奈～、
+せっかく可愛い顔なのに、
+何で隠すの？
+え？
+いつ見たんだ、って、
+隙間からチラッと☆');
 INSERT INTO m_dictionary VALUES('vo_na_m0108_0104','レッツ
 リーディングストーリー♪');
 INSERT INTO m_dictionary VALUES('vo_na_m0108_0105','スタンバイオッケー☆
@@ -20151,15 +20253,6 @@ INSERT INTO m_dictionary VALUES('vo_na_m0109_0019','お姉ちゃんと
 もっと歳が離れてたら……
 お姉ちゃんの制服をもらって
 着てたかもしれないね');
-INSERT INTO m_dictionary VALUES('vo_na_m0109_0038','今日のお弁当は栗ご飯♪
-栗は甘くて、
-ごま塩のしょっぱさが
-ちょうど良くて……
-おかわりしたいなぁ');
-INSERT INTO m_dictionary VALUES('vo_na_m0109_0039','秋はすぐ暗くなっちゃうから
-あなたとあんまり一緒に
-いられないよ……
-寂しいなぁ');
 INSERT INTO m_dictionary VALUES('vo_na_m0109_0040','七五三の時は、
 着物が重くて苦しくて、
 お化粧も恥ずかしくて……
@@ -20216,14 +20309,10 @@ INSERT INTO m_dictionary VALUES('vo_na_m0109_0063','くすぐったいよぉ！
 INSERT INTO m_dictionary VALUES('vo_na_m0109_0064','お誕生日おめでとう。
 あなたの応援が
 ルビィの勇気の源だよ');
-INSERT INTO m_dictionary VALUES('vo_na_m0109_0069','凛ちゃんみたいな優しい
-猫さんなら、
-ルビィも怖がらずに
-なでなで出来そう♪');
-INSERT INTO m_dictionary VALUES('vo_na_m0109_0096','道を歩いてたら、
-お化けの格好の子供達に
-追いかけられたよ……
-すごく怖かった……');
+INSERT INTO m_dictionary VALUES('vo_na_m0109_0088','璃奈ちゃん、
+お誕生日おめでとう。
+ルビィ、璃奈ちゃんと
+いっぱいお話がしたいです');
 INSERT INTO m_dictionary VALUES('vo_na_m0109_0104','ストーリー……
 読まないの……？');
 INSERT INTO m_dictionary VALUES('vo_na_m0109_0105','ライブ、
@@ -20315,13 +20404,6 @@ INSERT INTO m_dictionary VALUES('vo_na_m0201_0018','学校の制服って好き�
 INSERT INTO m_dictionary VALUES('vo_na_m0201_0019','スクールアイドルとしては、
 学生の本分の勉強も
 頑張らないとね！');
-INSERT INTO m_dictionary VALUES('vo_na_m0201_0038','読書の秋にスポーツの秋……
-秋はいっぱいやりたいことが
-あって楽しいね！');
-INSERT INTO m_dictionary VALUES('vo_na_m0201_0039','秋のお月さまって
-綺麗だよね……
-夜道を照らしてくれて……
-まるであなたみたい');
 INSERT INTO m_dictionary VALUES('vo_na_m0201_0040','秋といえば……
 芋煮会の季節だよね！
 ……え？
@@ -20401,16 +20483,11 @@ INSERT INTO m_dictionary VALUES('vo_na_m0201_0064','お誕生日おめでとう�
 あなたが生まれて
 私と出会ってくれたこと……
 本当に嬉しい');
-INSERT INTO m_dictionary VALUES('vo_na_m0201_0069','凛ちゃんに教えてもらった
-ラーメン、すっごく
-おいしかったよ。今日は私が
-オススメのお店を紹介するね
-お誕生日おめでと、
-凛ちゃん！');
-INSERT INTO m_dictionary VALUES('vo_na_m0201_0096','あなたから
-トリックオアトリートって
-言われたら、お菓子もあげて
-悪戯も受け入れちゃうかも');
+INSERT INTO m_dictionary VALUES('vo_na_m0201_0088','璃奈ちゃん、
+お誕生日おめでとう。
+璃奈ちゃんの気持ち、
+私たちにはちゃんと
+伝わっているからね');
 INSERT INTO m_dictionary VALUES('vo_na_m0201_0104','新しいストーリー、
 一緒に読もうよ');
 INSERT INTO m_dictionary VALUES('vo_na_m0201_0105','ライブだよ！
@@ -20498,17 +20575,6 @@ INSERT INTO m_dictionary VALUES('vo_na_m0202_0018','目指すは
 日本一のスクールアイドル！');
 INSERT INTO m_dictionary VALUES('vo_na_m0202_0019','コッペパン食べます？
 それとも、つめます？');
-INSERT INTO m_dictionary VALUES('vo_na_m0202_0038','秋の夜長かぁ……
-夜が長いのってなんか
-苦手なんですよね
-別におばけが怖いとか
-そういうんじゃ
-ないんですけどね？');
-INSERT INTO m_dictionary VALUES('vo_na_m0202_0039','舞い散る落ち葉、
-秋のかすみんも、
-春に負けず劣らず
-カワイイですよね！
-くるくる～');
 INSERT INTO m_dictionary VALUES('vo_na_m0202_0040','教室で外を見てると、
 落ち葉がひらひら舞って……
 感傷にふけるかすみんも……
@@ -20595,14 +20661,9 @@ INSERT INTO m_dictionary VALUES('vo_na_m0202_0064','今日お誕生日
 かすみんのこと応援して
 くれる先輩には、すてきな
 企画があったのに〜！');
-INSERT INTO m_dictionary VALUES('vo_na_m0202_0069','凛ちゃん、おめ〜！
-かすみんも凛ちゃんみたく
-語尾に個性つけたいんだけど
-なにがいいかなあ？');
-INSERT INTO m_dictionary VALUES('vo_na_m0202_0096','かすみんのために
-あるような日ですよね！　
-さっそく先輩に
-いたずらしちゃいましょうー');
+INSERT INTO m_dictionary VALUES('vo_na_m0202_0088','りな子、おめ〜！
+りな子のボード、かすみんも
+描くの手伝ってあげる！');
 INSERT INTO m_dictionary VALUES('vo_na_m0202_0104','まだストーリー
 読んでないんですかぁ？');
 INSERT INTO m_dictionary VALUES('vo_na_m0202_0105','せんぱーい、
@@ -20716,14 +20777,6 @@ INSERT INTO m_dictionary VALUES('vo_na_m0203_0019','やだ、
 スカートめくれてるって、
 どこですか！？
 どこですか〜！？');
-INSERT INTO m_dictionary VALUES('vo_na_m0203_0038','ふぁぁ……あふ……
-新しくいただいた台本
-読んでいたら寝不足で……
-秋の夜長って怖いです');
-INSERT INTO m_dictionary VALUES('vo_na_m0203_0039','先輩、甘い物
-食べにいきませんか？
-駅の近くに新しいお店が
-できたんですよ！');
 INSERT INTO m_dictionary VALUES('vo_na_m0203_0040','お芝居のアイディアを
 考えなくちゃ……
 先輩、ぜひアドバイスを
@@ -20813,16 +20866,10 @@ INSERT INTO m_dictionary VALUES('vo_na_m0203_0064','お誕生日
 おめでとうございます、
 先輩！　これからもずっと
 ご指導、お願いしますね！');
-INSERT INTO m_dictionary VALUES('vo_na_m0203_0069','凛さん、お誕生日
-おめでとうございます。
-凛さんみたいに、私も
-運動神経がよかったらな……
-球技がどうしても
-ダメなんです……うう……');
-INSERT INTO m_dictionary VALUES('vo_na_m0203_0096','ハロウィンのコスプレ……
-ですか？　お芝居で
-いろいろな恰好をするので
-あまり興味が……');
+INSERT INTO m_dictionary VALUES('vo_na_m0203_0088','璃奈さん、
+お誕生日おめでとう。
+小さい身体から溢れるパワー
+いつも眩しく思ってるんだ！');
 INSERT INTO m_dictionary VALUES('vo_na_m0203_0104','あっ、読んでない
 お話があります！');
 INSERT INTO m_dictionary VALUES('vo_na_m0203_0105','先輩！
@@ -20925,13 +20972,6 @@ INSERT INTO m_dictionary VALUES('vo_na_m0204_0019','似合う？　それはね�
 自分に似合うように、
 ちょっと
 アレンジしてるからなの');
-INSERT INTO m_dictionary VALUES('vo_na_m0204_0038','秋の楽しみといえば、
-たき火……焼き芋……
-じゃなくて！
-ど、読書の秋、かしら！');
-INSERT INTO m_dictionary VALUES('vo_na_m0204_0039','行楽の秋！　ってことで、
-たまには息抜きにいかない？
-うーんと、登山とか……');
 INSERT INTO m_dictionary VALUES('vo_na_m0204_0040','落ち葉で
 しおりを作ってみたの。
 すごく秋っぽいでしょう？');
@@ -21004,14 +21044,10 @@ INSERT INTO m_dictionary VALUES('vo_na_m0204_0063','全然だいじょ……
 INSERT INTO m_dictionary VALUES('vo_na_m0204_0064','おめでとう。キミの一年が
 素敵なものになりますように
 私の影響で……、ね♪');
-INSERT INTO m_dictionary VALUES('vo_na_m0204_0069','凛ちゃん、おめでと。
-いつもハッピーで溢れている
-凛ちゃんの秘訣を
-教えて欲しいわ');
-INSERT INTO m_dictionary VALUES('vo_na_m0204_0096','トリックアンドトリック！
-いたずらばかりだって？
-私はお菓子より
-甘いボディだからいいの');
+INSERT INTO m_dictionary VALUES('vo_na_m0204_0088','璃奈ちゃん、
+誕生日おめでとう。
+そのカワイイ顔、はやく
+みんなに見せてあげてね');
 INSERT INTO m_dictionary VALUES('vo_na_m0204_0104','ストーリーを読んでくれたら
 もっと私のことを
 知ってもらえるんだけどな');
@@ -21106,15 +21142,6 @@ INSERT INTO m_dictionary VALUES('vo_na_m0205_0018','制服の着こなし考え�
 だーいすき！');
 INSERT INTO m_dictionary VALUES('vo_na_m0205_0019','制服でスクールアイドル界を
 せーふく！');
-INSERT INTO m_dictionary VALUES('vo_na_m0205_0038','スポーツの秋かぁ……んー、
-なんか身体が
-うずうずしてきた！
-スクールアイドル運動会
-やろう！');
-INSERT INTO m_dictionary VALUES('vo_na_m0205_0039','へへへ……焼き芋
-買ってきちゃった。
-はい、半分こ。
-これで共犯だぞ〜！');
 INSERT INTO m_dictionary VALUES('vo_na_m0205_0040','枯葉ってさみしいよね……
 あの最後の一枚が
 落ちた時……焼き芋を焼く
@@ -21203,14 +21230,10 @@ INSERT INTO m_dictionary VALUES('vo_na_m0205_0064','ハッピーバースデー�
 今日は最高の誕生日に
 してあげるからね！
 愛さんについてこーい！！');
-INSERT INTO m_dictionary VALUES('vo_na_m0205_0069','凛、おめー！
-よっし、これから愛さんと
-ラーメンデートだぞ！
-レッツゴー♪');
-INSERT INTO m_dictionary VALUES('vo_na_m0205_0096','トリックオアトリート！
-アタシの場合、
-トリックもトリートも
-好きなんだけどね');
+INSERT INTO m_dictionary VALUES('vo_na_m0205_0088','りなりー、おめでっとー！
+さあさあ、おばーちゃんの
+持たせてくれたぼた餅を
+お食べ！');
 INSERT INTO m_dictionary VALUES('vo_na_m0205_0104','愛さんが新しいストーリー
 読んであげよっか？');
 INSERT INTO m_dictionary VALUES('vo_na_m0205_0105','愛さんのライブ
@@ -21303,12 +21326,6 @@ INSERT INTO m_dictionary VALUES('vo_na_m0206_0018','朝なに着ようか困ら�
 INSERT INTO m_dictionary VALUES('vo_na_m0206_0019','制服のジャケットを
 お布団がわりにする
 ライフハック');
-INSERT INTO m_dictionary VALUES('vo_na_m0206_0038','エマちゃんの作るおやつが
-おいしくておいしくて……');
-INSERT INTO m_dictionary VALUES('vo_na_m0206_0039','部室に羽毛布団持ち込んだら
-せつ菜ちゃんに
-叱られたぁ……彼方ちゃんを
-慰めてください');
 INSERT INTO m_dictionary VALUES('vo_na_m0206_0040','……あの最後の葉の
 一枚が落ちた時……
 私は寝てしまう……ぐぅ');
@@ -21372,13 +21389,10 @@ INSERT INTO m_dictionary VALUES('vo_na_m0206_0063','彼方ちゃん、
 INSERT INTO m_dictionary VALUES('vo_na_m0206_0064','おめでと〜！　今日は一日
 彼方ちゃんとお昼寝Day♪
 膝枕もしてあげちゃう〜');
-INSERT INTO m_dictionary VALUES('vo_na_m0206_0069','凛ちゃんおめでと〜！
-凛ちゃんみたいに、
-彼方ちゃんも
-側転とかしてみたいから
-教えてほしいな');
-INSERT INTO m_dictionary VALUES('vo_na_m0206_0096','トリックオアスリープ？
-選べないよ〜');
+INSERT INTO m_dictionary VALUES('vo_na_m0206_0088','璃奈ちゃんおめでと〜。
+璃奈ちゃんボード
+「ねむねむ」
+作ったから使ってね〜');
 INSERT INTO m_dictionary VALUES('vo_na_m0206_0104','まだ見てない
 お話があるみたいだよ〜？');
 INSERT INTO m_dictionary VALUES('vo_na_m0206_0105','いえ〜い、彼方ちゃんと
@@ -21475,15 +21489,6 @@ INSERT INTO m_dictionary VALUES('vo_na_m0207_0018','スクールアイドルの�
 INSERT INTO m_dictionary VALUES('vo_na_m0207_0019','優木せつ菜は
 いついかなるときも
 スクールアイドルなのです！');
-INSERT INTO m_dictionary VALUES('vo_na_m0207_0038','秋の夜長に聴く音楽は
-格別です。いつか、
-オーケストラをバックに
-ライブをしてみたいんです！');
-INSERT INTO m_dictionary VALUES('vo_na_m0207_0039','実りの秋ですね！
-私とあなたの
-スクールアイドル活動も、
-実りある時間に
-したいですね！');
 INSERT INTO m_dictionary VALUES('vo_na_m0207_0040','文化祭の裏方が
 忙しいんですが、
 みんなの楽しそうな
@@ -21578,17 +21583,12 @@ INSERT INTO m_dictionary VALUES('vo_na_m0207_0064','お誕生日
 おめでとうございます！
 あなたに出会えた奇跡に
 最上級の感謝を……！');
-INSERT INTO m_dictionary VALUES('vo_na_m0207_0069','凛さん、誕生日
+INSERT INTO m_dictionary VALUES('vo_na_m0207_0088','璃奈さん、誕生日
 おめでとうございます。
-運動神経のいい凛さんと、
-今度一緒に新しい
-体力づくりのメニューを
-考えたいです！');
-INSERT INTO m_dictionary VALUES('vo_na_m0207_0096','うーん……
-お菓子もいたずらも
-なしなので……
-アイドルオアアイドル、
-ってことでどうでしょう！');
+これ、璃奈ちゃんボードに
+つけたらかわいいかなと
+思って……。よかったら、
+使ってみてください');
 INSERT INTO m_dictionary VALUES('vo_na_m0207_0104','まだ読んでいない
 お話がありますよ？');
 INSERT INTO m_dictionary VALUES('vo_na_m0207_0105','もっとライブしましょう！');
@@ -21692,15 +21692,6 @@ INSERT INTO m_dictionary VALUES('vo_na_m0208_0018','日本の学校の制服は
 可愛いから好き♪');
 INSERT INTO m_dictionary VALUES('vo_na_m0208_0019','……またサイズ
 小さくなったかも？');
-INSERT INTO m_dictionary VALUES('vo_na_m0208_0038','わたしの日本語は漫画とか
-アニメで勉強してるんだよ。
-せつ菜ちゃんが
-いいのを教えてくれるの');
-INSERT INTO m_dictionary VALUES('vo_na_m0208_0039','この季節は
-ちょっと寂しくなるけど……
-わたしのそばには
-あなたがいてくれるから、
-すぐに元気になれちゃう');
 INSERT INTO m_dictionary VALUES('vo_na_m0208_0040','寒くなってきたね～。
 こういう時は
 チーズフォンデュで
@@ -21778,15 +21769,12 @@ INSERT INTO m_dictionary VALUES('vo_na_m0208_0064','ハッピーバースデー�
 ほんとは
 サプライズパーティー
 したかったのにぃ');
-INSERT INTO m_dictionary VALUES('vo_na_m0208_0069','ハッピーバースデー、
-凛ちゃん！
-なんだか
-凛ちゃんを見ていると
-妹たちのことを思い出すの。
-頭……撫でてもいい？');
-INSERT INTO m_dictionary VALUES('vo_na_m0208_0096','ハッピーハロウィーン！
-お菓子ならいっぱい
-用意してるから任せて！');
+INSERT INTO m_dictionary VALUES('vo_na_m0208_0088','ハッピーバースデー、
+璃奈ちゃん！
+ついつい
+妹たちみたいに思えて、
+ぎゅって
+したくなっちゃう……');
 INSERT INTO m_dictionary VALUES('vo_na_m0208_0104','まだ読んでいない
 お話があるよ～
 読んでみようよ');
@@ -21873,15 +21861,6 @@ INSERT INTO m_dictionary VALUES('vo_na_m0209_0018','少しはスクールアイ�
 っぽくなれたかな？');
 INSERT INTO m_dictionary VALUES('vo_na_m0209_0019','璃奈ちゃんボード
 「にっこりん♪」');
-INSERT INTO m_dictionary VALUES('vo_na_m0209_0038','秋と言えば芸術の秋……。
-璃奈ちゃんボードを
-描く作業が捗る。
-応援してくれる皆に届けたい想いをのせて描くの');
-INSERT INTO m_dictionary VALUES('vo_na_m0209_0039','子供のころ、紅葉の山に
-遠足に行ったの思い出した。
-今、あなたと一緒に行ったら
-あの時とは違う景色が
-見えるのかな……');
 INSERT INTO m_dictionary VALUES('vo_na_m0209_0040','リスってどんぐりを埋めた
 場所を忘れるんだって。
 それが育って
@@ -21954,13 +21933,10 @@ INSERT INTO m_dictionary VALUES('vo_na_m0209_0064','あの、お誕生日おめ�
 あなたに会ってから、私、
 笑顔でいること多くなった。
 だから、ありがと');
-INSERT INTO m_dictionary VALUES('vo_na_m0209_0069','凛ちゃん、
-お誕生日おめでとう。
-凛ちゃんの勢いに、
-負けないよう、
-頑張らないとって思ってるの');
-INSERT INTO m_dictionary VALUES('vo_na_m0209_0096','トリックオアトリート……！
-結構、いたずらは好き');
+INSERT INTO m_dictionary VALUES('vo_na_m0209_0088','今日は私の誕生日……
+こんなに祝ってもらえるの
+初めてかも……うれしい。
+ありがと');
 INSERT INTO m_dictionary VALUES('vo_na_m0209_0104','読んでないとこ、あるよ？');
 INSERT INTO m_dictionary VALUES('vo_na_m0209_0105','ライブ、やる？');
 INSERT INTO m_dictionary VALUES('vo_na_m0209_0106','特訓、行きたい。

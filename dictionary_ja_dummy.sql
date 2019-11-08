@@ -1,12 +1,3 @@
--- The values of various per-database settings
-PRAGMA page_size=1024;
--- PRAGMA encoding='UTF-8';
--- PRAGMA auto_vacuum=NONE;
--- PRAGMA max_page_count=1073741823;
-
-BEGIN TRANSACTION;
-
--- Table  m_dictionary
 DROP TABLE IF EXISTS m_dictionary;
 CREATE TABLE m_dictionary(
   id TEXT NOT NULL,
@@ -14,5 +5,6 @@ CREATE TABLE m_dictionary(
   PRIMARY KEY (id)
 );
 INSERT INTO m_dictionary VALUES('bg02_035003_00','スタジオ');
+INSERT INTO m_dictionary VALUES('bg03_035032_00','下町の町並みA(昼晴)');
 
 COMMIT TRANSACTION;

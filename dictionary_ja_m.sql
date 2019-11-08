@@ -1,12 +1,3 @@
--- The values of various per-database settings
-PRAGMA page_size=1024;
--- PRAGMA encoding='UTF-8';
--- PRAGMA auto_vacuum=NONE;
--- PRAGMA max_page_count=1073741823;
-
-BEGIN TRANSACTION;
-
--- Table  m_dictionary
 DROP TABLE IF EXISTS m_dictionary;
 CREATE TABLE m_dictionary(
   id TEXT NOT NULL,
@@ -82,6 +73,11 @@ INSERT INTO m_dictionary VALUES('dailymission_desc_100000013','イベントポ�
 INSERT INTO m_dictionary VALUES('dailymission_desc_100000014','ライブを5回クリアする');
 INSERT INTO m_dictionary VALUES('dailymission_desc_100000015','デイリー課題をすべてクリアする');
 INSERT INTO m_dictionary VALUES('dailymission_desc_100000016','デイリー課題をすべてクリアする');
+INSERT INTO m_dictionary VALUES('dailymission_desc_100000017','「スリリング・ワンウェイ」を1回プレイする');
+INSERT INTO m_dictionary VALUES('dailymission_desc_100000018','イベントポイントを900獲得する');
+INSERT INTO m_dictionary VALUES('dailymission_desc_100000019','ライブを5回クリアする');
+INSERT INTO m_dictionary VALUES('dailymission_desc_100000020','デイリー課題をすべてクリアする');
+INSERT INTO m_dictionary VALUES('dailymission_desc_100000021','デイリー課題をすべてクリアする');
 INSERT INTO m_dictionary VALUES('event1mission_desc_400000201','スクールアイドルを1人レベルMAXにする');
 INSERT INTO m_dictionary VALUES('event1mission_desc_400000202','スクールアイドルを2人レベルMAXにする');
 INSERT INTO m_dictionary VALUES('event1mission_desc_400000203','いずれかのスクールアイドルの特訓で30マス以上解放する');
@@ -97,6 +93,20 @@ INSERT INTO m_dictionary VALUES('event1mission_desc_400000212','「僕らは今�
 INSERT INTO m_dictionary VALUES('event1mission_desc_400000213','「僕らは今のなかで」を100回クリアする');
 INSERT INTO m_dictionary VALUES('event1mission_desc_400000214','イベント期間中4日間ログインする');
 INSERT INTO m_dictionary VALUES('event1mission_desc_400000215','イベント期間中8日間ログインする');
+INSERT INTO m_dictionary VALUES('event1mission_desc_400000301','スクールアイドルを1人レベルMAXにする');
+INSERT INTO m_dictionary VALUES('event1mission_desc_400000302','スクールアイドルを2人レベルMAXにする');
+INSERT INTO m_dictionary VALUES('event1mission_desc_400000303','イベントポイントを5000獲得する');
+INSERT INTO m_dictionary VALUES('event1mission_desc_400000304','イベントポイントを20000獲得する');
+INSERT INTO m_dictionary VALUES('event1mission_desc_400000305','合宿を10回行う');
+INSERT INTO m_dictionary VALUES('event1mission_desc_400000306','合宿を20回行う');
+INSERT INTO m_dictionary VALUES('event1mission_desc_400000307','「スリリング・ワンウェイ」を10回プレイする');
+INSERT INTO m_dictionary VALUES('event1mission_desc_400000308','「スリリング・ワンウェイ」を25回プレイする');
+INSERT INTO m_dictionary VALUES('event1mission_desc_400000309','「スリリング・ワンウェイ」を25回クリアする');
+INSERT INTO m_dictionary VALUES('event1mission_desc_400000310','「スリリング・ワンウェイ」を50回クリアする');
+INSERT INTO m_dictionary VALUES('event1mission_desc_400000311','「スリリング・ワンウェイ」を75回クリアする');
+INSERT INTO m_dictionary VALUES('event1mission_desc_400000312','「スリリング・ワンウェイ」を100回クリアする');
+INSERT INTO m_dictionary VALUES('event1mission_desc_400000313','期間中3日間ログインする (期間 11/7 0:00 ~ 11/21 12:59)');
+INSERT INTO m_dictionary VALUES('event1mission_desc_400000314','期間中6日間ログインする (期間 11/7 0:00 ~ 11/21 12:59)');
 INSERT INTO m_dictionary VALUES('event1mission_desc_400400101','いずれかのメンバーのキズナLv.を5にする');
 INSERT INTO m_dictionary VALUES('event1mission_desc_400400102','いずれかのメンバーのキズナLv.を10にする');
 INSERT INTO m_dictionary VALUES('event1mission_desc_401300101','「僕らは今のなかで」を10回プレイする');
@@ -1107,7 +1117,10 @@ INSERT INTO m_dictionary VALUES('ss_title_300033001_1','一緒にお買い物♪
 INSERT INTO m_dictionary VALUES('ss_title_300033001_2','淑女のように');
 INSERT INTO m_dictionary VALUES('ss_title_300043001_1','綺麗な心');
 INSERT INTO m_dictionary VALUES('ss_title_300043001_2','ひとつひとつ、積み重ね');
+INSERT INTO m_dictionary VALUES('ss_title_300052001_1','好きでいる幸せ');
 INSERT INTO m_dictionary VALUES('ss_title_300062001_1','にこちゃんはにこちゃん！');
+INSERT INTO m_dictionary VALUES('ss_title_301033001_1','お洒落は難しい');
+INSERT INTO m_dictionary VALUES('ss_title_301033001_2','心も体もリラックス');
 INSERT INTO m_dictionary VALUES('ss_title_301043001_1','お願い事は？');
 INSERT INTO m_dictionary VALUES('ss_title_301043001_2','かわいいはかわいい！');
 INSERT INTO m_dictionary VALUES('ss_title_301052001_1','心強い！');
@@ -1117,12 +1130,16 @@ INSERT INTO m_dictionary VALUES('ss_title_301072001_1','世界を広げる1ペ�
 INSERT INTO m_dictionary VALUES('ss_title_302032001_1','お芝居を愛してる！');
 INSERT INTO m_dictionary VALUES('ss_title_400013001_1','お礼合戦！？');
 INSERT INTO m_dictionary VALUES('ss_title_400013001_2','舞踏会にだって行けちゃう！');
+INSERT INTO m_dictionary VALUES('ss_title_400083001_1','漬け物ごはん');
+INSERT INTO m_dictionary VALUES('ss_title_400083001_2','おやすみコスチューム');
 INSERT INTO m_dictionary VALUES('ss_title_400092001_1','ウォーミングアップ！');
 INSERT INTO m_dictionary VALUES('ss_title_401012001_1','秘密は苦手！');
+INSERT INTO m_dictionary VALUES('ss_title_401082001_1','変わりゆく中で');
 INSERT INTO m_dictionary VALUES('ss_title_401093001_1','みんなに見せたい！');
 INSERT INTO m_dictionary VALUES('ss_title_401093001_2','一番うれしいのは……？');
 INSERT INTO m_dictionary VALUES('ss_title_402012001_1','次はみんなで！');
 INSERT INTO m_dictionary VALUES('ss_title_402022001_1','上昇志向！');
+INSERT INTO m_dictionary VALUES('ss_title_402052001_1','まっさらな地図');
 INSERT INTO m_dictionary VALUES('story_index_title_1','第1話');
 INSERT INTO m_dictionary VALUES('story_index_title_10','第10話');
 INSERT INTO m_dictionary VALUES('story_index_title_10a','第10話 前半');

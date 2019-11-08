@@ -1,12 +1,3 @@
--- The values of various per-database settings
-PRAGMA page_size=1024;
--- PRAGMA encoding='UTF-8';
--- PRAGMA auto_vacuum=NONE;
--- PRAGMA max_page_count=1073741823;
-
-BEGIN TRANSACTION;
-
--- Table  m_dictionary
 DROP TABLE IF EXISTS m_dictionary;
 CREATE TABLE m_dictionary(
   id TEXT NOT NULL,
@@ -136,6 +127,9 @@ INSERT INTO m_dictionary VALUES('petag_icon_quartz_2004_empty','<img src="Common
 INSERT INTO m_dictionary VALUES('petag_icon_quartz_2005_28_empty','<img src="Common/InlineImage/Icon/tex_inlineimage_item_2005_s" height="28px" width="28px" offsetY="-9px" />');
 INSERT INTO m_dictionary VALUES('petag_icon_quartz_2005_32_empty','<img src="Common/InlineImage/Icon/tex_inlineimage_item_2005_s" height="32px" width="32px" offsetY="-9px" />');
 INSERT INTO m_dictionary VALUES('petag_icon_quartz_2005_empty','<img src="Common/InlineImage/Icon/tex_inlineimage_item_2005_s" height="40px" width="40px" offsetY="-9px" />');
+INSERT INTO m_dictionary VALUES('petag_icon_quartz_2006_28_empty','<img src="Common/InlineImage/Icon/tex_inlineimage_item_2006_s" height="28px" width="28px" offsetY="-9px" />');
+INSERT INTO m_dictionary VALUES('petag_icon_quartz_2006_32_empty','<img src="Common/InlineImage/Icon/tex_inlineimage_item_2006_s" height="32px" width="32px" offsetY="-9px" />');
+INSERT INTO m_dictionary VALUES('petag_icon_quartz_2006_empty','<img src="Common/InlineImage/Icon/tex_inlineimage_item_2006_s" height="40px" width="40px" offsetY="-9px" />');
 INSERT INTO m_dictionary VALUES('petag_icon_quartz_28_empty','<img src="Common/InlineImage/Icon/tex_inlineimage_icon_quartz_01" height="28px" width="28px" offsetY="-9px" />');
 INSERT INTO m_dictionary VALUES('petag_icon_quartz_32_empty','<img src="Common/InlineImage/Icon/tex_inlineimage_icon_quartz_01" height="32px" width="32px" offsetY="-9px" />');
 INSERT INTO m_dictionary VALUES('petag_icon_quartz_empty','<img src="Common/InlineImage/Icon/tex_inlineimage_icon_quartz_01" height="40px" width="40px" offsetY="-9px" />');
